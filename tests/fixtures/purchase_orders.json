@@ -1,0 +1,4 @@
+[
+  {"po_id": "PO001", "vendor": "ABC Pharma", "expected_price": 500, "expected_quantity": 100, "po_date": "2026-09-01"},
+  {"po_id": "PO002", "vendor": "XYZ Pharma", "expected_price": 500, "expected_quantity": 50, "po_date": "2026-09-05"}
+]

@@ -1,0 +1,4 @@
+[
+  {"name": "ABC Pharma", "payment_terms": "Net 30", "historical_prices": [500, 550], "contact": "vendor@abc.com"},
+  {"name": "XYZ Pharma", "payment_terms": "Net 30", "historical_prices": [500], "contact": "sales@xyz.com"}
+]

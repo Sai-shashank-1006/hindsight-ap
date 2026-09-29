@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Aurobindo Pharma",
+    "payment_terms": "not recorded in source data",
+    "historical_prices": [
+      103.75,
+      157.7,
+      273.9,
+      373.5,
+      561.91,
+      566.89,
+      667.32,
+      680.6,
+      871.5
+    ]
+  },
+  {
+    "name": "Cipla",
+    "payment_terms": "not recorded in source data",
+    "historical_prices": [
+      268.92,
+      373.5,
+      415.0,
+      850.75
+    ]
+  },
+  {
+    "name": "Emcure Pharmaceuticals",
+    "payment_terms": "not recorded in source data",
+    "historical_prices": [
+      1494.0,
+      1660.0
+    ]
+  },
+  {
+    "name": "Hetero Labs",
+    "payment_terms": "not recorded in source data",
+    "historical_prices": [
+      126.99,
+      149.4,
+      166.0,
+      179.28,
+      261.45,
+      269.75,
+      290.5,
+      294.65,
+      373.5,
+      383.46,
+      456.5,
+      463.97,
+      547.8,
+      548.63,
+      672.3,
+      688.07,
+      788.5,
+      830.0,
+      850.75,
+      865.69,
+      908.85,
+      929.6
+    ]
+  },
+  {
+    "name": "Micro Labs",
+    "payment_terms": "not recorded in source data",
+    "historical_prices": [
+      142.76
+    ]
+  },
+  {
+    "name": "Mylan Laboratories",
+    "payment_terms": "not recorded in source data",
+    "historical_prices": [
+      165.17,
+      290.5,
+      327.85,
+      538.67,
+      672.3,
+      842.45,
+      849.92,
+      912.17,
+      1618.5
+    ]
+  },
+  {
+    "name": "Strides Arcolab",
+    "payment_terms": "not recorded in source data",
+    "historical_prices": [
+      261.45
+    ]
+  }
+]

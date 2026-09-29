@@ -1,0 +1,6 @@
+-r requirements.txt
+pytest==8.4.2
+pytest-asyncio==1.4.0
+pytest-cov==7.1.0
+# Starlette's TestClient: current Starlette wants httpx2 (plain httpx still works, with a deprecation warning)
+httpx2==2.13.1

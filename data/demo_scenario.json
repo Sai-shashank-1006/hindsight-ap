@@ -1,0 +1,6 @@
+[
+  {"invoice_id": "INV001", "vendor": "ABC Pharma", "po_price": 500, "invoice_price": 550, "quantity": 100, "invoice_date": "2026-09-25"},
+  {"invoice_id": "INV002", "vendor": "ABC Pharma", "po_price": 500, "invoice_price": 550, "quantity": 100, "invoice_date": "2026-09-26"},
+  {"invoice_id": "INV003", "vendor": "XYZ Pharma", "po_price": 500, "invoice_price": 550, "quantity": 50, "invoice_date": "2026-09-27"},
+  {"invoice_id": "INV004", "vendor": "ABC Pharma", "po_price": 500, "invoice_price": 600, "quantity": 100, "invoice_date": "2026-09-28"}
+]

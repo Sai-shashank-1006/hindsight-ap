@@ -1,0 +1,7 @@
+[
+  {"name": "ABC Pharma", "payment_terms": "Net 30", "historical_prices": [500, 550], "contact": "vendor@abc.com"},
+  {"name": "XYZ Pharma", "payment_terms": "Net 30", "historical_prices": [500], "contact": "sales@xyz.com"},
+  {"name": "MediSupply", "payment_terms": "Net 45", "historical_prices": [200, 210], "contact": "orders@medisupply.com"},
+  {"name": "LabTech", "payment_terms": "Net 30", "historical_prices": [300], "contact": "support@labtech.com"},
+  {"name": "PharmaDist", "payment_terms": "Net 60", "historical_prices": [450], "contact": "accounts@pharmadist.com"}
+]

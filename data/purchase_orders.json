@@ -1,0 +1,7 @@
+[
+  {"po_id": "PO001", "vendor": "ABC Pharma", "expected_price": 500, "expected_quantity": 100, "po_date": "2026-09-01"},
+  {"po_id": "PO002", "vendor": "XYZ Pharma", "expected_price": 500, "expected_quantity": 50, "po_date": "2026-09-05"},
+  {"po_id": "PO003", "vendor": "MediSupply", "expected_price": 200, "expected_quantity": 200, "po_date": "2026-09-10"},
+  {"po_id": "PO004", "vendor": "LabTech", "expected_price": 300, "expected_quantity": 75, "po_date": "2026-09-12"},
+  {"po_id": "PO005", "vendor": "PharmaDist", "expected_price": 450, "expected_quantity": 40, "po_date": "2026-09-15"}
+]
