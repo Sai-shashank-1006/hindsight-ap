@@ -1,0 +1,3376 @@
+[
+  {
+    "invoice_id": "INV-2026-0001",
+    "vendor": "Coromandel Frostline Coldchain",
+    "scenario": "price_rounding+carton_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Rounding difference of ₹0.05/unit (0.08%); accepted. Ships full cartons of 48: 480 of 500 delivered; pay for what was delivered"
+  },
+  {
+    "invoice_id": "INV-2026-0002",
+    "vendor": "Kakatiya Labcraft",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0003",
+    "vendor": "Kakatiya Labcraft",
+    "scenario": "carton_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Ships full cartons of 30: 90 of 100 delivered; pay for what was delivered"
+  },
+  {
+    "invoice_id": "INV-2026-0004",
+    "vendor": "Musirex Chemicals",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0005",
+    "vendor": "Sahyadri Suturecare",
+    "scenario": "one_off_overbill",
+    "expected_decision": "REJECTED",
+    "reason": "Billed ₹2,060.80 against the agreed ₹1,840"
+  },
+  {
+    "invoice_id": "INV-2026-0006",
+    "vendor": "Godavara Generics",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0007",
+    "vendor": "Sahyadri Suturecare",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0008",
+    "vendor": "Coromandel Frostline Coldchain",
+    "scenario": "price_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Rounding difference of ₹5/unit (0.13%); accepted"
+  },
+  {
+    "invoice_id": "INV-2026-0009",
+    "vendor": "Narmada Polyform",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0010",
+    "vendor": "Kakatiya Labcraft",
+    "scenario": "carton_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Ships full cartons of 24: 480 of 500 delivered; pay for what was delivered"
+  },
+  {
+    "invoice_id": "INV-2026-0011",
+    "vendor": "Vindhyachal Freightways",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0012",
+    "vendor": "Godavara Generics",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0013",
+    "vendor": "Narmada Polyform",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0014",
+    "vendor": "Vindhyachal Freightways",
+    "scenario": "extra_trip",
+    "expected_decision": "REJECTED",
+    "reason": "Billed 3 trips; the PO covers 2"
+  },
+  {
+    "invoice_id": "INV-2026-0015",
+    "vendor": "Coromandel Frostline Coldchain",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0016",
+    "vendor": "Musirex Chemicals",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0017",
+    "vendor": "Charminar Cartons & Co.",
+    "scenario": "price_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Rounding difference of ₹0.05/unit (1.19%); accepted"
+  },
+  {
+    "invoice_id": "INV-2026-0018",
+    "vendor": "Godavara Generics",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0019",
+    "vendor": "Kakatiya Labcraft",
+    "scenario": "carton_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Ships full cartons of 24: 240 of 250 delivered; pay for what was delivered"
+  },
+  {
+    "invoice_id": "INV-2026-0020",
+    "vendor": "Musirex Chemicals",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0021",
+    "vendor": "Vindhyachal Freightways",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0022",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0023",
+    "vendor": "Hitecvale IT Services",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0024",
+    "vendor": "Narmada Polyform",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0025",
+    "vendor": "Vindhyachal Freightways",
+    "scenario": "extra_trip",
+    "expected_decision": "REJECTED",
+    "reason": "Billed 3 trips; the PO covers 2"
+  },
+  {
+    "invoice_id": "INV-2026-0026",
+    "vendor": "Godavara Generics",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0027",
+    "vendor": "Musirex Chemicals",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0028",
+    "vendor": "Vindhyachal Freightways",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0029",
+    "vendor": "Banjara Deskline Office Supplies",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0030",
+    "vendor": "Coromandel Frostline Coldchain",
+    "scenario": "price_rounding+carton_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Rounding difference of ₹5/unit (0.4%); accepted. Ships full cartons of 8: 96 of 100 delivered; pay for what was delivered"
+  },
+  {
+    "invoice_id": "INV-2026-0031",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0032",
+    "vendor": "Kakatiya Labcraft",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0033",
+    "vendor": "Musirex Chemicals",
+    "scenario": "recurring_overbill",
+    "expected_decision": "REJECTED",
+    "reason": "₹1,320 was never agreed; the contract rate is ₹1,150"
+  },
+  {
+    "invoice_id": "INV-2026-0034",
+    "vendor": "Charminar Cartons & Co.",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0035",
+    "vendor": "Charminar Cartons & Co.",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0036",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0037",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "price_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Rounding difference of ₹0.10/unit (0.14%); accepted"
+  },
+  {
+    "invoice_id": "INV-2026-0038",
+    "vendor": "Banjara Deskline Office Supplies",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0039",
+    "vendor": "Kakatiya Labcraft",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0040",
+    "vendor": "Sahyadri Suturecare",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0041",
+    "vendor": "Vindhyachal Freightways",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0042",
+    "vendor": "Coromandel Frostline Coldchain",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0043",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "price_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Rounding difference of ₹0.10/unit (0.33%); accepted"
+  },
+  {
+    "invoice_id": "INV-2026-0044",
+    "vendor": "Godavara Generics",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0045",
+    "vendor": "Kakatiya Labcraft",
+    "scenario": "carton_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Ships full cartons of 30: 180 of 200 delivered; pay for what was delivered"
+  },
+  {
+    "invoice_id": "INV-2026-0046",
+    "vendor": "Krishnaveni Reagents",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0047",
+    "vendor": "Coromandel Frostline Coldchain",
+    "scenario": "carton_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Ships full cartons of 8: 96 of 100 delivered; pay for what was delivered"
+  },
+  {
+    "invoice_id": "INV-2026-0048",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "price_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Rounding difference of ₹0.05/unit (0.07%); accepted"
+  },
+  {
+    "invoice_id": "INV-2026-0049",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0050",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0051",
+    "vendor": "Godavara Generics",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0052",
+    "vendor": "Musirex Chemicals",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0053",
+    "vendor": "Coromandel Frostline Coldchain",
+    "scenario": "price_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Rounding difference of ₹5/unit (0.13%); accepted"
+  },
+  {
+    "invoice_id": "INV-2026-0054",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0055",
+    "vendor": "Godavara Generics",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0056",
+    "vendor": "Musirex Chemicals",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0057",
+    "vendor": "Musirex Chemicals",
+    "scenario": "recurring_overbill",
+    "expected_decision": "REJECTED",
+    "reason": "₹1,090 was never agreed; the contract rate is ₹980"
+  },
+  {
+    "invoice_id": "INV-2026-0058",
+    "vendor": "Musirex Chemicals",
+    "scenario": "recurring_overbill",
+    "expected_decision": "REJECTED",
+    "reason": "₹1,090 was never agreed; the contract rate is ₹980"
+  },
+  {
+    "invoice_id": "INV-2026-0059",
+    "vendor": "Banjara Deskline Office Supplies",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0060",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "price_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Rounding difference of ₹0.05/unit (0.07%); accepted"
+  },
+  {
+    "invoice_id": "INV-2026-0061",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0062",
+    "vendor": "Kakatiya Labcraft",
+    "scenario": "carton_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Ships full cartons of 12: 96 of 100 delivered; pay for what was delivered"
+  },
+  {
+    "invoice_id": "INV-2026-0063",
+    "vendor": "Charminar Cartons & Co.",
+    "scenario": "price_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Rounding difference of ₹10/unit (0.26%); accepted"
+  },
+  {
+    "invoice_id": "INV-2026-0064",
+    "vendor": "Krishnaveni Reagents",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0065",
+    "vendor": "Kakatiya Labcraft",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0066",
+    "vendor": "Kakatiya Labcraft",
+    "scenario": "carton_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Ships full cartons of 30: 180 of 200 delivered; pay for what was delivered"
+  },
+  {
+    "invoice_id": "INV-2026-0067",
+    "vendor": "Banjara Deskline Office Supplies",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0068",
+    "vendor": "Banjara Deskline Office Supplies",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0069",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0070",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0071",
+    "vendor": "Sahyadri Suturecare",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0072",
+    "vendor": "Coromandel Frostline Coldchain",
+    "scenario": "price_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Rounding difference of ₹0.05/unit (0.08%); accepted"
+  },
+  {
+    "invoice_id": "INV-2026-0073",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0074",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0075",
+    "vendor": "Sahyadri Suturecare",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0076",
+    "vendor": "Godavara Generics",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0077",
+    "vendor": "Narmada Polyform",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0078",
+    "vendor": "Vindhyachal Freightways",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0079",
+    "vendor": "Vindhyachal Freightways",
+    "scenario": "extra_trip",
+    "expected_decision": "REJECTED",
+    "reason": "Billed 9 trips; the PO covers 8"
+  },
+  {
+    "invoice_id": "INV-2026-0080",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0081",
+    "vendor": "Banjara Deskline Office Supplies",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0082",
+    "vendor": "Godavara Generics",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0083",
+    "vendor": "Musirex Chemicals",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0084",
+    "vendor": "Narmada Polyform",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0085",
+    "vendor": "Krishnaveni Reagents",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0086",
+    "vendor": "Charminar Cartons & Co.",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0087",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0088",
+    "vendor": "Godavara Generics",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0089",
+    "vendor": "Krishnaveni Reagents",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0090",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0091",
+    "vendor": "Narmada Polyform",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0092",
+    "vendor": "Banjara Deskline Office Supplies",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0093",
+    "vendor": "Charminar Cartons & Co.",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0094",
+    "vendor": "Godavara Generics",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0095",
+    "vendor": "Kakatiya Labcraft",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0096",
+    "vendor": "Musirex Chemicals",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0097",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0098",
+    "vendor": "Charminar Cartons & Co.",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0099",
+    "vendor": "Krishnaveni Reagents",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0100",
+    "vendor": "Vindhyachal Freightways",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0101",
+    "vendor": "Banjara Deskline Office Supplies",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0102",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "price_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Rounding difference of ₹0.05/unit (0.17%); accepted"
+  },
+  {
+    "invoice_id": "INV-2026-0103",
+    "vendor": "Godavara Generics",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0104",
+    "vendor": "Hitecvale IT Services",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0105",
+    "vendor": "Krishnaveni Reagents",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0106",
+    "vendor": "Banjara Deskline Office Supplies",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0107",
+    "vendor": "Coromandel Frostline Coldchain",
+    "scenario": "carton_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Ships full cartons of 48: 480 of 500 delivered; pay for what was delivered"
+  },
+  {
+    "invoice_id": "INV-2026-0108",
+    "vendor": "Charminar Cartons & Co.",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0109",
+    "vendor": "Coromandel Frostline Coldchain",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0110",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0111",
+    "vendor": "Godavara Generics",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0112",
+    "vendor": "Godavara Generics",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0113",
+    "vendor": "Kakatiya Labcraft",
+    "scenario": "carton_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Ships full cartons of 30: 90 of 100 delivered; pay for what was delivered"
+  },
+  {
+    "invoice_id": "INV-2026-0114",
+    "vendor": "Sahyadri Suturecare",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0115",
+    "vendor": "Banjara Deskline Office Supplies",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0116",
+    "vendor": "Banjara Deskline Office Supplies",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0117",
+    "vendor": "Hitecvale IT Services",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0118",
+    "vendor": "Kakatiya Labcraft",
+    "scenario": "carton_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Ships full cartons of 24: 480 of 500 delivered; pay for what was delivered"
+  },
+  {
+    "invoice_id": "INV-2026-0119",
+    "vendor": "Narmada Polyform",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0120",
+    "vendor": "Coromandel Frostline Coldchain",
+    "scenario": "price_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Rounding difference of ₹5/unit (0.4%); accepted"
+  },
+  {
+    "invoice_id": "INV-2026-0121",
+    "vendor": "Krishnaveni Reagents",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0122",
+    "vendor": "Banjara Deskline Office Supplies",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0123",
+    "vendor": "Banjara Deskline Office Supplies",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0124",
+    "vendor": "Charminar Cartons & Co.",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0125",
+    "vendor": "Hitecvale IT Services",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0126",
+    "vendor": "Sahyadri Suturecare",
+    "scenario": "one_off_overbill",
+    "expected_decision": "REJECTED",
+    "reason": "Billed ₹621.60 against the agreed ₹560"
+  },
+  {
+    "invoice_id": "INV-2026-0127",
+    "vendor": "Godavara Generics",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0128",
+    "vendor": "Vindhyachal Freightways",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0129",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "price_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Rounding difference of ₹0.10/unit (0.33%); accepted"
+  },
+  {
+    "invoice_id": "INV-2026-0130",
+    "vendor": "Godavara Generics",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0131",
+    "vendor": "Hitecvale IT Services",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0132",
+    "vendor": "Kakatiya Labcraft",
+    "scenario": "carton_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Ships full cartons of 24: 240 of 250 delivered; pay for what was delivered"
+  },
+  {
+    "invoice_id": "INV-2026-0133",
+    "vendor": "Vindhyachal Freightways",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0134",
+    "vendor": "Kakatiya Labcraft",
+    "scenario": "carton_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Ships full cartons of 30: 90 of 100 delivered; pay for what was delivered"
+  },
+  {
+    "invoice_id": "INV-2026-0135",
+    "vendor": "Narmada Polyform",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0136",
+    "vendor": "Sahyadri Suturecare",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0137",
+    "vendor": "Vindhyachal Freightways",
+    "scenario": "extra_trip",
+    "expected_decision": "REJECTED",
+    "reason": "Billed 3 trips; the PO covers 2"
+  },
+  {
+    "invoice_id": "INV-2026-0138",
+    "vendor": "Charminar Cartons & Co.",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0139",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0140",
+    "vendor": "Godavara Generics",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0141",
+    "vendor": "Musirex Chemicals",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0142",
+    "vendor": "Banjara Deskline Office Supplies",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0143",
+    "vendor": "Hitecvale IT Services",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0144",
+    "vendor": "Krishnaveni Reagents",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0145",
+    "vendor": "Godavara Generics",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0146",
+    "vendor": "Narmada Polyform",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0147",
+    "vendor": "Sahyadri Suturecare",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0148",
+    "vendor": "Charminar Cartons & Co.",
+    "scenario": "price_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Rounding difference of ₹5/unit (0.13%); accepted"
+  },
+  {
+    "invoice_id": "INV-2026-0149",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0150",
+    "vendor": "Narmada Polyform",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0151",
+    "vendor": "Hitecvale IT Services",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0152",
+    "vendor": "Narmada Polyform",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0153",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0154",
+    "vendor": "Krishnaveni Reagents",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0155",
+    "vendor": "Sahyadri Suturecare",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0156",
+    "vendor": "Kakatiya Labcraft",
+    "scenario": "carton_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Ships full cartons of 24: 96 of 100 delivered; pay for what was delivered"
+  },
+  {
+    "invoice_id": "INV-2026-0157",
+    "vendor": "Narmada Polyform",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0158",
+    "vendor": "Sahyadri Suturecare",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0159",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0160",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0161",
+    "vendor": "Krishnaveni Reagents",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0162",
+    "vendor": "Musirex Chemicals",
+    "scenario": "recurring_overbill",
+    "expected_decision": "REJECTED",
+    "reason": "₹1,090 was never agreed; the contract rate is ₹980"
+  },
+  {
+    "invoice_id": "INV-2026-0163",
+    "vendor": "Hitecvale IT Services",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0164",
+    "vendor": "Charminar Cartons & Co.",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0165",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0166",
+    "vendor": "Kakatiya Labcraft",
+    "scenario": "carton_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Ships full cartons of 24: 480 of 500 delivered; pay for what was delivered"
+  },
+  {
+    "invoice_id": "INV-2026-0167",
+    "vendor": "Kakatiya Labcraft",
+    "scenario": "carton_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Ships full cartons of 30: 90 of 100 delivered; pay for what was delivered"
+  },
+  {
+    "invoice_id": "INV-2026-0168",
+    "vendor": "Charminar Cartons & Co.",
+    "scenario": "price_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Rounding difference of ₹0.10/unit (0.24%); accepted"
+  },
+  {
+    "invoice_id": "INV-2026-0169",
+    "vendor": "Coromandel Frostline Coldchain",
+    "scenario": "carton_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Ships full cartons of 8: 96 of 100 delivered; pay for what was delivered"
+  },
+  {
+    "invoice_id": "INV-2026-0170",
+    "vendor": "Godavara Generics",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0171",
+    "vendor": "Krishnaveni Reagents",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0172",
+    "vendor": "Musirex Chemicals",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0173",
+    "vendor": "Narmada Polyform",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0174",
+    "vendor": "Charminar Cartons & Co.",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0175",
+    "vendor": "Hitecvale IT Services",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0176",
+    "vendor": "Kakatiya Labcraft",
+    "scenario": "carton_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Ships full cartons of 24: 240 of 250 delivered; pay for what was delivered"
+  },
+  {
+    "invoice_id": "INV-2026-0177",
+    "vendor": "Musirex Chemicals",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0178",
+    "vendor": "Charminar Cartons & Co.",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0179",
+    "vendor": "Sahyadri Suturecare",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0180",
+    "vendor": "Vindhyachal Freightways",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0181",
+    "vendor": "Coromandel Frostline Coldchain",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0182",
+    "vendor": "Hitecvale IT Services",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0183",
+    "vendor": "Hitecvale IT Services",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0184",
+    "vendor": "Kakatiya Labcraft",
+    "scenario": "carton_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Ships full cartons of 24: 480 of 500 delivered; pay for what was delivered"
+  },
+  {
+    "invoice_id": "INV-2026-0185",
+    "vendor": "Krishnaveni Reagents",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0186",
+    "vendor": "Musirex Chemicals",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0187",
+    "vendor": "Charminar Cartons & Co.",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0188",
+    "vendor": "Kakatiya Labcraft",
+    "scenario": "carton_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Ships full cartons of 12: 96 of 100 delivered; pay for what was delivered"
+  },
+  {
+    "invoice_id": "INV-2026-0189",
+    "vendor": "Coromandel Frostline Coldchain",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0190",
+    "vendor": "Musirex Chemicals",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0191",
+    "vendor": "Godavara Generics",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0192",
+    "vendor": "Godavara Generics",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0193",
+    "vendor": "Hitecvale IT Services",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0194",
+    "vendor": "Musirex Chemicals",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0195",
+    "vendor": "Hitecvale IT Services",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0196",
+    "vendor": "Kakatiya Labcraft",
+    "scenario": "carton_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Ships full cartons of 30: 90 of 100 delivered; pay for what was delivered"
+  },
+  {
+    "invoice_id": "INV-2026-0197",
+    "vendor": "Banjara Deskline Office Supplies",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0198",
+    "vendor": "Charminar Cartons & Co.",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0199",
+    "vendor": "Kakatiya Labcraft",
+    "scenario": "carton_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Ships full cartons of 30: 90 of 100 delivered; pay for what was delivered"
+  },
+  {
+    "invoice_id": "INV-2026-0200",
+    "vendor": "Sahyadri Suturecare",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0201",
+    "vendor": "Charminar Cartons & Co.",
+    "scenario": "price_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Rounding difference of ₹5/unit (0.13%); accepted"
+  },
+  {
+    "invoice_id": "INV-2026-0202",
+    "vendor": "Charminar Cartons & Co.",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0203",
+    "vendor": "Sahyadri Suturecare",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0204",
+    "vendor": "Sahyadri Suturecare",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0205",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "contract_revision",
+    "expected_decision": "APPROVED",
+    "reason": "API cost increase: 10% price revision effective 1 April 2026; the PO still carries the old price"
+  },
+  {
+    "invoice_id": "INV-2026-0206",
+    "vendor": "Kakatiya Labcraft",
+    "scenario": "carton_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Ships full cartons of 12: 192 of 200 delivered; pay for what was delivered"
+  },
+  {
+    "invoice_id": "INV-2026-0207",
+    "vendor": "Charminar Cartons & Co.",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0208",
+    "vendor": "Musirex Chemicals",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0209",
+    "vendor": "Banjara Deskline Office Supplies",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0210",
+    "vendor": "Charminar Cartons & Co.",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0211",
+    "vendor": "Vindhyachal Freightways",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0212",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "contract_revision",
+    "expected_decision": "APPROVED",
+    "reason": "API cost increase: 10% price revision effective 1 April 2026; the PO still carries the old price"
+  },
+  {
+    "invoice_id": "INV-2026-0213",
+    "vendor": "Kakatiya Labcraft",
+    "scenario": "carton_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Ships full cartons of 12: 192 of 200 delivered; pay for what was delivered"
+  },
+  {
+    "invoice_id": "INV-2026-0214",
+    "vendor": "Vindhyachal Freightways",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0215",
+    "vendor": "Banjara Deskline Office Supplies",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0216",
+    "vendor": "Charminar Cartons & Co.",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0217",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "contract_revision",
+    "expected_decision": "APPROVED",
+    "reason": "API cost increase: 10% price revision effective 1 April 2026; the PO still carries the old price"
+  },
+  {
+    "invoice_id": "INV-2026-0218",
+    "vendor": "Hitecvale IT Services",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0219",
+    "vendor": "Musirex Chemicals",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0220",
+    "vendor": "Vindhyachal Freightways",
+    "scenario": "extra_trip",
+    "expected_decision": "REJECTED",
+    "reason": "Billed 3 trips; the PO covers 2"
+  },
+  {
+    "invoice_id": "INV-2026-0221",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "contract_revision",
+    "expected_decision": "APPROVED",
+    "reason": "API cost increase: 10% price revision effective 1 April 2026; the PO still carries the old price"
+  },
+  {
+    "invoice_id": "INV-2026-0222",
+    "vendor": "Kakatiya Labcraft",
+    "scenario": "carton_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Ships full cartons of 12: 96 of 100 delivered; pay for what was delivered"
+  },
+  {
+    "invoice_id": "INV-2026-0223",
+    "vendor": "Godavara Generics",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0224",
+    "vendor": "Godavara Generics",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0225",
+    "vendor": "Hitecvale IT Services",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0226",
+    "vendor": "Narmada Polyform",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0227",
+    "vendor": "Kakatiya Labcraft",
+    "scenario": "carton_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Ships full cartons of 30: 90 of 100 delivered; pay for what was delivered"
+  },
+  {
+    "invoice_id": "INV-2026-0228",
+    "vendor": "Kakatiya Labcraft",
+    "scenario": "carton_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Ships full cartons of 12: 192 of 200 delivered; pay for what was delivered"
+  },
+  {
+    "invoice_id": "INV-2026-0229",
+    "vendor": "Musirex Chemicals",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0230",
+    "vendor": "Musirex Chemicals",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0231",
+    "vendor": "Charminar Cartons & Co.",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0232",
+    "vendor": "Narmada Polyform",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0233",
+    "vendor": "Kakatiya Labcraft",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0234",
+    "vendor": "Sahyadri Suturecare",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0235",
+    "vendor": "Banjara Deskline Office Supplies",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0236",
+    "vendor": "Coromandel Frostline Coldchain",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0237",
+    "vendor": "Narmada Polyform",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0238",
+    "vendor": "Sahyadri Suturecare",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0239",
+    "vendor": "Kakatiya Labcraft",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0240",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "contract_revision",
+    "expected_decision": "APPROVED",
+    "reason": "API cost increase: 10% price revision effective 1 April 2026; the PO still carries the old price"
+  },
+  {
+    "invoice_id": "INV-2026-0241",
+    "vendor": "Musirex Chemicals",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0242",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "contract_revision",
+    "expected_decision": "APPROVED",
+    "reason": "API cost increase: 10% price revision effective 1 April 2026; the PO still carries the old price"
+  },
+  {
+    "invoice_id": "INV-2026-0243",
+    "vendor": "Kakatiya Labcraft",
+    "scenario": "carton_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Ships full cartons of 12: 96 of 100 delivered; pay for what was delivered"
+  },
+  {
+    "invoice_id": "INV-2026-0244",
+    "vendor": "Banjara Deskline Office Supplies",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0245",
+    "vendor": "Narmada Polyform",
+    "scenario": "contract_revision",
+    "expected_decision": "APPROVED",
+    "reason": "Polymer price revision: 6% increase effective 15 May 2026; the PO still carries the old price"
+  },
+  {
+    "invoice_id": "INV-2026-0246",
+    "vendor": "Vindhyachal Freightways",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0247",
+    "vendor": "Charminar Cartons & Co.",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0248",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "contract_revision",
+    "expected_decision": "APPROVED",
+    "reason": "API cost increase: 10% price revision effective 1 April 2026; the PO still carries the old price"
+  },
+  {
+    "invoice_id": "INV-2026-0249",
+    "vendor": "Hitecvale IT Services",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0250",
+    "vendor": "Hitecvale IT Services",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0251",
+    "vendor": "Musirex Chemicals",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0252",
+    "vendor": "Kakatiya Labcraft",
+    "scenario": "carton_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Ships full cartons of 24: 480 of 500 delivered; pay for what was delivered"
+  },
+  {
+    "invoice_id": "INV-2026-0253",
+    "vendor": "Kakatiya Labcraft",
+    "scenario": "carton_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Ships full cartons of 30: 180 of 200 delivered; pay for what was delivered"
+  },
+  {
+    "invoice_id": "INV-2026-0254",
+    "vendor": "Banjara Deskline Office Supplies",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0255",
+    "vendor": "Musirex Chemicals",
+    "scenario": "recurring_overbill",
+    "expected_decision": "REJECTED",
+    "reason": "₹1,780 was never agreed; the contract rate is ₹1,650"
+  },
+  {
+    "invoice_id": "INV-2026-0256",
+    "vendor": "Banjara Deskline Office Supplies",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0257",
+    "vendor": "Narmada Polyform",
+    "scenario": "contract_revision",
+    "expected_decision": "APPROVED",
+    "reason": "Polymer price revision: 6% increase effective 15 May 2026; the PO still carries the old price"
+  },
+  {
+    "invoice_id": "INV-2026-0258",
+    "vendor": "Charminar Cartons & Co.",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0259",
+    "vendor": "Narmada Polyform",
+    "scenario": "contract_revision",
+    "expected_decision": "APPROVED",
+    "reason": "Polymer price revision: 6% increase effective 15 May 2026; the PO still carries the old price"
+  },
+  {
+    "invoice_id": "INV-2026-0260",
+    "vendor": "Banjara Deskline Office Supplies",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0261",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "contract_revision",
+    "expected_decision": "APPROVED",
+    "reason": "API cost increase: 10% price revision effective 1 April 2026; the PO still carries the old price"
+  },
+  {
+    "invoice_id": "INV-2026-0262",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0263",
+    "vendor": "Charminar Cartons & Co.",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0264",
+    "vendor": "Coromandel Frostline Coldchain",
+    "scenario": "carton_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Ships full cartons of 48: 480 of 500 delivered; pay for what was delivered"
+  },
+  {
+    "invoice_id": "INV-2026-0265",
+    "vendor": "Charminar Cartons & Co.",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0266",
+    "vendor": "Hitecvale IT Services",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0267",
+    "vendor": "Kakatiya Labcraft",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0268",
+    "vendor": "Musirex Chemicals",
+    "scenario": "recurring_overbill",
+    "expected_decision": "REJECTED",
+    "reason": "₹1,090 was never agreed; the contract rate is ₹980"
+  },
+  {
+    "invoice_id": "INV-2026-0269",
+    "vendor": "Charminar Cartons & Co.",
+    "scenario": "price_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Rounding difference of ₹0.05/unit (1.19%); accepted"
+  },
+  {
+    "invoice_id": "INV-2026-0270",
+    "vendor": "Narmada Polyform",
+    "scenario": "contract_revision",
+    "expected_decision": "APPROVED",
+    "reason": "Polymer price revision: 6% increase effective 15 May 2026; the PO still carries the old price"
+  },
+  {
+    "invoice_id": "INV-2026-0271",
+    "vendor": "Charminar Cartons & Co.",
+    "scenario": "price_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Rounding difference of ₹0.05/unit (0.12%); accepted"
+  },
+  {
+    "invoice_id": "INV-2026-0272",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "price_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Rounding difference of ₹0.10/unit (0.13%); accepted"
+  },
+  {
+    "invoice_id": "INV-2026-0273",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0274",
+    "vendor": "Godavara Generics",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0275",
+    "vendor": "Krishnaveni Reagents",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0276",
+    "vendor": "Vindhyachal Freightways",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0277",
+    "vendor": "Vindhyachal Freightways",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0278",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "contract_revision",
+    "expected_decision": "APPROVED",
+    "reason": "API cost increase: 10% price revision effective 1 April 2026; the PO still carries the old price"
+  },
+  {
+    "invoice_id": "INV-2026-0279",
+    "vendor": "Charminar Cartons & Co.",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0280",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "contract_revision",
+    "expected_decision": "APPROVED",
+    "reason": "API cost increase: 10% price revision effective 1 April 2026; the PO still carries the old price"
+  },
+  {
+    "invoice_id": "INV-2026-0281",
+    "vendor": "Kakatiya Labcraft",
+    "scenario": "carton_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Ships full cartons of 24: 480 of 500 delivered; pay for what was delivered"
+  },
+  {
+    "invoice_id": "INV-2026-0282",
+    "vendor": "Musirex Chemicals",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0283",
+    "vendor": "Vindhyachal Freightways",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0284",
+    "vendor": "Charminar Cartons & Co.",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0285",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "contract_revision",
+    "expected_decision": "APPROVED",
+    "reason": "API cost increase: 10% price revision effective 1 April 2026; the PO still carries the old price"
+  },
+  {
+    "invoice_id": "INV-2026-0286",
+    "vendor": "Sahyadri Suturecare",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0287",
+    "vendor": "Godavara Generics",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0288",
+    "vendor": "Krishnaveni Reagents",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0289",
+    "vendor": "Coromandel Frostline Coldchain",
+    "scenario": "carton_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Ships full cartons of 8: 48 of 50 delivered; pay for what was delivered"
+  },
+  {
+    "invoice_id": "INV-2026-0290",
+    "vendor": "Godavara Generics",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0291",
+    "vendor": "Kakatiya Labcraft",
+    "scenario": "carton_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Ships full cartons of 24: 240 of 250 delivered; pay for what was delivered"
+  },
+  {
+    "invoice_id": "INV-2026-0292",
+    "vendor": "Charminar Cartons & Co.",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0293",
+    "vendor": "Coromandel Frostline Coldchain",
+    "scenario": "price_rounding+carton_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Rounding difference of ₹5/unit (0.4%); accepted. Ships full cartons of 8: 48 of 50 delivered; pay for what was delivered"
+  },
+  {
+    "invoice_id": "INV-2026-0294",
+    "vendor": "Godavara Generics",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0295",
+    "vendor": "Godavara Generics",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0296",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0297",
+    "vendor": "Hitecvale IT Services",
+    "scenario": "contract_revision",
+    "expected_decision": "APPROVED",
+    "reason": "Q2 price protection: prices cut 4% from 1 June 2026; the PO still carries the old price"
+  },
+  {
+    "invoice_id": "INV-2026-0298",
+    "vendor": "Narmada Polyform",
+    "scenario": "contract_revision",
+    "expected_decision": "APPROVED",
+    "reason": "Polymer price revision: 6% increase effective 15 May 2026; the PO still carries the old price"
+  },
+  {
+    "invoice_id": "INV-2026-0299",
+    "vendor": "Narmada Polyform",
+    "scenario": "contract_revision",
+    "expected_decision": "APPROVED",
+    "reason": "Polymer price revision: 6% increase effective 15 May 2026; the PO still carries the old price"
+  },
+  {
+    "invoice_id": "INV-2026-0300",
+    "vendor": "Kakatiya Labcraft",
+    "scenario": "carton_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Ships full cartons of 12: 48 of 50 delivered; pay for what was delivered"
+  },
+  {
+    "invoice_id": "INV-2026-0301",
+    "vendor": "Musirex Chemicals",
+    "scenario": "recurring_overbill",
+    "expected_decision": "REJECTED",
+    "reason": "₹1,090 was never agreed; the contract rate is ₹980"
+  },
+  {
+    "invoice_id": "INV-2026-0302",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0303",
+    "vendor": "Krishnaveni Reagents",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0304",
+    "vendor": "Musirex Chemicals",
+    "scenario": "recurring_overbill",
+    "expected_decision": "REJECTED",
+    "reason": "₹1,090 was never agreed; the contract rate is ₹980"
+  },
+  {
+    "invoice_id": "INV-2026-0305",
+    "vendor": "Charminar Cartons & Co.",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0306",
+    "vendor": "Godavara Generics",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0307",
+    "vendor": "Kakatiya Labcraft",
+    "scenario": "carton_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Ships full cartons of 12: 96 of 100 delivered; pay for what was delivered"
+  },
+  {
+    "invoice_id": "INV-2026-0308",
+    "vendor": "Krishnaveni Reagents",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0309",
+    "vendor": "Musirex Chemicals",
+    "scenario": "recurring_overbill",
+    "expected_decision": "REJECTED",
+    "reason": "₹1,090 was never agreed; the contract rate is ₹980"
+  },
+  {
+    "invoice_id": "INV-2026-0310",
+    "vendor": "Narmada Polyform",
+    "scenario": "contract_revision",
+    "expected_decision": "APPROVED",
+    "reason": "Polymer price revision: 6% increase effective 15 May 2026; the PO still carries the old price"
+  },
+  {
+    "invoice_id": "INV-2026-0311",
+    "vendor": "Hitecvale IT Services",
+    "scenario": "contract_revision",
+    "expected_decision": "APPROVED",
+    "reason": "Q2 price protection: prices cut 4% from 1 June 2026; the PO still carries the old price"
+  },
+  {
+    "invoice_id": "INV-2026-0312",
+    "vendor": "Banjara Deskline Office Supplies",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0313",
+    "vendor": "Charminar Cartons & Co.",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0314",
+    "vendor": "Godavara Generics",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0315",
+    "vendor": "Krishnaveni Reagents",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0316",
+    "vendor": "Charminar Cartons & Co.",
+    "scenario": "price_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Rounding difference of ₹0.05/unit (1.19%); accepted"
+  },
+  {
+    "invoice_id": "INV-2026-0317",
+    "vendor": "Banjara Deskline Office Supplies",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0318",
+    "vendor": "Krishnaveni Reagents",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0319",
+    "vendor": "Narmada Polyform",
+    "scenario": "contract_revision",
+    "expected_decision": "APPROVED",
+    "reason": "Polymer price revision: 6% increase effective 15 May 2026; the PO still carries the old price"
+  },
+  {
+    "invoice_id": "INV-2026-0320",
+    "vendor": "Sahyadri Suturecare",
+    "scenario": "one_off_overbill",
+    "expected_decision": "REJECTED",
+    "reason": "Billed ₹380.80 against the agreed ₹340"
+  },
+  {
+    "invoice_id": "INV-2026-0321",
+    "vendor": "Sahyadri Suturecare",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0322",
+    "vendor": "Coromandel Frostline Coldchain",
+    "scenario": "price_rounding+carton_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Rounding difference of ₹5/unit (0.4%); accepted. Ships full cartons of 8: 48 of 50 delivered; pay for what was delivered"
+  },
+  {
+    "invoice_id": "INV-2026-0323",
+    "vendor": "Krishnaveni Reagents",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0324",
+    "vendor": "Krishnaveni Reagents",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0325",
+    "vendor": "Musirex Chemicals",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0326",
+    "vendor": "Sahyadri Suturecare",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0327",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0328",
+    "vendor": "Krishnaveni Reagents",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0329",
+    "vendor": "Musirex Chemicals",
+    "scenario": "recurring_overbill",
+    "expected_decision": "REJECTED",
+    "reason": "₹1,320 was never agreed; the contract rate is ₹1,150"
+  },
+  {
+    "invoice_id": "INV-2026-0330",
+    "vendor": "Vindhyachal Freightways",
+    "scenario": "contract_revision",
+    "expected_decision": "APPROVED",
+    "reason": "Diesel surcharge: 8% rate revision effective 1 July 2026; the PO still carries the old price"
+  },
+  {
+    "invoice_id": "INV-2026-0331",
+    "vendor": "Godavara Generics",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0332",
+    "vendor": "Hitecvale IT Services",
+    "scenario": "contract_revision",
+    "expected_decision": "APPROVED",
+    "reason": "Q2 price protection: prices cut 4% from 1 June 2026; the PO still carries the old price"
+  },
+  {
+    "invoice_id": "INV-2026-0333",
+    "vendor": "Banjara Deskline Office Supplies",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0334",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0335",
+    "vendor": "Godavara Generics",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0336",
+    "vendor": "Godavara Generics",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0337",
+    "vendor": "Hitecvale IT Services",
+    "scenario": "contract_revision",
+    "expected_decision": "APPROVED",
+    "reason": "Q2 price protection: prices cut 4% from 1 June 2026; the PO still carries the old price"
+  },
+  {
+    "invoice_id": "INV-2026-0338",
+    "vendor": "Kakatiya Labcraft",
+    "scenario": "carton_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Ships full cartons of 30: 180 of 200 delivered; pay for what was delivered"
+  },
+  {
+    "invoice_id": "INV-2026-0339",
+    "vendor": "Charminar Cartons & Co.",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0340",
+    "vendor": "Godavara Generics",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0341",
+    "vendor": "Godavara Generics",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0342",
+    "vendor": "Narmada Polyform",
+    "scenario": "contract_revision",
+    "expected_decision": "APPROVED",
+    "reason": "Polymer price revision: 6% increase effective 15 May 2026; the PO still carries the old price"
+  },
+  {
+    "invoice_id": "INV-2026-0343",
+    "vendor": "Narmada Polyform",
+    "scenario": "contract_revision",
+    "expected_decision": "APPROVED",
+    "reason": "Polymer price revision: 6% increase effective 15 May 2026; the PO still carries the old price"
+  },
+  {
+    "invoice_id": "INV-2026-0344",
+    "vendor": "Sahyadri Suturecare",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0345",
+    "vendor": "Coromandel Frostline Coldchain",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0346",
+    "vendor": "Godavara Generics",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0347",
+    "vendor": "Godavara Generics",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0348",
+    "vendor": "Narmada Polyform",
+    "scenario": "contract_revision",
+    "expected_decision": "APPROVED",
+    "reason": "Polymer price revision: 6% increase effective 15 May 2026; the PO still carries the old price"
+  },
+  {
+    "invoice_id": "INV-2026-0349",
+    "vendor": "Banjara Deskline Office Supplies",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0350",
+    "vendor": "Narmada Polyform",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0351",
+    "vendor": "Vindhyachal Freightways",
+    "scenario": "contract_revision",
+    "expected_decision": "APPROVED",
+    "reason": "Diesel surcharge: 8% rate revision effective 1 July 2026; the PO still carries the old price"
+  },
+  {
+    "invoice_id": "INV-2026-0352",
+    "vendor": "Godavara Generics",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0353",
+    "vendor": "Sahyadri Suturecare",
+    "scenario": "one_off_overbill",
+    "expected_decision": "REJECTED",
+    "reason": "Billed ₹2,097.60 against the agreed ₹1,840"
+  },
+  {
+    "invoice_id": "INV-2026-0354",
+    "vendor": "Godavara Generics",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0355",
+    "vendor": "Krishnaveni Reagents",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0356",
+    "vendor": "Coromandel Frostline Coldchain",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0357",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0358",
+    "vendor": "Godavara Generics",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0359",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0360",
+    "vendor": "Sahyadri Suturecare",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0361",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0362",
+    "vendor": "Krishnaveni Reagents",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0363",
+    "vendor": "Narmada Polyform",
+    "scenario": "contract_revision",
+    "expected_decision": "APPROVED",
+    "reason": "Polymer price revision: 6% increase effective 15 May 2026; the PO still carries the old price"
+  },
+  {
+    "invoice_id": "INV-2026-0364",
+    "vendor": "Narmada Polyform",
+    "scenario": "contract_revision",
+    "expected_decision": "APPROVED",
+    "reason": "Polymer price revision: 6% increase effective 15 May 2026; the PO still carries the old price"
+  },
+  {
+    "invoice_id": "INV-2026-0365",
+    "vendor": "Charminar Cartons & Co.",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0366",
+    "vendor": "Charminar Cartons & Co.",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0367",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "price_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Rounding difference of ₹0.05/unit (0.06%); accepted"
+  },
+  {
+    "invoice_id": "INV-2026-0368",
+    "vendor": "Kakatiya Labcraft",
+    "scenario": "carton_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Ships full cartons of 12: 96 of 100 delivered; pay for what was delivered"
+  },
+  {
+    "invoice_id": "INV-2026-0369",
+    "vendor": "Charminar Cartons & Co.",
+    "scenario": "price_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Rounding difference of ₹5/unit (0.13%); accepted"
+  },
+  {
+    "invoice_id": "INV-2026-0370",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0371",
+    "vendor": "Charminar Cartons & Co.",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0372",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0373",
+    "vendor": "Godavara Generics",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0374",
+    "vendor": "Godavara Generics",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0375",
+    "vendor": "Krishnaveni Reagents",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0376",
+    "vendor": "Krishnaveni Reagents",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0377",
+    "vendor": "Coromandel Frostline Coldchain",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0378",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "price_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Rounding difference of ₹0.05/unit (0.16%); accepted"
+  },
+  {
+    "invoice_id": "INV-2026-0379",
+    "vendor": "Godavara Generics",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0380",
+    "vendor": "Godavara Generics",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0381",
+    "vendor": "Vindhyachal Freightways",
+    "scenario": "contract_revision",
+    "expected_decision": "APPROVED",
+    "reason": "Diesel surcharge: 8% rate revision effective 1 July 2026; the PO still carries the old price"
+  },
+  {
+    "invoice_id": "INV-2026-0382",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0383",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0384",
+    "vendor": "Sahyadri Suturecare",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0385",
+    "vendor": "Vindhyachal Freightways",
+    "scenario": "contract_revision",
+    "expected_decision": "APPROVED",
+    "reason": "Diesel surcharge: 8% rate revision effective 1 July 2026; the PO still carries the old price"
+  },
+  {
+    "invoice_id": "INV-2026-0386",
+    "vendor": "Vindhyachal Freightways",
+    "scenario": "contract_revision",
+    "expected_decision": "APPROVED",
+    "reason": "Diesel surcharge: 8% rate revision effective 1 July 2026; the PO still carries the old price"
+  },
+  {
+    "invoice_id": "INV-2026-0387",
+    "vendor": "Banjara Deskline Office Supplies",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0388",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0389",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "price_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Rounding difference of ₹0.10/unit (0.3%); accepted"
+  },
+  {
+    "invoice_id": "INV-2026-0390",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0391",
+    "vendor": "Narmada Polyform",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0392",
+    "vendor": "Sahyadri Suturecare",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0393",
+    "vendor": "Sahyadri Suturecare",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0394",
+    "vendor": "Coromandel Frostline Coldchain",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0395",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0396",
+    "vendor": "Vindhyachal Freightways",
+    "scenario": "contract_revision",
+    "expected_decision": "APPROVED",
+    "reason": "Diesel surcharge: 8% rate revision effective 1 July 2026; the PO still carries the old price"
+  },
+  {
+    "invoice_id": "INV-2026-0397",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0398",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0399",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "price_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Rounding difference of ₹0.05/unit (0.15%); accepted"
+  },
+  {
+    "invoice_id": "INV-2026-0400",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0401",
+    "vendor": "Hitecvale IT Services",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0402",
+    "vendor": "Sahyadri Suturecare",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0403",
+    "vendor": "Coromandel Frostline Coldchain",
+    "scenario": "price_rounding+carton_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Rounding difference of ₹5/unit (0.4%); accepted. Ships full cartons of 8: 48 of 50 delivered; pay for what was delivered"
+  },
+  {
+    "invoice_id": "INV-2026-0404",
+    "vendor": "Musirex Chemicals",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0405",
+    "vendor": "Kakatiya Labcraft",
+    "scenario": "carton_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Ships full cartons of 12: 96 of 100 delivered; pay for what was delivered"
+  },
+  {
+    "invoice_id": "INV-2026-0406",
+    "vendor": "Krishnaveni Reagents",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0407",
+    "vendor": "Coromandel Frostline Coldchain",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0408",
+    "vendor": "Banjara Deskline Office Supplies",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0409",
+    "vendor": "Godavara Generics",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0410",
+    "vendor": "Godavara Generics",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0411",
+    "vendor": "Musirex Chemicals",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0412",
+    "vendor": "Godavara Generics",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0413",
+    "vendor": "Charminar Cartons & Co.",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0414",
+    "vendor": "Hitecvale IT Services",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0415",
+    "vendor": "Musirex Chemicals",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0416",
+    "vendor": "Banjara Deskline Office Supplies",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0417",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0418",
+    "vendor": "Godavara Generics",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0419",
+    "vendor": "Banjara Deskline Office Supplies",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0420",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0421",
+    "vendor": "Kakatiya Labcraft",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0422",
+    "vendor": "Musirex Chemicals",
+    "scenario": "recurring_overbill",
+    "expected_decision": "REJECTED",
+    "reason": "₹1,090 was never agreed; the contract rate is ₹980"
+  },
+  {
+    "invoice_id": "INV-2026-0423",
+    "vendor": "Vindhyachal Freightways",
+    "scenario": "contract_revision",
+    "expected_decision": "APPROVED",
+    "reason": "Diesel surcharge: 8% rate revision effective 1 July 2026; the PO still carries the old price"
+  },
+  {
+    "invoice_id": "INV-2026-0424",
+    "vendor": "Charminar Cartons & Co.",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0425",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0426",
+    "vendor": "Banjara Deskline Office Supplies",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0427",
+    "vendor": "Charminar Cartons & Co.",
+    "scenario": "price_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Rounding difference of ₹5/unit (0.13%); accepted"
+  },
+  {
+    "invoice_id": "INV-2026-0428",
+    "vendor": "Hitecvale IT Services",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0429",
+    "vendor": "Musirex Chemicals",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0430",
+    "vendor": "Banjara Deskline Office Supplies",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0431",
+    "vendor": "Coromandel Frostline Coldchain",
+    "scenario": "carton_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Ships full cartons of 8: 48 of 50 delivered; pay for what was delivered"
+  },
+  {
+    "invoice_id": "INV-2026-0432",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "price_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Rounding difference of ₹0.05/unit (0.15%); accepted"
+  },
+  {
+    "invoice_id": "INV-2026-0433",
+    "vendor": "Narmada Polyform",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0434",
+    "vendor": "Banjara Deskline Office Supplies",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0435",
+    "vendor": "Charminar Cartons & Co.",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0436",
+    "vendor": "Vindhyachal Freightways",
+    "scenario": "contract_revision",
+    "expected_decision": "APPROVED",
+    "reason": "Diesel surcharge: 8% rate revision effective 1 July 2026; the PO still carries the old price"
+  },
+  {
+    "invoice_id": "INV-2026-0437",
+    "vendor": "Coromandel Frostline Coldchain",
+    "scenario": "carton_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Ships full cartons of 48: 960 of 1000 delivered; pay for what was delivered"
+  },
+  {
+    "invoice_id": "INV-2026-0438",
+    "vendor": "Coromandel Frostline Coldchain",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0439",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0440",
+    "vendor": "Charminar Cartons & Co.",
+    "scenario": "price_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Rounding difference of ₹0.10/unit (0.24%); accepted"
+  },
+  {
+    "invoice_id": "INV-2026-0441",
+    "vendor": "Charminar Cartons & Co.",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0442",
+    "vendor": "Vindhyachal Freightways",
+    "scenario": "contract_revision",
+    "expected_decision": "APPROVED",
+    "reason": "Diesel surcharge: 8% rate revision effective 1 July 2026; the PO still carries the old price"
+  },
+  {
+    "invoice_id": "INV-2026-0443",
+    "vendor": "Vindhyachal Freightways",
+    "scenario": "contract_revision",
+    "expected_decision": "APPROVED",
+    "reason": "Diesel surcharge: 8% rate revision effective 1 July 2026; the PO still carries the old price"
+  },
+  {
+    "invoice_id": "INV-2026-0444",
+    "vendor": "Coromandel Frostline Coldchain",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0445",
+    "vendor": "Kakatiya Labcraft",
+    "scenario": "carton_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Ships full cartons of 12: 96 of 100 delivered; pay for what was delivered"
+  },
+  {
+    "invoice_id": "INV-2026-0446",
+    "vendor": "Charminar Cartons & Co.",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0447",
+    "vendor": "Kakatiya Labcraft",
+    "scenario": "carton_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Ships full cartons of 12: 192 of 200 delivered; pay for what was delivered"
+  },
+  {
+    "invoice_id": "INV-2026-0448",
+    "vendor": "Krishnaveni Reagents",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0449",
+    "vendor": "Hitecvale IT Services",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0450",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0451",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0452",
+    "vendor": "Godavara Generics",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0453",
+    "vendor": "Narmada Polyform",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0454",
+    "vendor": "Banjara Deskline Office Supplies",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0455",
+    "vendor": "Musirex Chemicals",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0456",
+    "vendor": "Godavara Generics",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0457",
+    "vendor": "Kakatiya Labcraft",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0458",
+    "vendor": "Krishnaveni Reagents",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0459",
+    "vendor": "Sahyadri Suturecare",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0460",
+    "vendor": "Krishnaveni Reagents",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0461",
+    "vendor": "Sahyadri Suturecare",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0462",
+    "vendor": "Coromandel Frostline Coldchain",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0463",
+    "vendor": "Vindhyachal Freightways",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0464",
+    "vendor": "Banjara Deskline Office Supplies",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0465",
+    "vendor": "Deccanvale Lifesciences",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0466",
+    "vendor": "Sahyadri Suturecare",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0467",
+    "vendor": "Musirex Chemicals",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0468",
+    "vendor": "Musirex Chemicals",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0469",
+    "vendor": "Narmada Polyform",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0470",
+    "vendor": "Narmada Polyform",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0471",
+    "vendor": "Charminar Cartons & Co.",
+    "scenario": "price_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Rounding difference of ₹0.05/unit (0.12%); accepted"
+  },
+  {
+    "invoice_id": "INV-2026-0472",
+    "vendor": "Musirex Chemicals",
+    "scenario": "recurring_overbill",
+    "expected_decision": "REJECTED",
+    "reason": "₹1,320 was never agreed; the contract rate is ₹1,150"
+  },
+  {
+    "invoice_id": "INV-2026-0473",
+    "vendor": "Godavara Generics",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0474",
+    "vendor": "Charminar Cartons & Co.",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0475",
+    "vendor": "Coromandel Frostline Coldchain",
+    "scenario": "carton_rounding",
+    "expected_decision": "APPROVED",
+    "reason": "Ships full cartons of 8: 48 of 50 delivered; pay for what was delivered"
+  },
+  {
+    "invoice_id": "INV-2026-0476",
+    "vendor": "Banjara Deskline Office Supplies",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0477",
+    "vendor": "Krishnaveni Reagents",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0478",
+    "vendor": "Charminar Cartons & Co.",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0479",
+    "vendor": "Charminar Cartons & Co.",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0480",
+    "vendor": "Kakatiya Labcraft",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0481",
+    "vendor": "Krishnaveni Reagents",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  },
+  {
+    "invoice_id": "INV-2026-0482",
+    "vendor": "Narmada Polyform",
+    "scenario": "matches_po",
+    "expected_decision": "APPROVED",
+    "reason": "Matches the PO price and quantity"
+  }
+]

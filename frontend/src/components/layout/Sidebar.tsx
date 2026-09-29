@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
-import { BrainCircuit, Cpu, Database, FileSearch, LayoutDashboard, RefreshCw, Server, ShieldCheck, X, type LucideIcon } from 'lucide-react';
+import { BrainCircuit, Cpu, Database, FileSearch, HardDrive, LayoutDashboard, RefreshCw, Server, X, type LucideIcon } from 'lucide-react';
+import Mascot from '../common/Mascot';
 import { cx } from '../../utils/formatters';
 import type { HealthStatus } from '../../types';
 
@@ -35,6 +36,15 @@ function StatusRow({ icon: Icon, label, value, tone }: { icon: LucideIcon; label
       <span className={cx('mt-1.5 h-2 w-2 shrink-0 rounded-full', TONE_DOT[tone])} aria-hidden="true" />
     </li>
   );
+}
+
+/** Where the invoices and the decision log live: "MySQL · synthetic", "Files · demo". */
+function dataStatus(health: HealthStatus | null): { value: string; tone: Tone } {
+  if (!health) return { value: '—', tone: 'idle' };
+  const source = health.data_source ?? 'files';
+  const name = source === 'files' ? 'Files' : source === 'mysql' ? 'MySQL' : source === 'sqlite' ? 'SQLite' : source;
+  if (health.database === 'unreachable') return { value: `${name} unreachable`, tone: 'bad' };
+  return { value: health.dataset ? `${name} · ${health.dataset}` : name, tone: 'ok' };
 }
 
 function SidebarContent({ onNavigate, health, healthError, checking, onRefreshHealth }: {
@@ -109,12 +119,13 @@ function SidebarContent({ onNavigate, health, healthError, checking, onRefreshHe
             value={!health ? '—' : health.hindsight === 'reachable' ? `Bank ${health.bank_id ?? '—'}` : health.hindsight === 'missing' ? 'Not configured' : 'Unreachable'}
             tone={memoryTone}
           />
+          <StatusRow icon={HardDrive} label="Data" {...dataStatus(health)} />
         </ul>
       </section>
 
-      <div className="mt-auto rounded-2xl bg-gradient-to-br from-slate-900 to-slate-800 p-4 text-slate-300">
-        <ShieldCheck className="h-5 w-5 text-emerald-400" aria-hidden="true" />
-        <p className="mt-2 text-xs leading-relaxed">
+      <div className="mt-auto rounded-2xl bg-gradient-to-br from-slate-900 to-[#1a1f4a] p-4 text-slate-300">
+        <Mascot pose="wise" tone="violet" size="sm" />
+        <p className="mt-3 text-xs leading-relaxed">
           Only <span className="font-semibold text-white">human decisions</span> are stored as memory. The agent never approves an
           exception without a verified precedent for the same vendor.
         </p>

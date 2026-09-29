@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
-import { ChartColumn, Database, Menu } from 'lucide-react';
-import { APP_NAME } from '../../utils/constants';
+import { Database, Menu } from 'lucide-react';
+import Mascot from '../common/Mascot';
+import Wordmark from '../common/Wordmark';
+import { APP_NAME, APP_TAGLINE } from '../../utils/constants';
 import { cx, describeHealth, type SystemTone } from '../../utils/formatters';
 import type { HealthStatus } from '../../types';
 
@@ -36,13 +38,11 @@ export default function Navbar({ health, healthError, checking, menuOpen, onOpen
           <Menu className="h-5 w-5" aria-hidden="true" />
         </button>
 
-        <Link to="/" className="group flex min-w-0 items-center gap-2.5">
-          <span className="rounded-xl bg-gradient-to-br from-blue-500 to-violet-600 p-2 shadow-md shadow-blue-900/40 transition-transform duration-300 group-hover:scale-105">
-            <ChartColumn className="h-5 w-5" aria-hidden="true" />
-          </span>
+        <Link to="/" className="group flex min-w-0 items-center gap-3" aria-label={`${APP_NAME} home`}>
+          <Mascot pose="calm" tone="teal" size="xs" animate={false} className="transition-transform duration-300 group-hover:scale-110" />
           <span className="min-w-0 leading-tight">
-            <span className="block truncate text-lg font-bold tracking-tight">{APP_NAME}</span>
-            <span className="hidden truncate text-xs text-slate-400 sm:block">Accounts payable that learns from your decisions</span>
+            <Wordmark className="block truncate text-xl" />
+            <span className="hidden truncate text-xs text-slate-400 sm:block">{APP_TAGLINE}</span>
           </span>
         </Link>
 

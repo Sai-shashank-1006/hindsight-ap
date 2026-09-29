@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { ArrowLeft, BrainCircuit, History, Search, SearchX, TriangleAlert } from 'lucide-react';
+import { ArrowLeft, History, Search, SearchX, TriangleAlert } from 'lucide-react';
 import BentoCard from '../components/common/BentoCard';
 import EmptyState from '../components/common/EmptyState';
 import ErrorAlert from '../components/common/ErrorAlert';
@@ -35,9 +35,8 @@ function VendorList() {
   } else if (vendors.length === 0) {
     body = (
       <EmptyState
-        icon={BrainCircuit}
+        mascot="firstDay"
         title="No vendor data yet"
-        description="Start processing invoices to build vendor memory."
         action={<GradientButton to="/review">Review invoices</GradientButton>}
       />
     );
@@ -115,7 +114,7 @@ function VendorDetail({ name }: { name: string }) {
   } else if (notFound) {
     body = (
       <EmptyState
-        icon={SearchX}
+        mascot="lost"
         title={`No vendor named “${name}”`}
         description="It has no profile and no processed invoices."
         action={<GradientButton to="/vendors">All vendors</GradientButton>}

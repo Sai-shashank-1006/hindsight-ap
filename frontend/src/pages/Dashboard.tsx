@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ArrowRight, Inbox, RefreshCw } from 'lucide-react';
+import { Inbox, RefreshCw } from 'lucide-react';
 import DashboardGrid from '../components/dashboard/DashboardGrid';
 import EmptyState from '../components/common/EmptyState';
 import ErrorAlert from '../components/common/ErrorAlert';
@@ -35,11 +35,6 @@ export default function Dashboard() {
           />
         )}
         <DashboardGrid data={data} stats={stats} />
-        <div className="mt-10 flex justify-center">
-          <GradientButton size="lg" to="/review" icon={<ArrowRight className="h-5 w-5" aria-hidden="true" />}>
-            Start processing invoices
-          </GradientButton>
-        </div>
       </>
     );
   }

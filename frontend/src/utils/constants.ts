@@ -1,6 +1,8 @@
 import type { Decision, EvidenceLevel, ExceptionType, QueueStatus, Severity, VendorStatus } from '../types';
+import type { MascotPose } from './mascot';
 
-export const APP_NAME = import.meta.env.VITE_APP_NAME || 'Hindsight AP';
+export const APP_NAME = import.meta.env.VITE_APP_NAME || 'PaySage';
+export const APP_TAGLINE = 'Every invoice teaches the next one.';
 
 /** Backend origin. Empty means "same origin" (the Vite dev proxy forwards /api and /health). */
 export const API_BASE_URL = (import.meta.env.VITE_API_URL ?? 'http://localhost:8000').replace(/\/+$/, '');
@@ -101,13 +103,13 @@ export const VENDOR_STATUS_META: Record<VendorStatus, { label: string; badge: st
   },
 };
 
-/** The pipeline behind every recommendation, in order. Product copy, not data. */
-export const LEARNING_LOOP_STEPS = [
-  { title: 'Rules', text: 'Invoice checked against its PO record' },
-  { title: 'Recall', text: 'Hindsight searched for this vendor’s past decisions' },
-  { title: 'Reflect', text: 'Hindsight reasons over that vendor’s history' },
-  { title: 'LLM', text: 'Groq drafts a recommendation' },
-  { title: 'Guardrail', text: 'Approval only with a verified human precedent' },
-  { title: 'Human', text: 'A reviewer decides and gives a reason' },
-  { title: 'Retain', text: 'The decision becomes memory for next time' },
+/** The pipeline behind every recommendation, in order, with the mascot pose for each step. Product copy, not data. */
+export const LEARNING_LOOP_STEPS: { title: string; text: string; pose: MascotPose }[] = [
+  { title: 'Rules', text: 'Invoice checked against its PO record', pose: 'thinking' },
+  { title: 'Recall', text: 'Hindsight searched for this vendor’s past decisions', pose: 'wise' },
+  { title: 'Reflect', text: 'Hindsight reasons over that vendor’s history', pose: 'calm' },
+  { title: 'LLM', text: 'Groq drafts a recommendation', pose: 'processing' },
+  { title: 'Guardrail', text: 'Approval only with a verified human precedent', pose: 'alarmed' },
+  { title: 'Human', text: 'A reviewer decides and gives a reason', pose: 'puzzled' },
+  { title: 'Retain', text: 'The decision becomes memory for next time', pose: 'resolved' },
 ];

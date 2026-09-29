@@ -1,0 +1,3858 @@
+[
+  {
+    "po_id": "PO-2026-0001",
+    "vendor": "Sahyadri Suturecare",
+    "expected_price": 340.0,
+    "expected_quantity": 100,
+    "po_date": "2025-12-05",
+    "item": "Surgical gauze 10cm x 10cm, pack of 100"
+  },
+  {
+    "po_id": "PO-2026-0002",
+    "vendor": "Vindhyachal Freightways",
+    "expected_price": 18500.0,
+    "expected_quantity": 8,
+    "po_date": "2025-12-08",
+    "item": "Reefer truck trip, Hyderabad to Vijayawada"
+  },
+  {
+    "po_id": "PO-2026-0003",
+    "vendor": "Kakatiya Labcraft",
+    "expected_price": 320.0,
+    "expected_quantity": 100,
+    "po_date": "2025-12-09",
+    "item": "Petri dishes 90mm, pack of 20"
+  },
+  {
+    "po_id": "PO-2026-0004",
+    "vendor": "Coromandel Frostline Coldchain",
+    "expected_price": 3900.0,
+    "expected_quantity": 10,
+    "po_date": "2025-12-10",
+    "item": "Temperature data logger, USB"
+  },
+  {
+    "po_id": "PO-2026-0005",
+    "vendor": "Godavara Generics",
+    "expected_price": 95.0,
+    "expected_quantity": 1000,
+    "po_date": "2025-12-10",
+    "item": "Pantoprazole 40mg tablets, strip of 15"
+  },
+  {
+    "po_id": "PO-2026-0006",
+    "vendor": "Narmada Polyform",
+    "expected_price": 1.2,
+    "expected_quantity": 50000,
+    "po_date": "2025-12-12",
+    "item": "PP measuring cup 30ml"
+  },
+  {
+    "po_id": "PO-2026-0007",
+    "vendor": "Musirex Chemicals",
+    "expected_price": 980.0,
+    "expected_quantity": 50,
+    "po_date": "2025-12-12",
+    "item": "Sodium hypochlorite 5%, 20L can"
+  },
+  {
+    "po_id": "PO-2026-0008",
+    "vendor": "Godavara Generics",
+    "expected_price": 95.0,
+    "expected_quantity": 2000,
+    "po_date": "2025-12-13",
+    "item": "Pantoprazole 40mg tablets, strip of 15"
+  },
+  {
+    "po_id": "PO-2026-0009",
+    "vendor": "Musirex Chemicals",
+    "expected_price": 1650.0,
+    "expected_quantity": 10,
+    "po_date": "2025-12-13",
+    "item": "Ethanol 99.9% AR grade, 2.5L"
+  },
+  {
+    "po_id": "PO-2026-0010",
+    "vendor": "Sahyadri Suturecare",
+    "expected_price": 1840.0,
+    "expected_quantity": 20,
+    "po_date": "2025-12-14",
+    "item": "Absorbable suture 2-0, box of 12"
+  },
+  {
+    "po_id": "PO-2026-0011",
+    "vendor": "Hitecvale IT Services",
+    "expected_price": 58500.0,
+    "expected_quantity": 20,
+    "po_date": "2025-12-16",
+    "item": "Laptop, 14-inch, Core i5, 16GB RAM"
+  },
+  {
+    "po_id": "PO-2026-0012",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 72.0,
+    "expected_quantity": 2000,
+    "po_date": "2025-12-17",
+    "item": "Amoxicillin 500mg capsules, strip of 10"
+  },
+  {
+    "po_id": "PO-2026-0013",
+    "vendor": "Coromandel Frostline Coldchain",
+    "expected_price": 3900.0,
+    "expected_quantity": 25,
+    "po_date": "2025-12-18",
+    "item": "Temperature data logger, USB"
+  },
+  {
+    "po_id": "PO-2026-0014",
+    "vendor": "Charminar Cartons & Co.",
+    "expected_price": 4.2,
+    "expected_quantity": 20000,
+    "po_date": "2025-12-18",
+    "item": "Printed mono carton, 10-strip pack"
+  },
+  {
+    "po_id": "PO-2026-0015",
+    "vendor": "Banjara Deskline Office Supplies",
+    "expected_price": 650.0,
+    "expected_quantity": 20,
+    "po_date": "2025-12-19",
+    "item": "Box files, pack of 10"
+  },
+  {
+    "po_id": "PO-2026-0016",
+    "vendor": "Kakatiya Labcraft",
+    "expected_price": 385.0,
+    "expected_quantity": 500,
+    "po_date": "2025-12-20",
+    "item": "Nitrile examination gloves, box of 100"
+  },
+  {
+    "po_id": "PO-2026-0017",
+    "vendor": "Vindhyachal Freightways",
+    "expected_price": 32000.0,
+    "expected_quantity": 2,
+    "po_date": "2025-12-20",
+    "item": "Full truck load, Hyderabad to Nagpur, 20ft"
+  },
+  {
+    "po_id": "PO-2026-0018",
+    "vendor": "Charminar Cartons & Co.",
+    "expected_price": 42.0,
+    "expected_quantity": 5000,
+    "po_date": "2025-12-21",
+    "item": "Corrugated shipper box, 5-ply"
+  },
+  {
+    "po_id": "PO-2026-0019",
+    "vendor": "Vindhyachal Freightways",
+    "expected_price": 32000.0,
+    "expected_quantity": 2,
+    "po_date": "2025-12-22",
+    "item": "Full truck load, Hyderabad to Nagpur, 20ft"
+  },
+  {
+    "po_id": "PO-2026-0020",
+    "vendor": "Coromandel Frostline Coldchain",
+    "expected_price": 3900.0,
+    "expected_quantity": 25,
+    "po_date": "2025-12-22",
+    "item": "Temperature data logger, USB"
+  },
+  {
+    "po_id": "PO-2026-0021",
+    "vendor": "Vindhyachal Freightways",
+    "expected_price": 32000.0,
+    "expected_quantity": 2,
+    "po_date": "2025-12-23",
+    "item": "Full truck load, Hyderabad to Nagpur, 20ft"
+  },
+  {
+    "po_id": "PO-2026-0022",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 30.0,
+    "expected_quantity": 5000,
+    "po_date": "2025-12-23",
+    "item": "Paracetamol 650mg tablets, strip of 15"
+  },
+  {
+    "po_id": "PO-2026-0023",
+    "vendor": "Coromandel Frostline Coldchain",
+    "expected_price": 65.0,
+    "expected_quantity": 500,
+    "po_date": "2025-12-24",
+    "item": "Ice pack, 0.4L"
+  },
+  {
+    "po_id": "PO-2026-0024",
+    "vendor": "Banjara Deskline Office Supplies",
+    "expected_price": 285.0,
+    "expected_quantity": 200,
+    "po_date": "2025-12-25",
+    "item": "A4 copier paper 75gsm, ream of 500"
+  },
+  {
+    "po_id": "PO-2026-0025",
+    "vendor": "Kakatiya Labcraft",
+    "expected_price": 385.0,
+    "expected_quantity": 500,
+    "po_date": "2025-12-25",
+    "item": "Nitrile examination gloves, box of 100"
+  },
+  {
+    "po_id": "PO-2026-0026",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 28.5,
+    "expected_quantity": 5000,
+    "po_date": "2025-12-25",
+    "item": "Metformin 500mg tablets, strip of 20"
+  },
+  {
+    "po_id": "PO-2026-0027",
+    "vendor": "Godavara Generics",
+    "expected_price": 95.0,
+    "expected_quantity": 2000,
+    "po_date": "2025-12-26",
+    "item": "Pantoprazole 40mg tablets, strip of 15"
+  },
+  {
+    "po_id": "PO-2026-0028",
+    "vendor": "Kakatiya Labcraft",
+    "expected_price": 385.0,
+    "expected_quantity": 500,
+    "po_date": "2025-12-26",
+    "item": "Nitrile examination gloves, box of 100"
+  },
+  {
+    "po_id": "PO-2026-0029",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 72.0,
+    "expected_quantity": 1000,
+    "po_date": "2025-12-26",
+    "item": "Amoxicillin 500mg capsules, strip of 10"
+  },
+  {
+    "po_id": "PO-2026-0030",
+    "vendor": "Kakatiya Labcraft",
+    "expected_price": 385.0,
+    "expected_quantity": 250,
+    "po_date": "2025-12-27",
+    "item": "Nitrile examination gloves, box of 100"
+  },
+  {
+    "po_id": "PO-2026-0031",
+    "vendor": "Narmada Polyform",
+    "expected_price": 14.5,
+    "expected_quantity": 20000,
+    "po_date": "2025-12-28",
+    "item": "HDPE bottle 500ml with cap"
+  },
+  {
+    "po_id": "PO-2026-0032",
+    "vendor": "Coromandel Frostline Coldchain",
+    "expected_price": 1250.0,
+    "expected_quantity": 100,
+    "po_date": "2025-12-28",
+    "item": "Vaccine carrier, 1.7L"
+  },
+  {
+    "po_id": "PO-2026-0033",
+    "vendor": "Charminar Cartons & Co.",
+    "expected_price": 42.0,
+    "expected_quantity": 2000,
+    "po_date": "2025-12-28",
+    "item": "Corrugated shipper box, 5-ply"
+  },
+  {
+    "po_id": "PO-2026-0034",
+    "vendor": "Musirex Chemicals",
+    "expected_price": 1150.0,
+    "expected_quantity": 120,
+    "po_date": "2025-12-29",
+    "item": "Isopropyl alcohol 70%, 5L can"
+  },
+  {
+    "po_id": "PO-2026-0035",
+    "vendor": "Kakatiya Labcraft",
+    "expected_price": 385.0,
+    "expected_quantity": 250,
+    "po_date": "2025-12-30",
+    "item": "Nitrile examination gloves, box of 100"
+  },
+  {
+    "po_id": "PO-2026-0036",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 72.0,
+    "expected_quantity": 5000,
+    "po_date": "2025-12-30",
+    "item": "Amoxicillin 500mg capsules, strip of 10"
+  },
+  {
+    "po_id": "PO-2026-0037",
+    "vendor": "Kakatiya Labcraft",
+    "expected_price": 320.0,
+    "expected_quantity": 200,
+    "po_date": "2025-12-30",
+    "item": "Petri dishes 90mm, pack of 20"
+  },
+  {
+    "po_id": "PO-2026-0038",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 72.0,
+    "expected_quantity": 2000,
+    "po_date": "2025-12-31",
+    "item": "Amoxicillin 500mg capsules, strip of 10"
+  },
+  {
+    "po_id": "PO-2026-0039",
+    "vendor": "Coromandel Frostline Coldchain",
+    "expected_price": 3900.0,
+    "expected_quantity": 25,
+    "po_date": "2025-12-31",
+    "item": "Temperature data logger, USB"
+  },
+  {
+    "po_id": "PO-2026-0040",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 72.0,
+    "expected_quantity": 5000,
+    "po_date": "2025-12-31",
+    "item": "Amoxicillin 500mg capsules, strip of 10"
+  },
+  {
+    "po_id": "PO-2026-0041",
+    "vendor": "Narmada Polyform",
+    "expected_price": 1.2,
+    "expected_quantity": 50000,
+    "po_date": "2026-01-01",
+    "item": "PP measuring cup 30ml"
+  },
+  {
+    "po_id": "PO-2026-0042",
+    "vendor": "Musirex Chemicals",
+    "expected_price": 980.0,
+    "expected_quantity": 20,
+    "po_date": "2026-01-01",
+    "item": "Sodium hypochlorite 5%, 20L can"
+  },
+  {
+    "po_id": "PO-2026-0043",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 72.0,
+    "expected_quantity": 1000,
+    "po_date": "2026-01-02",
+    "item": "Amoxicillin 500mg capsules, strip of 10"
+  },
+  {
+    "po_id": "PO-2026-0044",
+    "vendor": "Godavara Generics",
+    "expected_price": 68.0,
+    "expected_quantity": 2000,
+    "po_date": "2026-01-04",
+    "item": "Azithromycin 500mg tablets, strip of 3"
+  },
+  {
+    "po_id": "PO-2026-0045",
+    "vendor": "Kakatiya Labcraft",
+    "expected_price": 320.0,
+    "expected_quantity": 200,
+    "po_date": "2026-01-04",
+    "item": "Petri dishes 90mm, pack of 20"
+  },
+  {
+    "po_id": "PO-2026-0046",
+    "vendor": "Musirex Chemicals",
+    "expected_price": 1150.0,
+    "expected_quantity": 120,
+    "po_date": "2026-01-04",
+    "item": "Isopropyl alcohol 70%, 5L can"
+  },
+  {
+    "po_id": "PO-2026-0047",
+    "vendor": "Krishnaveni Reagents",
+    "expected_price": 1480.0,
+    "expected_quantity": 20,
+    "po_date": "2026-01-04",
+    "item": "Hemoglobin reagent, 1L"
+  },
+  {
+    "po_id": "PO-2026-0048",
+    "vendor": "Musirex Chemicals",
+    "expected_price": 980.0,
+    "expected_quantity": 50,
+    "po_date": "2026-01-05",
+    "item": "Sodium hypochlorite 5%, 20L can"
+  },
+  {
+    "po_id": "PO-2026-0049",
+    "vendor": "Vindhyachal Freightways",
+    "expected_price": 32000.0,
+    "expected_quantity": 2,
+    "po_date": "2026-01-06",
+    "item": "Full truck load, Hyderabad to Nagpur, 20ft"
+  },
+  {
+    "po_id": "PO-2026-0050",
+    "vendor": "Musirex Chemicals",
+    "expected_price": 1150.0,
+    "expected_quantity": 80,
+    "po_date": "2026-01-06",
+    "item": "Isopropyl alcohol 70%, 5L can"
+  },
+  {
+    "po_id": "PO-2026-0051",
+    "vendor": "Vindhyachal Freightways",
+    "expected_price": 18500.0,
+    "expected_quantity": 4,
+    "po_date": "2026-01-06",
+    "item": "Reefer truck trip, Hyderabad to Vijayawada"
+  },
+  {
+    "po_id": "PO-2026-0052",
+    "vendor": "Coromandel Frostline Coldchain",
+    "expected_price": 1250.0,
+    "expected_quantity": 100,
+    "po_date": "2026-01-07",
+    "item": "Vaccine carrier, 1.7L"
+  },
+  {
+    "po_id": "PO-2026-0053",
+    "vendor": "Musirex Chemicals",
+    "expected_price": 1150.0,
+    "expected_quantity": 40,
+    "po_date": "2026-01-07",
+    "item": "Isopropyl alcohol 70%, 5L can"
+  },
+  {
+    "po_id": "PO-2026-0054",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 30.0,
+    "expected_quantity": 2000,
+    "po_date": "2026-01-07",
+    "item": "Paracetamol 650mg tablets, strip of 15"
+  },
+  {
+    "po_id": "PO-2026-0055",
+    "vendor": "Godavara Generics",
+    "expected_price": 14.0,
+    "expected_quantity": 10000,
+    "po_date": "2026-01-08",
+    "item": "Cetirizine 10mg tablets, strip of 10"
+  },
+  {
+    "po_id": "PO-2026-0056",
+    "vendor": "Musirex Chemicals",
+    "expected_price": 1650.0,
+    "expected_quantity": 10,
+    "po_date": "2026-01-10",
+    "item": "Ethanol 99.9% AR grade, 2.5L"
+  },
+  {
+    "po_id": "PO-2026-0057",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 30.0,
+    "expected_quantity": 10000,
+    "po_date": "2026-01-11",
+    "item": "Paracetamol 650mg tablets, strip of 15"
+  },
+  {
+    "po_id": "PO-2026-0058",
+    "vendor": "Krishnaveni Reagents",
+    "expected_price": 2150.0,
+    "expected_quantity": 20,
+    "po_date": "2026-01-11",
+    "item": "Glucose reagent kit, 500 tests"
+  },
+  {
+    "po_id": "PO-2026-0059",
+    "vendor": "Sahyadri Suturecare",
+    "expected_price": 340.0,
+    "expected_quantity": 200,
+    "po_date": "2026-01-12",
+    "item": "Surgical gauze 10cm x 10cm, pack of 100"
+  },
+  {
+    "po_id": "PO-2026-0060",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 28.5,
+    "expected_quantity": 5000,
+    "po_date": "2026-01-13",
+    "item": "Metformin 500mg tablets, strip of 20"
+  },
+  {
+    "po_id": "PO-2026-0061",
+    "vendor": "Godavara Generics",
+    "expected_price": 68.0,
+    "expected_quantity": 2000,
+    "po_date": "2026-01-13",
+    "item": "Azithromycin 500mg tablets, strip of 3"
+  },
+  {
+    "po_id": "PO-2026-0062",
+    "vendor": "Vindhyachal Freightways",
+    "expected_price": 32000.0,
+    "expected_quantity": 2,
+    "po_date": "2026-01-15",
+    "item": "Full truck load, Hyderabad to Nagpur, 20ft"
+  },
+  {
+    "po_id": "PO-2026-0063",
+    "vendor": "Banjara Deskline Office Supplies",
+    "expected_price": 2450.0,
+    "expected_quantity": 10,
+    "po_date": "2026-01-16",
+    "item": "Toner cartridge 12A compatible"
+  },
+  {
+    "po_id": "PO-2026-0064",
+    "vendor": "Banjara Deskline Office Supplies",
+    "expected_price": 285.0,
+    "expected_quantity": 500,
+    "po_date": "2026-01-16",
+    "item": "A4 copier paper 75gsm, ream of 500"
+  },
+  {
+    "po_id": "PO-2026-0065",
+    "vendor": "Banjara Deskline Office Supplies",
+    "expected_price": 285.0,
+    "expected_quantity": 200,
+    "po_date": "2026-01-16",
+    "item": "A4 copier paper 75gsm, ream of 500"
+  },
+  {
+    "po_id": "PO-2026-0066",
+    "vendor": "Banjara Deskline Office Supplies",
+    "expected_price": 650.0,
+    "expected_quantity": 20,
+    "po_date": "2026-01-16",
+    "item": "Box files, pack of 10"
+  },
+  {
+    "po_id": "PO-2026-0067",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 28.5,
+    "expected_quantity": 5000,
+    "po_date": "2026-01-16",
+    "item": "Metformin 500mg tablets, strip of 20"
+  },
+  {
+    "po_id": "PO-2026-0068",
+    "vendor": "Godavara Generics",
+    "expected_price": 14.0,
+    "expected_quantity": 5000,
+    "po_date": "2026-01-17",
+    "item": "Cetirizine 10mg tablets, strip of 10"
+  },
+  {
+    "po_id": "PO-2026-0069",
+    "vendor": "Charminar Cartons & Co.",
+    "expected_price": 42.0,
+    "expected_quantity": 2000,
+    "po_date": "2026-01-17",
+    "item": "Corrugated shipper box, 5-ply"
+  },
+  {
+    "po_id": "PO-2026-0070",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 72.0,
+    "expected_quantity": 5000,
+    "po_date": "2026-01-18",
+    "item": "Amoxicillin 500mg capsules, strip of 10"
+  },
+  {
+    "po_id": "PO-2026-0071",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 72.0,
+    "expected_quantity": 1000,
+    "po_date": "2026-01-18",
+    "item": "Amoxicillin 500mg capsules, strip of 10"
+  },
+  {
+    "po_id": "PO-2026-0072",
+    "vendor": "Godavara Generics",
+    "expected_price": 14.0,
+    "expected_quantity": 5000,
+    "po_date": "2026-01-18",
+    "item": "Cetirizine 10mg tablets, strip of 10"
+  },
+  {
+    "po_id": "PO-2026-0073",
+    "vendor": "Kakatiya Labcraft",
+    "expected_price": 450.0,
+    "expected_quantity": 100,
+    "po_date": "2026-01-18",
+    "item": "Micropipette tips 200µl, rack of 96"
+  },
+  {
+    "po_id": "PO-2026-0074",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 72.0,
+    "expected_quantity": 1000,
+    "po_date": "2026-01-18",
+    "item": "Amoxicillin 500mg capsules, strip of 10"
+  },
+  {
+    "po_id": "PO-2026-0075",
+    "vendor": "Sahyadri Suturecare",
+    "expected_price": 1840.0,
+    "expected_quantity": 20,
+    "po_date": "2026-01-19",
+    "item": "Absorbable suture 2-0, box of 12"
+  },
+  {
+    "po_id": "PO-2026-0076",
+    "vendor": "Charminar Cartons & Co.",
+    "expected_price": 3850.0,
+    "expected_quantity": 20,
+    "po_date": "2026-01-20",
+    "item": "Blister foil roll, 250mm x 1000m"
+  },
+  {
+    "po_id": "PO-2026-0077",
+    "vendor": "Charminar Cartons & Co.",
+    "expected_price": 3850.0,
+    "expected_quantity": 50,
+    "po_date": "2026-01-20",
+    "item": "Blister foil roll, 250mm x 1000m"
+  },
+  {
+    "po_id": "PO-2026-0078",
+    "vendor": "Banjara Deskline Office Supplies",
+    "expected_price": 285.0,
+    "expected_quantity": 500,
+    "po_date": "2026-01-20",
+    "item": "A4 copier paper 75gsm, ream of 500"
+  },
+  {
+    "po_id": "PO-2026-0079",
+    "vendor": "Godavara Generics",
+    "expected_price": 14.0,
+    "expected_quantity": 10000,
+    "po_date": "2026-01-20",
+    "item": "Cetirizine 10mg tablets, strip of 10"
+  },
+  {
+    "po_id": "PO-2026-0080",
+    "vendor": "Musirex Chemicals",
+    "expected_price": 1150.0,
+    "expected_quantity": 80,
+    "po_date": "2026-01-22",
+    "item": "Isopropyl alcohol 70%, 5L can"
+  },
+  {
+    "po_id": "PO-2026-0081",
+    "vendor": "Narmada Polyform",
+    "expected_price": 14.5,
+    "expected_quantity": 20000,
+    "po_date": "2026-01-22",
+    "item": "HDPE bottle 500ml with cap"
+  },
+  {
+    "po_id": "PO-2026-0082",
+    "vendor": "Kakatiya Labcraft",
+    "expected_price": 320.0,
+    "expected_quantity": 100,
+    "po_date": "2026-01-23",
+    "item": "Petri dishes 90mm, pack of 20"
+  },
+  {
+    "po_id": "PO-2026-0083",
+    "vendor": "Coromandel Frostline Coldchain",
+    "expected_price": 65.0,
+    "expected_quantity": 500,
+    "po_date": "2026-01-23",
+    "item": "Ice pack, 0.4L"
+  },
+  {
+    "po_id": "PO-2026-0084",
+    "vendor": "Godavara Generics",
+    "expected_price": 95.0,
+    "expected_quantity": 1000,
+    "po_date": "2026-01-24",
+    "item": "Pantoprazole 40mg tablets, strip of 15"
+  },
+  {
+    "po_id": "PO-2026-0085",
+    "vendor": "Sahyadri Suturecare",
+    "expected_price": 340.0,
+    "expected_quantity": 100,
+    "po_date": "2026-01-26",
+    "item": "Surgical gauze 10cm x 10cm, pack of 100"
+  },
+  {
+    "po_id": "PO-2026-0086",
+    "vendor": "Sahyadri Suturecare",
+    "expected_price": 560.0,
+    "expected_quantity": 100,
+    "po_date": "2026-01-27",
+    "item": "Disposable syringe 5ml, box of 100"
+  },
+  {
+    "po_id": "PO-2026-0087",
+    "vendor": "Krishnaveni Reagents",
+    "expected_price": 1480.0,
+    "expected_quantity": 20,
+    "po_date": "2026-01-27",
+    "item": "Hemoglobin reagent, 1L"
+  },
+  {
+    "po_id": "PO-2026-0088",
+    "vendor": "Coromandel Frostline Coldchain",
+    "expected_price": 65.0,
+    "expected_quantity": 500,
+    "po_date": "2026-01-27",
+    "item": "Ice pack, 0.4L"
+  },
+  {
+    "po_id": "PO-2026-0089",
+    "vendor": "Krishnaveni Reagents",
+    "expected_price": 720.0,
+    "expected_quantity": 50,
+    "po_date": "2026-01-28",
+    "item": "Urine test strips, bottle of 100"
+  },
+  {
+    "po_id": "PO-2026-0090",
+    "vendor": "Hitecvale IT Services",
+    "expected_price": 58500.0,
+    "expected_quantity": 10,
+    "po_date": "2026-01-28",
+    "item": "Laptop, 14-inch, Core i5, 16GB RAM"
+  },
+  {
+    "po_id": "PO-2026-0091",
+    "vendor": "Godavara Generics",
+    "expected_price": 68.0,
+    "expected_quantity": 2000,
+    "po_date": "2026-01-28",
+    "item": "Azithromycin 500mg tablets, strip of 3"
+  },
+  {
+    "po_id": "PO-2026-0092",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 72.0,
+    "expected_quantity": 1000,
+    "po_date": "2026-01-29",
+    "item": "Amoxicillin 500mg capsules, strip of 10"
+  },
+  {
+    "po_id": "PO-2026-0093",
+    "vendor": "Vindhyachal Freightways",
+    "expected_price": 18500.0,
+    "expected_quantity": 8,
+    "po_date": "2026-01-29",
+    "item": "Reefer truck trip, Hyderabad to Vijayawada"
+  },
+  {
+    "po_id": "PO-2026-0094",
+    "vendor": "Coromandel Frostline Coldchain",
+    "expected_price": 65.0,
+    "expected_quantity": 1000,
+    "po_date": "2026-01-29",
+    "item": "Ice pack, 0.4L"
+  },
+  {
+    "po_id": "PO-2026-0095",
+    "vendor": "Godavara Generics",
+    "expected_price": 68.0,
+    "expected_quantity": 1000,
+    "po_date": "2026-01-29",
+    "item": "Azithromycin 500mg tablets, strip of 3"
+  },
+  {
+    "po_id": "PO-2026-0096",
+    "vendor": "Kakatiya Labcraft",
+    "expected_price": 320.0,
+    "expected_quantity": 100,
+    "po_date": "2026-01-29",
+    "item": "Petri dishes 90mm, pack of 20"
+  },
+  {
+    "po_id": "PO-2026-0097",
+    "vendor": "Banjara Deskline Office Supplies",
+    "expected_price": 285.0,
+    "expected_quantity": 100,
+    "po_date": "2026-01-31",
+    "item": "A4 copier paper 75gsm, ream of 500"
+  },
+  {
+    "po_id": "PO-2026-0098",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 72.0,
+    "expected_quantity": 1000,
+    "po_date": "2026-02-01",
+    "item": "Amoxicillin 500mg capsules, strip of 10"
+  },
+  {
+    "po_id": "PO-2026-0099",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 28.5,
+    "expected_quantity": 2000,
+    "po_date": "2026-02-01",
+    "item": "Metformin 500mg tablets, strip of 20"
+  },
+  {
+    "po_id": "PO-2026-0100",
+    "vendor": "Godavara Generics",
+    "expected_price": 68.0,
+    "expected_quantity": 1000,
+    "po_date": "2026-02-01",
+    "item": "Azithromycin 500mg tablets, strip of 3"
+  },
+  {
+    "po_id": "PO-2026-0101",
+    "vendor": "Narmada Polyform",
+    "expected_price": 6.8,
+    "expected_quantity": 20000,
+    "po_date": "2026-02-02",
+    "item": "HDPE bottle 100ml with CRC cap"
+  },
+  {
+    "po_id": "PO-2026-0102",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 28.5,
+    "expected_quantity": 5000,
+    "po_date": "2026-02-02",
+    "item": "Metformin 500mg tablets, strip of 20"
+  },
+  {
+    "po_id": "PO-2026-0103",
+    "vendor": "Narmada Polyform",
+    "expected_price": 1.2,
+    "expected_quantity": 20000,
+    "po_date": "2026-02-02",
+    "item": "PP measuring cup 30ml"
+  },
+  {
+    "po_id": "PO-2026-0104",
+    "vendor": "Vindhyachal Freightways",
+    "expected_price": 18500.0,
+    "expected_quantity": 4,
+    "po_date": "2026-02-02",
+    "item": "Reefer truck trip, Hyderabad to Vijayawada"
+  },
+  {
+    "po_id": "PO-2026-0105",
+    "vendor": "Charminar Cartons & Co.",
+    "expected_price": 42.0,
+    "expected_quantity": 2000,
+    "po_date": "2026-02-02",
+    "item": "Corrugated shipper box, 5-ply"
+  },
+  {
+    "po_id": "PO-2026-0106",
+    "vendor": "Charminar Cartons & Co.",
+    "expected_price": 3850.0,
+    "expected_quantity": 20,
+    "po_date": "2026-02-03",
+    "item": "Blister foil roll, 250mm x 1000m"
+  },
+  {
+    "po_id": "PO-2026-0107",
+    "vendor": "Vindhyachal Freightways",
+    "expected_price": 32000.0,
+    "expected_quantity": 2,
+    "po_date": "2026-02-03",
+    "item": "Full truck load, Hyderabad to Nagpur, 20ft"
+  },
+  {
+    "po_id": "PO-2026-0108",
+    "vendor": "Godavara Generics",
+    "expected_price": 14.0,
+    "expected_quantity": 5000,
+    "po_date": "2026-02-05",
+    "item": "Cetirizine 10mg tablets, strip of 10"
+  },
+  {
+    "po_id": "PO-2026-0109",
+    "vendor": "Musirex Chemicals",
+    "expected_price": 1650.0,
+    "expected_quantity": 10,
+    "po_date": "2026-02-05",
+    "item": "Ethanol 99.9% AR grade, 2.5L"
+  },
+  {
+    "po_id": "PO-2026-0110",
+    "vendor": "Krishnaveni Reagents",
+    "expected_price": 720.0,
+    "expected_quantity": 20,
+    "po_date": "2026-02-06",
+    "item": "Urine test strips, bottle of 100"
+  },
+  {
+    "po_id": "PO-2026-0111",
+    "vendor": "Krishnaveni Reagents",
+    "expected_price": 2150.0,
+    "expected_quantity": 10,
+    "po_date": "2026-02-06",
+    "item": "Glucose reagent kit, 500 tests"
+  },
+  {
+    "po_id": "PO-2026-0112",
+    "vendor": "Hitecvale IT Services",
+    "expected_price": 4950.0,
+    "expected_quantity": 20,
+    "po_date": "2026-02-06",
+    "item": "Barcode scanner, 2D wireless"
+  },
+  {
+    "po_id": "PO-2026-0113",
+    "vendor": "Charminar Cartons & Co.",
+    "expected_price": 3850.0,
+    "expected_quantity": 50,
+    "po_date": "2026-02-07",
+    "item": "Blister foil roll, 250mm x 1000m"
+  },
+  {
+    "po_id": "PO-2026-0114",
+    "vendor": "Banjara Deskline Office Supplies",
+    "expected_price": 2450.0,
+    "expected_quantity": 20,
+    "po_date": "2026-02-07",
+    "item": "Toner cartridge 12A compatible"
+  },
+  {
+    "po_id": "PO-2026-0115",
+    "vendor": "Hitecvale IT Services",
+    "expected_price": 17800.0,
+    "expected_quantity": 5,
+    "po_date": "2026-02-07",
+    "item": "Monitor, 27-inch IPS"
+  },
+  {
+    "po_id": "PO-2026-0116",
+    "vendor": "Kakatiya Labcraft",
+    "expected_price": 320.0,
+    "expected_quantity": 100,
+    "po_date": "2026-02-08",
+    "item": "Petri dishes 90mm, pack of 20"
+  },
+  {
+    "po_id": "PO-2026-0117",
+    "vendor": "Hitecvale IT Services",
+    "expected_price": 17800.0,
+    "expected_quantity": 10,
+    "po_date": "2026-02-09",
+    "item": "Monitor, 27-inch IPS"
+  },
+  {
+    "po_id": "PO-2026-0118",
+    "vendor": "Banjara Deskline Office Supplies",
+    "expected_price": 285.0,
+    "expected_quantity": 500,
+    "po_date": "2026-02-12",
+    "item": "A4 copier paper 75gsm, ream of 500"
+  },
+  {
+    "po_id": "PO-2026-0119",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 28.5,
+    "expected_quantity": 2000,
+    "po_date": "2026-02-12",
+    "item": "Metformin 500mg tablets, strip of 20"
+  },
+  {
+    "po_id": "PO-2026-0120",
+    "vendor": "Banjara Deskline Office Supplies",
+    "expected_price": 650.0,
+    "expected_quantity": 50,
+    "po_date": "2026-02-13",
+    "item": "Box files, pack of 10"
+  },
+  {
+    "po_id": "PO-2026-0121",
+    "vendor": "Krishnaveni Reagents",
+    "expected_price": 720.0,
+    "expected_quantity": 20,
+    "po_date": "2026-02-14",
+    "item": "Urine test strips, bottle of 100"
+  },
+  {
+    "po_id": "PO-2026-0122",
+    "vendor": "Sahyadri Suturecare",
+    "expected_price": 340.0,
+    "expected_quantity": 200,
+    "po_date": "2026-02-14",
+    "item": "Surgical gauze 10cm x 10cm, pack of 100"
+  },
+  {
+    "po_id": "PO-2026-0123",
+    "vendor": "Krishnaveni Reagents",
+    "expected_price": 720.0,
+    "expected_quantity": 50,
+    "po_date": "2026-02-14",
+    "item": "Urine test strips, bottle of 100"
+  },
+  {
+    "po_id": "PO-2026-0124",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 30.0,
+    "expected_quantity": 2000,
+    "po_date": "2026-02-15",
+    "item": "Paracetamol 650mg tablets, strip of 15"
+  },
+  {
+    "po_id": "PO-2026-0125",
+    "vendor": "Narmada Polyform",
+    "expected_price": 6.8,
+    "expected_quantity": 50000,
+    "po_date": "2026-02-15",
+    "item": "HDPE bottle 100ml with CRC cap"
+  },
+  {
+    "po_id": "PO-2026-0126",
+    "vendor": "Godavara Generics",
+    "expected_price": 95.0,
+    "expected_quantity": 2000,
+    "po_date": "2026-02-15",
+    "item": "Pantoprazole 40mg tablets, strip of 15"
+  },
+  {
+    "po_id": "PO-2026-0127",
+    "vendor": "Narmada Polyform",
+    "expected_price": 6.8,
+    "expected_quantity": 20000,
+    "po_date": "2026-02-15",
+    "item": "HDPE bottle 100ml with CRC cap"
+  },
+  {
+    "po_id": "PO-2026-0128",
+    "vendor": "Banjara Deskline Office Supplies",
+    "expected_price": 2450.0,
+    "expected_quantity": 20,
+    "po_date": "2026-02-16",
+    "item": "Toner cartridge 12A compatible"
+  },
+  {
+    "po_id": "PO-2026-0129",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 28.5,
+    "expected_quantity": 5000,
+    "po_date": "2026-02-16",
+    "item": "Metformin 500mg tablets, strip of 20"
+  },
+  {
+    "po_id": "PO-2026-0130",
+    "vendor": "Banjara Deskline Office Supplies",
+    "expected_price": 650.0,
+    "expected_quantity": 50,
+    "po_date": "2026-02-17",
+    "item": "Box files, pack of 10"
+  },
+  {
+    "po_id": "PO-2026-0131",
+    "vendor": "Sahyadri Suturecare",
+    "expected_price": 340.0,
+    "expected_quantity": 200,
+    "po_date": "2026-02-17",
+    "item": "Surgical gauze 10cm x 10cm, pack of 100"
+  },
+  {
+    "po_id": "PO-2026-0132",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 30.0,
+    "expected_quantity": 5000,
+    "po_date": "2026-02-19",
+    "item": "Paracetamol 650mg tablets, strip of 15"
+  },
+  {
+    "po_id": "PO-2026-0133",
+    "vendor": "Banjara Deskline Office Supplies",
+    "expected_price": 650.0,
+    "expected_quantity": 50,
+    "po_date": "2026-02-19",
+    "item": "Box files, pack of 10"
+  },
+  {
+    "po_id": "PO-2026-0134",
+    "vendor": "Sahyadri Suturecare",
+    "expected_price": 560.0,
+    "expected_quantity": 100,
+    "po_date": "2026-02-19",
+    "item": "Disposable syringe 5ml, box of 100"
+  },
+  {
+    "po_id": "PO-2026-0135",
+    "vendor": "Kakatiya Labcraft",
+    "expected_price": 385.0,
+    "expected_quantity": 250,
+    "po_date": "2026-02-19",
+    "item": "Nitrile examination gloves, box of 100"
+  },
+  {
+    "po_id": "PO-2026-0136",
+    "vendor": "Charminar Cartons & Co.",
+    "expected_price": 3850.0,
+    "expected_quantity": 20,
+    "po_date": "2026-02-19",
+    "item": "Blister foil roll, 250mm x 1000m"
+  },
+  {
+    "po_id": "PO-2026-0137",
+    "vendor": "Sahyadri Suturecare",
+    "expected_price": 340.0,
+    "expected_quantity": 200,
+    "po_date": "2026-02-19",
+    "item": "Surgical gauze 10cm x 10cm, pack of 100"
+  },
+  {
+    "po_id": "PO-2026-0138",
+    "vendor": "Kakatiya Labcraft",
+    "expected_price": 385.0,
+    "expected_quantity": 500,
+    "po_date": "2026-02-20",
+    "item": "Nitrile examination gloves, box of 100"
+  },
+  {
+    "po_id": "PO-2026-0139",
+    "vendor": "Vindhyachal Freightways",
+    "expected_price": 18500.0,
+    "expected_quantity": 8,
+    "po_date": "2026-02-22",
+    "item": "Reefer truck trip, Hyderabad to Vijayawada"
+  },
+  {
+    "po_id": "PO-2026-0140",
+    "vendor": "Charminar Cartons & Co.",
+    "expected_price": 3850.0,
+    "expected_quantity": 20,
+    "po_date": "2026-02-22",
+    "item": "Blister foil roll, 250mm x 1000m"
+  },
+  {
+    "po_id": "PO-2026-0141",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 28.5,
+    "expected_quantity": 5000,
+    "po_date": "2026-02-22",
+    "item": "Metformin 500mg tablets, strip of 20"
+  },
+  {
+    "po_id": "PO-2026-0142",
+    "vendor": "Coromandel Frostline Coldchain",
+    "expected_price": 1250.0,
+    "expected_quantity": 50,
+    "po_date": "2026-02-23",
+    "item": "Vaccine carrier, 1.7L"
+  },
+  {
+    "po_id": "PO-2026-0143",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 30.0,
+    "expected_quantity": 5000,
+    "po_date": "2026-02-23",
+    "item": "Paracetamol 650mg tablets, strip of 15"
+  },
+  {
+    "po_id": "PO-2026-0144",
+    "vendor": "Krishnaveni Reagents",
+    "expected_price": 1480.0,
+    "expected_quantity": 10,
+    "po_date": "2026-02-24",
+    "item": "Hemoglobin reagent, 1L"
+  },
+  {
+    "po_id": "PO-2026-0145",
+    "vendor": "Godavara Generics",
+    "expected_price": 14.0,
+    "expected_quantity": 10000,
+    "po_date": "2026-02-25",
+    "item": "Cetirizine 10mg tablets, strip of 10"
+  },
+  {
+    "po_id": "PO-2026-0146",
+    "vendor": "Narmada Polyform",
+    "expected_price": 1.2,
+    "expected_quantity": 50000,
+    "po_date": "2026-02-25",
+    "item": "PP measuring cup 30ml"
+  },
+  {
+    "po_id": "PO-2026-0147",
+    "vendor": "Musirex Chemicals",
+    "expected_price": 980.0,
+    "expected_quantity": 50,
+    "po_date": "2026-02-25",
+    "item": "Sodium hypochlorite 5%, 20L can"
+  },
+  {
+    "po_id": "PO-2026-0148",
+    "vendor": "Hitecvale IT Services",
+    "expected_price": 17800.0,
+    "expected_quantity": 10,
+    "po_date": "2026-02-25",
+    "item": "Monitor, 27-inch IPS"
+  },
+  {
+    "po_id": "PO-2026-0149",
+    "vendor": "Krishnaveni Reagents",
+    "expected_price": 2150.0,
+    "expected_quantity": 20,
+    "po_date": "2026-02-25",
+    "item": "Glucose reagent kit, 500 tests"
+  },
+  {
+    "po_id": "PO-2026-0150",
+    "vendor": "Kakatiya Labcraft",
+    "expected_price": 320.0,
+    "expected_quantity": 100,
+    "po_date": "2026-02-25",
+    "item": "Petri dishes 90mm, pack of 20"
+  },
+  {
+    "po_id": "PO-2026-0151",
+    "vendor": "Narmada Polyform",
+    "expected_price": 1.2,
+    "expected_quantity": 20000,
+    "po_date": "2026-02-27",
+    "item": "PP measuring cup 30ml"
+  },
+  {
+    "po_id": "PO-2026-0152",
+    "vendor": "Hitecvale IT Services",
+    "expected_price": 17800.0,
+    "expected_quantity": 5,
+    "po_date": "2026-02-27",
+    "item": "Monitor, 27-inch IPS"
+  },
+  {
+    "po_id": "PO-2026-0153",
+    "vendor": "Charminar Cartons & Co.",
+    "expected_price": 42.0,
+    "expected_quantity": 2000,
+    "po_date": "2026-02-27",
+    "item": "Corrugated shipper box, 5-ply"
+  },
+  {
+    "po_id": "PO-2026-0154",
+    "vendor": "Godavara Generics",
+    "expected_price": 68.0,
+    "expected_quantity": 2000,
+    "po_date": "2026-02-28",
+    "item": "Azithromycin 500mg tablets, strip of 3"
+  },
+  {
+    "po_id": "PO-2026-0155",
+    "vendor": "Kakatiya Labcraft",
+    "expected_price": 385.0,
+    "expected_quantity": 100,
+    "po_date": "2026-03-02",
+    "item": "Nitrile examination gloves, box of 100"
+  },
+  {
+    "po_id": "PO-2026-0156",
+    "vendor": "Kakatiya Labcraft",
+    "expected_price": 385.0,
+    "expected_quantity": 500,
+    "po_date": "2026-03-02",
+    "item": "Nitrile examination gloves, box of 100"
+  },
+  {
+    "po_id": "PO-2026-0157",
+    "vendor": "Musirex Chemicals",
+    "expected_price": 980.0,
+    "expected_quantity": 20,
+    "po_date": "2026-03-02",
+    "item": "Sodium hypochlorite 5%, 20L can"
+  },
+  {
+    "po_id": "PO-2026-0158",
+    "vendor": "Vindhyachal Freightways",
+    "expected_price": 32000.0,
+    "expected_quantity": 2,
+    "po_date": "2026-03-03",
+    "item": "Full truck load, Hyderabad to Nagpur, 20ft"
+  },
+  {
+    "po_id": "PO-2026-0159",
+    "vendor": "Godavara Generics",
+    "expected_price": 14.0,
+    "expected_quantity": 10000,
+    "po_date": "2026-03-03",
+    "item": "Cetirizine 10mg tablets, strip of 10"
+  },
+  {
+    "po_id": "PO-2026-0160",
+    "vendor": "Kakatiya Labcraft",
+    "expected_price": 385.0,
+    "expected_quantity": 250,
+    "po_date": "2026-03-03",
+    "item": "Nitrile examination gloves, box of 100"
+  },
+  {
+    "po_id": "PO-2026-0161",
+    "vendor": "Vindhyachal Freightways",
+    "expected_price": 18500.0,
+    "expected_quantity": 4,
+    "po_date": "2026-03-03",
+    "item": "Reefer truck trip, Hyderabad to Vijayawada"
+  },
+  {
+    "po_id": "PO-2026-0162",
+    "vendor": "Kakatiya Labcraft",
+    "expected_price": 320.0,
+    "expected_quantity": 100,
+    "po_date": "2026-03-04",
+    "item": "Petri dishes 90mm, pack of 20"
+  },
+  {
+    "po_id": "PO-2026-0163",
+    "vendor": "Narmada Polyform",
+    "expected_price": 14.5,
+    "expected_quantity": 10000,
+    "po_date": "2026-03-04",
+    "item": "HDPE bottle 500ml with cap"
+  },
+  {
+    "po_id": "PO-2026-0164",
+    "vendor": "Godavara Generics",
+    "expected_price": 14.0,
+    "expected_quantity": 5000,
+    "po_date": "2026-03-04",
+    "item": "Cetirizine 10mg tablets, strip of 10"
+  },
+  {
+    "po_id": "PO-2026-0165",
+    "vendor": "Narmada Polyform",
+    "expected_price": 1.2,
+    "expected_quantity": 50000,
+    "po_date": "2026-03-06",
+    "item": "PP measuring cup 30ml"
+  },
+  {
+    "po_id": "PO-2026-0166",
+    "vendor": "Sahyadri Suturecare",
+    "expected_price": 1840.0,
+    "expected_quantity": 50,
+    "po_date": "2026-03-06",
+    "item": "Absorbable suture 2-0, box of 12"
+  },
+  {
+    "po_id": "PO-2026-0167",
+    "vendor": "Charminar Cartons & Co.",
+    "expected_price": 3850.0,
+    "expected_quantity": 50,
+    "po_date": "2026-03-06",
+    "item": "Blister foil roll, 250mm x 1000m"
+  },
+  {
+    "po_id": "PO-2026-0168",
+    "vendor": "Hitecvale IT Services",
+    "expected_price": 17800.0,
+    "expected_quantity": 10,
+    "po_date": "2026-03-06",
+    "item": "Monitor, 27-inch IPS"
+  },
+  {
+    "po_id": "PO-2026-0169",
+    "vendor": "Charminar Cartons & Co.",
+    "expected_price": 3850.0,
+    "expected_quantity": 50,
+    "po_date": "2026-03-06",
+    "item": "Blister foil roll, 250mm x 1000m"
+  },
+  {
+    "po_id": "PO-2026-0170",
+    "vendor": "Hitecvale IT Services",
+    "expected_price": 4950.0,
+    "expected_quantity": 20,
+    "po_date": "2026-03-08",
+    "item": "Barcode scanner, 2D wireless"
+  },
+  {
+    "po_id": "PO-2026-0171",
+    "vendor": "Hitecvale IT Services",
+    "expected_price": 4950.0,
+    "expected_quantity": 10,
+    "po_date": "2026-03-09",
+    "item": "Barcode scanner, 2D wireless"
+  },
+  {
+    "po_id": "PO-2026-0172",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 30.0,
+    "expected_quantity": 2000,
+    "po_date": "2026-03-12",
+    "item": "Paracetamol 650mg tablets, strip of 15"
+  },
+  {
+    "po_id": "PO-2026-0173",
+    "vendor": "Musirex Chemicals",
+    "expected_price": 980.0,
+    "expected_quantity": 50,
+    "po_date": "2026-03-12",
+    "item": "Sodium hypochlorite 5%, 20L can"
+  },
+  {
+    "po_id": "PO-2026-0174",
+    "vendor": "Charminar Cartons & Co.",
+    "expected_price": 42.0,
+    "expected_quantity": 5000,
+    "po_date": "2026-03-12",
+    "item": "Corrugated shipper box, 5-ply"
+  },
+  {
+    "po_id": "PO-2026-0175",
+    "vendor": "Coromandel Frostline Coldchain",
+    "expected_price": 3900.0,
+    "expected_quantity": 25,
+    "po_date": "2026-03-12",
+    "item": "Temperature data logger, USB"
+  },
+  {
+    "po_id": "PO-2026-0176",
+    "vendor": "Sahyadri Suturecare",
+    "expected_price": 560.0,
+    "expected_quantity": 50,
+    "po_date": "2026-03-13",
+    "item": "Disposable syringe 5ml, box of 100"
+  },
+  {
+    "po_id": "PO-2026-0177",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 72.0,
+    "expected_quantity": 2000,
+    "po_date": "2026-03-14",
+    "item": "Amoxicillin 500mg capsules, strip of 10"
+  },
+  {
+    "po_id": "PO-2026-0178",
+    "vendor": "Musirex Chemicals",
+    "expected_price": 1150.0,
+    "expected_quantity": 40,
+    "po_date": "2026-03-14",
+    "item": "Isopropyl alcohol 70%, 5L can"
+  },
+  {
+    "po_id": "PO-2026-0179",
+    "vendor": "Charminar Cartons & Co.",
+    "expected_price": 4.2,
+    "expected_quantity": 20000,
+    "po_date": "2026-03-14",
+    "item": "Printed mono carton, 10-strip pack"
+  },
+  {
+    "po_id": "PO-2026-0180",
+    "vendor": "Narmada Polyform",
+    "expected_price": 6.8,
+    "expected_quantity": 50000,
+    "po_date": "2026-03-16",
+    "item": "HDPE bottle 100ml with CRC cap"
+  },
+  {
+    "po_id": "PO-2026-0181",
+    "vendor": "Hitecvale IT Services",
+    "expected_price": 17800.0,
+    "expected_quantity": 10,
+    "po_date": "2026-03-17",
+    "item": "Monitor, 27-inch IPS"
+  },
+  {
+    "po_id": "PO-2026-0182",
+    "vendor": "Sahyadri Suturecare",
+    "expected_price": 1840.0,
+    "expected_quantity": 50,
+    "po_date": "2026-03-17",
+    "item": "Absorbable suture 2-0, box of 12"
+  },
+  {
+    "po_id": "PO-2026-0183",
+    "vendor": "Kakatiya Labcraft",
+    "expected_price": 450.0,
+    "expected_quantity": 100,
+    "po_date": "2026-03-18",
+    "item": "Micropipette tips 200µl, rack of 96"
+  },
+  {
+    "po_id": "PO-2026-0184",
+    "vendor": "Charminar Cartons & Co.",
+    "expected_price": 3850.0,
+    "expected_quantity": 50,
+    "po_date": "2026-03-18",
+    "item": "Blister foil roll, 250mm x 1000m"
+  },
+  {
+    "po_id": "PO-2026-0185",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 72.0,
+    "expected_quantity": 1000,
+    "po_date": "2026-03-19",
+    "item": "Amoxicillin 500mg capsules, strip of 10"
+  },
+  {
+    "po_id": "PO-2026-0186",
+    "vendor": "Musirex Chemicals",
+    "expected_price": 1150.0,
+    "expected_quantity": 80,
+    "po_date": "2026-03-19",
+    "item": "Isopropyl alcohol 70%, 5L can"
+  },
+  {
+    "po_id": "PO-2026-0187",
+    "vendor": "Krishnaveni Reagents",
+    "expected_price": 2150.0,
+    "expected_quantity": 20,
+    "po_date": "2026-03-20",
+    "item": "Glucose reagent kit, 500 tests"
+  },
+  {
+    "po_id": "PO-2026-0188",
+    "vendor": "Charminar Cartons & Co.",
+    "expected_price": 4.2,
+    "expected_quantity": 20000,
+    "po_date": "2026-03-20",
+    "item": "Printed mono carton, 10-strip pack"
+  },
+  {
+    "po_id": "PO-2026-0189",
+    "vendor": "Coromandel Frostline Coldchain",
+    "expected_price": 1250.0,
+    "expected_quantity": 100,
+    "po_date": "2026-03-21",
+    "item": "Vaccine carrier, 1.7L"
+  },
+  {
+    "po_id": "PO-2026-0190",
+    "vendor": "Musirex Chemicals",
+    "expected_price": 1150.0,
+    "expected_quantity": 40,
+    "po_date": "2026-03-22",
+    "item": "Isopropyl alcohol 70%, 5L can"
+  },
+  {
+    "po_id": "PO-2026-0191",
+    "vendor": "Hitecvale IT Services",
+    "expected_price": 17800.0,
+    "expected_quantity": 5,
+    "po_date": "2026-03-23",
+    "item": "Monitor, 27-inch IPS"
+  },
+  {
+    "po_id": "PO-2026-0192",
+    "vendor": "Banjara Deskline Office Supplies",
+    "expected_price": 2450.0,
+    "expected_quantity": 20,
+    "po_date": "2026-03-23",
+    "item": "Toner cartridge 12A compatible"
+  },
+  {
+    "po_id": "PO-2026-0193",
+    "vendor": "Vindhyachal Freightways",
+    "expected_price": 32000.0,
+    "expected_quantity": 2,
+    "po_date": "2026-03-23",
+    "item": "Full truck load, Hyderabad to Nagpur, 20ft"
+  },
+  {
+    "po_id": "PO-2026-0194",
+    "vendor": "Sahyadri Suturecare",
+    "expected_price": 560.0,
+    "expected_quantity": 50,
+    "po_date": "2026-03-24",
+    "item": "Disposable syringe 5ml, box of 100"
+  },
+  {
+    "po_id": "PO-2026-0195",
+    "vendor": "Musirex Chemicals",
+    "expected_price": 980.0,
+    "expected_quantity": 20,
+    "po_date": "2026-03-24",
+    "item": "Sodium hypochlorite 5%, 20L can"
+  },
+  {
+    "po_id": "PO-2026-0196",
+    "vendor": "Charminar Cartons & Co.",
+    "expected_price": 4.2,
+    "expected_quantity": 20000,
+    "po_date": "2026-03-24",
+    "item": "Printed mono carton, 10-strip pack"
+  },
+  {
+    "po_id": "PO-2026-0197",
+    "vendor": "Musirex Chemicals",
+    "expected_price": 1150.0,
+    "expected_quantity": 80,
+    "po_date": "2026-03-24",
+    "item": "Isopropyl alcohol 70%, 5L can"
+  },
+  {
+    "po_id": "PO-2026-0198",
+    "vendor": "Coromandel Frostline Coldchain",
+    "expected_price": 3900.0,
+    "expected_quantity": 25,
+    "po_date": "2026-03-25",
+    "item": "Temperature data logger, USB"
+  },
+  {
+    "po_id": "PO-2026-0199",
+    "vendor": "Kakatiya Labcraft",
+    "expected_price": 385.0,
+    "expected_quantity": 500,
+    "po_date": "2026-03-25",
+    "item": "Nitrile examination gloves, box of 100"
+  },
+  {
+    "po_id": "PO-2026-0200",
+    "vendor": "Charminar Cartons & Co.",
+    "expected_price": 4.2,
+    "expected_quantity": 50000,
+    "po_date": "2026-03-26",
+    "item": "Printed mono carton, 10-strip pack"
+  },
+  {
+    "po_id": "PO-2026-0201",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 30.0,
+    "expected_quantity": 2000,
+    "po_date": "2026-03-26",
+    "item": "Paracetamol 650mg tablets, strip of 15"
+  },
+  {
+    "po_id": "PO-2026-0202",
+    "vendor": "Godavara Generics",
+    "expected_price": 68.0,
+    "expected_quantity": 1000,
+    "po_date": "2026-03-26",
+    "item": "Azithromycin 500mg tablets, strip of 3"
+  },
+  {
+    "po_id": "PO-2026-0203",
+    "vendor": "Godavara Generics",
+    "expected_price": 14.0,
+    "expected_quantity": 10000,
+    "po_date": "2026-03-27",
+    "item": "Cetirizine 10mg tablets, strip of 10"
+  },
+  {
+    "po_id": "PO-2026-0204",
+    "vendor": "Krishnaveni Reagents",
+    "expected_price": 720.0,
+    "expected_quantity": 50,
+    "po_date": "2026-03-28",
+    "item": "Urine test strips, bottle of 100"
+  },
+  {
+    "po_id": "PO-2026-0205",
+    "vendor": "Kakatiya Labcraft",
+    "expected_price": 320.0,
+    "expected_quantity": 100,
+    "po_date": "2026-03-29",
+    "item": "Petri dishes 90mm, pack of 20"
+  },
+  {
+    "po_id": "PO-2026-0206",
+    "vendor": "Kakatiya Labcraft",
+    "expected_price": 450.0,
+    "expected_quantity": 200,
+    "po_date": "2026-03-29",
+    "item": "Micropipette tips 200µl, rack of 96"
+  },
+  {
+    "po_id": "PO-2026-0207",
+    "vendor": "Vindhyachal Freightways",
+    "expected_price": 32000.0,
+    "expected_quantity": 2,
+    "po_date": "2026-03-29",
+    "item": "Full truck load, Hyderabad to Nagpur, 20ft"
+  },
+  {
+    "po_id": "PO-2026-0208",
+    "vendor": "Charminar Cartons & Co.",
+    "expected_price": 42.0,
+    "expected_quantity": 2000,
+    "po_date": "2026-03-31",
+    "item": "Corrugated shipper box, 5-ply"
+  },
+  {
+    "po_id": "PO-2026-0209",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 72.0,
+    "expected_quantity": 1000,
+    "po_date": "2026-04-01",
+    "item": "Amoxicillin 500mg capsules, strip of 10"
+  },
+  {
+    "po_id": "PO-2026-0210",
+    "vendor": "Kakatiya Labcraft",
+    "expected_price": 320.0,
+    "expected_quantity": 100,
+    "po_date": "2026-04-02",
+    "item": "Petri dishes 90mm, pack of 20"
+  },
+  {
+    "po_id": "PO-2026-0211",
+    "vendor": "Musirex Chemicals",
+    "expected_price": 1150.0,
+    "expected_quantity": 40,
+    "po_date": "2026-04-03",
+    "item": "Isopropyl alcohol 70%, 5L can"
+  },
+  {
+    "po_id": "PO-2026-0212",
+    "vendor": "Hitecvale IT Services",
+    "expected_price": 4950.0,
+    "expected_quantity": 20,
+    "po_date": "2026-04-03",
+    "item": "Barcode scanner, 2D wireless"
+  },
+  {
+    "po_id": "PO-2026-0213",
+    "vendor": "Godavara Generics",
+    "expected_price": 95.0,
+    "expected_quantity": 1000,
+    "po_date": "2026-04-04",
+    "item": "Pantoprazole 40mg tablets, strip of 15"
+  },
+  {
+    "po_id": "PO-2026-0214",
+    "vendor": "Sahyadri Suturecare",
+    "expected_price": 340.0,
+    "expected_quantity": 100,
+    "po_date": "2026-04-04",
+    "item": "Surgical gauze 10cm x 10cm, pack of 100"
+  },
+  {
+    "po_id": "PO-2026-0215",
+    "vendor": "Kakatiya Labcraft",
+    "expected_price": 450.0,
+    "expected_quantity": 200,
+    "po_date": "2026-04-05",
+    "item": "Micropipette tips 200µl, rack of 96"
+  },
+  {
+    "po_id": "PO-2026-0216",
+    "vendor": "Banjara Deskline Office Supplies",
+    "expected_price": 650.0,
+    "expected_quantity": 50,
+    "po_date": "2026-04-05",
+    "item": "Box files, pack of 10"
+  },
+  {
+    "po_id": "PO-2026-0217",
+    "vendor": "Kakatiya Labcraft",
+    "expected_price": 450.0,
+    "expected_quantity": 200,
+    "po_date": "2026-04-05",
+    "item": "Micropipette tips 200µl, rack of 96"
+  },
+  {
+    "po_id": "PO-2026-0218",
+    "vendor": "Vindhyachal Freightways",
+    "expected_price": 32000.0,
+    "expected_quantity": 2,
+    "po_date": "2026-04-06",
+    "item": "Full truck load, Hyderabad to Nagpur, 20ft"
+  },
+  {
+    "po_id": "PO-2026-0219",
+    "vendor": "Hitecvale IT Services",
+    "expected_price": 4950.0,
+    "expected_quantity": 10,
+    "po_date": "2026-04-07",
+    "item": "Barcode scanner, 2D wireless"
+  },
+  {
+    "po_id": "PO-2026-0220",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 30.0,
+    "expected_quantity": 2000,
+    "po_date": "2026-04-07",
+    "item": "Paracetamol 650mg tablets, strip of 15"
+  },
+  {
+    "po_id": "PO-2026-0221",
+    "vendor": "Coromandel Frostline Coldchain",
+    "expected_price": 3900.0,
+    "expected_quantity": 10,
+    "po_date": "2026-04-09",
+    "item": "Temperature data logger, USB"
+  },
+  {
+    "po_id": "PO-2026-0222",
+    "vendor": "Narmada Polyform",
+    "expected_price": 14.5,
+    "expected_quantity": 20000,
+    "po_date": "2026-04-09",
+    "item": "HDPE bottle 500ml with cap"
+  },
+  {
+    "po_id": "PO-2026-0223",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 28.5,
+    "expected_quantity": 2000,
+    "po_date": "2026-04-12",
+    "item": "Metformin 500mg tablets, strip of 20"
+  },
+  {
+    "po_id": "PO-2026-0224",
+    "vendor": "Charminar Cartons & Co.",
+    "expected_price": 3850.0,
+    "expected_quantity": 50,
+    "po_date": "2026-04-12",
+    "item": "Blister foil roll, 250mm x 1000m"
+  },
+  {
+    "po_id": "PO-2026-0225",
+    "vendor": "Banjara Deskline Office Supplies",
+    "expected_price": 2450.0,
+    "expected_quantity": 10,
+    "po_date": "2026-04-12",
+    "item": "Toner cartridge 12A compatible"
+  },
+  {
+    "po_id": "PO-2026-0226",
+    "vendor": "Narmada Polyform",
+    "expected_price": 14.5,
+    "expected_quantity": 10000,
+    "po_date": "2026-04-14",
+    "item": "HDPE bottle 500ml with cap"
+  },
+  {
+    "po_id": "PO-2026-0227",
+    "vendor": "Banjara Deskline Office Supplies",
+    "expected_price": 285.0,
+    "expected_quantity": 100,
+    "po_date": "2026-04-15",
+    "item": "A4 copier paper 75gsm, ream of 500"
+  },
+  {
+    "po_id": "PO-2026-0228",
+    "vendor": "Godavara Generics",
+    "expected_price": 68.0,
+    "expected_quantity": 2000,
+    "po_date": "2026-04-15",
+    "item": "Azithromycin 500mg tablets, strip of 3"
+  },
+  {
+    "po_id": "PO-2026-0229",
+    "vendor": "Kakatiya Labcraft",
+    "expected_price": 450.0,
+    "expected_quantity": 50,
+    "po_date": "2026-04-16",
+    "item": "Micropipette tips 200µl, rack of 96"
+  },
+  {
+    "po_id": "PO-2026-0230",
+    "vendor": "Hitecvale IT Services",
+    "expected_price": 58500.0,
+    "expected_quantity": 10,
+    "po_date": "2026-04-17",
+    "item": "Laptop, 14-inch, Core i5, 16GB RAM"
+  },
+  {
+    "po_id": "PO-2026-0231",
+    "vendor": "Banjara Deskline Office Supplies",
+    "expected_price": 285.0,
+    "expected_quantity": 500,
+    "po_date": "2026-04-17",
+    "item": "A4 copier paper 75gsm, ream of 500"
+  },
+  {
+    "po_id": "PO-2026-0232",
+    "vendor": "Narmada Polyform",
+    "expected_price": 14.5,
+    "expected_quantity": 10000,
+    "po_date": "2026-04-18",
+    "item": "HDPE bottle 500ml with cap"
+  },
+  {
+    "po_id": "PO-2026-0233",
+    "vendor": "Kakatiya Labcraft",
+    "expected_price": 450.0,
+    "expected_quantity": 100,
+    "po_date": "2026-04-21",
+    "item": "Micropipette tips 200µl, rack of 96"
+  },
+  {
+    "po_id": "PO-2026-0234",
+    "vendor": "Kakatiya Labcraft",
+    "expected_price": 320.0,
+    "expected_quantity": 100,
+    "po_date": "2026-04-21",
+    "item": "Petri dishes 90mm, pack of 20"
+  },
+  {
+    "po_id": "PO-2026-0235",
+    "vendor": "Musirex Chemicals",
+    "expected_price": 1150.0,
+    "expected_quantity": 120,
+    "po_date": "2026-04-21",
+    "item": "Isopropyl alcohol 70%, 5L can"
+  },
+  {
+    "po_id": "PO-2026-0236",
+    "vendor": "Musirex Chemicals",
+    "expected_price": 1650.0,
+    "expected_quantity": 10,
+    "po_date": "2026-04-22",
+    "item": "Ethanol 99.9% AR grade, 2.5L"
+  },
+  {
+    "po_id": "PO-2026-0237",
+    "vendor": "Sahyadri Suturecare",
+    "expected_price": 1840.0,
+    "expected_quantity": 20,
+    "po_date": "2026-04-22",
+    "item": "Absorbable suture 2-0, box of 12"
+  },
+  {
+    "po_id": "PO-2026-0238",
+    "vendor": "Musirex Chemicals",
+    "expected_price": 1150.0,
+    "expected_quantity": 120,
+    "po_date": "2026-04-22",
+    "item": "Isopropyl alcohol 70%, 5L can"
+  },
+  {
+    "po_id": "PO-2026-0239",
+    "vendor": "Narmada Polyform",
+    "expected_price": 6.8,
+    "expected_quantity": 50000,
+    "po_date": "2026-04-23",
+    "item": "HDPE bottle 100ml with CRC cap"
+  },
+  {
+    "po_id": "PO-2026-0240",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 28.5,
+    "expected_quantity": 2000,
+    "po_date": "2026-04-24",
+    "item": "Metformin 500mg tablets, strip of 20"
+  },
+  {
+    "po_id": "PO-2026-0241",
+    "vendor": "Hitecvale IT Services",
+    "expected_price": 17800.0,
+    "expected_quantity": 10,
+    "po_date": "2026-04-25",
+    "item": "Monitor, 27-inch IPS"
+  },
+  {
+    "po_id": "PO-2026-0242",
+    "vendor": "Musirex Chemicals",
+    "expected_price": 1650.0,
+    "expected_quantity": 24,
+    "po_date": "2026-04-25",
+    "item": "Ethanol 99.9% AR grade, 2.5L"
+  },
+  {
+    "po_id": "PO-2026-0243",
+    "vendor": "Charminar Cartons & Co.",
+    "expected_price": 4.2,
+    "expected_quantity": 20000,
+    "po_date": "2026-04-26",
+    "item": "Printed mono carton, 10-strip pack"
+  },
+  {
+    "po_id": "PO-2026-0244",
+    "vendor": "Vindhyachal Freightways",
+    "expected_price": 18500.0,
+    "expected_quantity": 4,
+    "po_date": "2026-04-27",
+    "item": "Reefer truck trip, Hyderabad to Vijayawada"
+  },
+  {
+    "po_id": "PO-2026-0245",
+    "vendor": "Coromandel Frostline Coldchain",
+    "expected_price": 65.0,
+    "expected_quantity": 500,
+    "po_date": "2026-04-27",
+    "item": "Ice pack, 0.4L"
+  },
+  {
+    "po_id": "PO-2026-0246",
+    "vendor": "Sahyadri Suturecare",
+    "expected_price": 560.0,
+    "expected_quantity": 50,
+    "po_date": "2026-04-28",
+    "item": "Disposable syringe 5ml, box of 100"
+  },
+  {
+    "po_id": "PO-2026-0247",
+    "vendor": "Charminar Cartons & Co.",
+    "expected_price": 42.0,
+    "expected_quantity": 5000,
+    "po_date": "2026-04-28",
+    "item": "Corrugated shipper box, 5-ply"
+  },
+  {
+    "po_id": "PO-2026-0248",
+    "vendor": "Kakatiya Labcraft",
+    "expected_price": 320.0,
+    "expected_quantity": 200,
+    "po_date": "2026-04-29",
+    "item": "Petri dishes 90mm, pack of 20"
+  },
+  {
+    "po_id": "PO-2026-0249",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 28.5,
+    "expected_quantity": 5000,
+    "po_date": "2026-04-29",
+    "item": "Metformin 500mg tablets, strip of 20"
+  },
+  {
+    "po_id": "PO-2026-0250",
+    "vendor": "Kakatiya Labcraft",
+    "expected_price": 320.0,
+    "expected_quantity": 200,
+    "po_date": "2026-04-29",
+    "item": "Petri dishes 90mm, pack of 20"
+  },
+  {
+    "po_id": "PO-2026-0251",
+    "vendor": "Godavara Generics",
+    "expected_price": 68.0,
+    "expected_quantity": 1000,
+    "po_date": "2026-04-29",
+    "item": "Azithromycin 500mg tablets, strip of 3"
+  },
+  {
+    "po_id": "PO-2026-0252",
+    "vendor": "Narmada Polyform",
+    "expected_price": 1.2,
+    "expected_quantity": 50000,
+    "po_date": "2026-04-30",
+    "item": "PP measuring cup 30ml"
+  },
+  {
+    "po_id": "PO-2026-0253",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 28.5,
+    "expected_quantity": 5000,
+    "po_date": "2026-04-30",
+    "item": "Metformin 500mg tablets, strip of 20"
+  },
+  {
+    "po_id": "PO-2026-0254",
+    "vendor": "Krishnaveni Reagents",
+    "expected_price": 2150.0,
+    "expected_quantity": 20,
+    "po_date": "2026-04-30",
+    "item": "Glucose reagent kit, 500 tests"
+  },
+  {
+    "po_id": "PO-2026-0255",
+    "vendor": "Banjara Deskline Office Supplies",
+    "expected_price": 2450.0,
+    "expected_quantity": 10,
+    "po_date": "2026-05-02",
+    "item": "Toner cartridge 12A compatible"
+  },
+  {
+    "po_id": "PO-2026-0256",
+    "vendor": "Hitecvale IT Services",
+    "expected_price": 58500.0,
+    "expected_quantity": 20,
+    "po_date": "2026-05-02",
+    "item": "Laptop, 14-inch, Core i5, 16GB RAM"
+  },
+  {
+    "po_id": "PO-2026-0257",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 72.0,
+    "expected_quantity": 2000,
+    "po_date": "2026-05-04",
+    "item": "Amoxicillin 500mg capsules, strip of 10"
+  },
+  {
+    "po_id": "PO-2026-0258",
+    "vendor": "Charminar Cartons & Co.",
+    "expected_price": 3850.0,
+    "expected_quantity": 50,
+    "po_date": "2026-05-05",
+    "item": "Blister foil roll, 250mm x 1000m"
+  },
+  {
+    "po_id": "PO-2026-0259",
+    "vendor": "Kakatiya Labcraft",
+    "expected_price": 320.0,
+    "expected_quantity": 200,
+    "po_date": "2026-05-05",
+    "item": "Petri dishes 90mm, pack of 20"
+  },
+  {
+    "po_id": "PO-2026-0260",
+    "vendor": "Charminar Cartons & Co.",
+    "expected_price": 4.2,
+    "expected_quantity": 20000,
+    "po_date": "2026-05-06",
+    "item": "Printed mono carton, 10-strip pack"
+  },
+  {
+    "po_id": "PO-2026-0261",
+    "vendor": "Kakatiya Labcraft",
+    "expected_price": 450.0,
+    "expected_quantity": 100,
+    "po_date": "2026-05-07",
+    "item": "Micropipette tips 200µl, rack of 96"
+  },
+  {
+    "po_id": "PO-2026-0262",
+    "vendor": "Hitecvale IT Services",
+    "expected_price": 58500.0,
+    "expected_quantity": 10,
+    "po_date": "2026-05-08",
+    "item": "Laptop, 14-inch, Core i5, 16GB RAM"
+  },
+  {
+    "po_id": "PO-2026-0263",
+    "vendor": "Banjara Deskline Office Supplies",
+    "expected_price": 2450.0,
+    "expected_quantity": 10,
+    "po_date": "2026-05-08",
+    "item": "Toner cartridge 12A compatible"
+  },
+  {
+    "po_id": "PO-2026-0264",
+    "vendor": "Sahyadri Suturecare",
+    "expected_price": 1840.0,
+    "expected_quantity": 50,
+    "po_date": "2026-05-08",
+    "item": "Absorbable suture 2-0, box of 12"
+  },
+  {
+    "po_id": "PO-2026-0265",
+    "vendor": "Godavara Generics",
+    "expected_price": 14.0,
+    "expected_quantity": 10000,
+    "po_date": "2026-05-08",
+    "item": "Cetirizine 10mg tablets, strip of 10"
+  },
+  {
+    "po_id": "PO-2026-0266",
+    "vendor": "Narmada Polyform",
+    "expected_price": 1.2,
+    "expected_quantity": 50000,
+    "po_date": "2026-05-10",
+    "item": "PP measuring cup 30ml"
+  },
+  {
+    "po_id": "PO-2026-0267",
+    "vendor": "Godavara Generics",
+    "expected_price": 14.0,
+    "expected_quantity": 5000,
+    "po_date": "2026-05-10",
+    "item": "Cetirizine 10mg tablets, strip of 10"
+  },
+  {
+    "po_id": "PO-2026-0268",
+    "vendor": "Kakatiya Labcraft",
+    "expected_price": 385.0,
+    "expected_quantity": 500,
+    "po_date": "2026-05-11",
+    "item": "Nitrile examination gloves, box of 100"
+  },
+  {
+    "po_id": "PO-2026-0269",
+    "vendor": "Banjara Deskline Office Supplies",
+    "expected_price": 285.0,
+    "expected_quantity": 200,
+    "po_date": "2026-05-11",
+    "item": "A4 copier paper 75gsm, ream of 500"
+  },
+  {
+    "po_id": "PO-2026-0270",
+    "vendor": "Musirex Chemicals",
+    "expected_price": 980.0,
+    "expected_quantity": 20,
+    "po_date": "2026-05-11",
+    "item": "Sodium hypochlorite 5%, 20L can"
+  },
+  {
+    "po_id": "PO-2026-0271",
+    "vendor": "Charminar Cartons & Co.",
+    "expected_price": 4.2,
+    "expected_quantity": 50000,
+    "po_date": "2026-05-11",
+    "item": "Printed mono carton, 10-strip pack"
+  },
+  {
+    "po_id": "PO-2026-0272",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 30.0,
+    "expected_quantity": 10000,
+    "po_date": "2026-05-11",
+    "item": "Paracetamol 650mg tablets, strip of 15"
+  },
+  {
+    "po_id": "PO-2026-0273",
+    "vendor": "Musirex Chemicals",
+    "expected_price": 1650.0,
+    "expected_quantity": 10,
+    "po_date": "2026-05-12",
+    "item": "Ethanol 99.9% AR grade, 2.5L"
+  },
+  {
+    "po_id": "PO-2026-0274",
+    "vendor": "Charminar Cartons & Co.",
+    "expected_price": 42.0,
+    "expected_quantity": 5000,
+    "po_date": "2026-05-12",
+    "item": "Corrugated shipper box, 5-ply"
+  },
+  {
+    "po_id": "PO-2026-0275",
+    "vendor": "Charminar Cartons & Co.",
+    "expected_price": 4.2,
+    "expected_quantity": 50000,
+    "po_date": "2026-05-12",
+    "item": "Printed mono carton, 10-strip pack"
+  },
+  {
+    "po_id": "PO-2026-0276",
+    "vendor": "Vindhyachal Freightways",
+    "expected_price": 32000.0,
+    "expected_quantity": 4,
+    "po_date": "2026-05-12",
+    "item": "Full truck load, Hyderabad to Nagpur, 20ft"
+  },
+  {
+    "po_id": "PO-2026-0277",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 30.0,
+    "expected_quantity": 2000,
+    "po_date": "2026-05-12",
+    "item": "Paracetamol 650mg tablets, strip of 15"
+  },
+  {
+    "po_id": "PO-2026-0278",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 30.0,
+    "expected_quantity": 5000,
+    "po_date": "2026-05-13",
+    "item": "Paracetamol 650mg tablets, strip of 15"
+  },
+  {
+    "po_id": "PO-2026-0279",
+    "vendor": "Kakatiya Labcraft",
+    "expected_price": 385.0,
+    "expected_quantity": 500,
+    "po_date": "2026-05-13",
+    "item": "Nitrile examination gloves, box of 100"
+  },
+  {
+    "po_id": "PO-2026-0280",
+    "vendor": "Vindhyachal Freightways",
+    "expected_price": 18500.0,
+    "expected_quantity": 8,
+    "po_date": "2026-05-13",
+    "item": "Reefer truck trip, Hyderabad to Vijayawada"
+  },
+  {
+    "po_id": "PO-2026-0281",
+    "vendor": "Kakatiya Labcraft",
+    "expected_price": 385.0,
+    "expected_quantity": 250,
+    "po_date": "2026-05-14",
+    "item": "Nitrile examination gloves, box of 100"
+  },
+  {
+    "po_id": "PO-2026-0282",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 33.0,
+    "expected_quantity": 5000,
+    "po_date": "2026-05-16",
+    "item": "Paracetamol 650mg tablets, strip of 15"
+  },
+  {
+    "po_id": "PO-2026-0283",
+    "vendor": "Charminar Cartons & Co.",
+    "expected_price": 3850.0,
+    "expected_quantity": 50,
+    "po_date": "2026-05-16",
+    "item": "Blister foil roll, 250mm x 1000m"
+  },
+  {
+    "po_id": "PO-2026-0284",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 33.0,
+    "expected_quantity": 10000,
+    "po_date": "2026-05-16",
+    "item": "Paracetamol 650mg tablets, strip of 15"
+  },
+  {
+    "po_id": "PO-2026-0285",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 31.35,
+    "expected_quantity": 2000,
+    "po_date": "2026-05-16",
+    "item": "Metformin 500mg tablets, strip of 20"
+  },
+  {
+    "po_id": "PO-2026-0286",
+    "vendor": "Charminar Cartons & Co.",
+    "expected_price": 3850.0,
+    "expected_quantity": 20,
+    "po_date": "2026-05-18",
+    "item": "Blister foil roll, 250mm x 1000m"
+  },
+  {
+    "po_id": "PO-2026-0287",
+    "vendor": "Narmada Polyform",
+    "expected_price": 14.5,
+    "expected_quantity": 20000,
+    "po_date": "2026-05-18",
+    "item": "HDPE bottle 500ml with cap"
+  },
+  {
+    "po_id": "PO-2026-0288",
+    "vendor": "Charminar Cartons & Co.",
+    "expected_price": 42.0,
+    "expected_quantity": 5000,
+    "po_date": "2026-05-18",
+    "item": "Corrugated shipper box, 5-ply"
+  },
+  {
+    "po_id": "PO-2026-0289",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 31.35,
+    "expected_quantity": 5000,
+    "po_date": "2026-05-19",
+    "item": "Metformin 500mg tablets, strip of 20"
+  },
+  {
+    "po_id": "PO-2026-0290",
+    "vendor": "Vindhyachal Freightways",
+    "expected_price": 32000.0,
+    "expected_quantity": 4,
+    "po_date": "2026-05-19",
+    "item": "Full truck load, Hyderabad to Nagpur, 20ft"
+  },
+  {
+    "po_id": "PO-2026-0291",
+    "vendor": "Krishnaveni Reagents",
+    "expected_price": 1480.0,
+    "expected_quantity": 10,
+    "po_date": "2026-05-19",
+    "item": "Hemoglobin reagent, 1L"
+  },
+  {
+    "po_id": "PO-2026-0292",
+    "vendor": "Narmada Polyform",
+    "expected_price": 1.2,
+    "expected_quantity": 50000,
+    "po_date": "2026-05-19",
+    "item": "PP measuring cup 30ml"
+  },
+  {
+    "po_id": "PO-2026-0293",
+    "vendor": "Narmada Polyform",
+    "expected_price": 14.5,
+    "expected_quantity": 10000,
+    "po_date": "2026-05-21",
+    "item": "HDPE bottle 500ml with cap"
+  },
+  {
+    "po_id": "PO-2026-0294",
+    "vendor": "Godavara Generics",
+    "expected_price": 14.0,
+    "expected_quantity": 5000,
+    "po_date": "2026-05-21",
+    "item": "Cetirizine 10mg tablets, strip of 10"
+  },
+  {
+    "po_id": "PO-2026-0295",
+    "vendor": "Coromandel Frostline Coldchain",
+    "expected_price": 1250.0,
+    "expected_quantity": 50,
+    "po_date": "2026-05-23",
+    "item": "Vaccine carrier, 1.7L"
+  },
+  {
+    "po_id": "PO-2026-0296",
+    "vendor": "Charminar Cartons & Co.",
+    "expected_price": 42.0,
+    "expected_quantity": 2000,
+    "po_date": "2026-05-23",
+    "item": "Corrugated shipper box, 5-ply"
+  },
+  {
+    "po_id": "PO-2026-0297",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 79.2,
+    "expected_quantity": 1000,
+    "po_date": "2026-05-25",
+    "item": "Amoxicillin 500mg capsules, strip of 10"
+  },
+  {
+    "po_id": "PO-2026-0298",
+    "vendor": "Narmada Polyform",
+    "expected_price": 14.5,
+    "expected_quantity": 20000,
+    "po_date": "2026-05-25",
+    "item": "HDPE bottle 500ml with cap"
+  },
+  {
+    "po_id": "PO-2026-0299",
+    "vendor": "Kakatiya Labcraft",
+    "expected_price": 450.0,
+    "expected_quantity": 100,
+    "po_date": "2026-05-26",
+    "item": "Micropipette tips 200µl, rack of 96"
+  },
+  {
+    "po_id": "PO-2026-0300",
+    "vendor": "Godavara Generics",
+    "expected_price": 95.0,
+    "expected_quantity": 1000,
+    "po_date": "2026-05-29",
+    "item": "Pantoprazole 40mg tablets, strip of 15"
+  },
+  {
+    "po_id": "PO-2026-0301",
+    "vendor": "Kakatiya Labcraft",
+    "expected_price": 450.0,
+    "expected_quantity": 50,
+    "po_date": "2026-05-29",
+    "item": "Micropipette tips 200µl, rack of 96"
+  },
+  {
+    "po_id": "PO-2026-0302",
+    "vendor": "Musirex Chemicals",
+    "expected_price": 980.0,
+    "expected_quantity": 50,
+    "po_date": "2026-05-29",
+    "item": "Sodium hypochlorite 5%, 20L can"
+  },
+  {
+    "po_id": "PO-2026-0303",
+    "vendor": "Musirex Chemicals",
+    "expected_price": 1150.0,
+    "expected_quantity": 80,
+    "po_date": "2026-05-29",
+    "item": "Isopropyl alcohol 70%, 5L can"
+  },
+  {
+    "po_id": "PO-2026-0304",
+    "vendor": "Vindhyachal Freightways",
+    "expected_price": 18500.0,
+    "expected_quantity": 4,
+    "po_date": "2026-05-29",
+    "item": "Reefer truck trip, Hyderabad to Vijayawada"
+  },
+  {
+    "po_id": "PO-2026-0305",
+    "vendor": "Krishnaveni Reagents",
+    "expected_price": 1480.0,
+    "expected_quantity": 20,
+    "po_date": "2026-05-30",
+    "item": "Hemoglobin reagent, 1L"
+  },
+  {
+    "po_id": "PO-2026-0306",
+    "vendor": "Musirex Chemicals",
+    "expected_price": 980.0,
+    "expected_quantity": 50,
+    "po_date": "2026-05-30",
+    "item": "Sodium hypochlorite 5%, 20L can"
+  },
+  {
+    "po_id": "PO-2026-0307",
+    "vendor": "Hitecvale IT Services",
+    "expected_price": 58500.0,
+    "expected_quantity": 10,
+    "po_date": "2026-05-30",
+    "item": "Laptop, 14-inch, Core i5, 16GB RAM"
+  },
+  {
+    "po_id": "PO-2026-0308",
+    "vendor": "Musirex Chemicals",
+    "expected_price": 980.0,
+    "expected_quantity": 20,
+    "po_date": "2026-05-31",
+    "item": "Sodium hypochlorite 5%, 20L can"
+  },
+  {
+    "po_id": "PO-2026-0309",
+    "vendor": "Coromandel Frostline Coldchain",
+    "expected_price": 1250.0,
+    "expected_quantity": 50,
+    "po_date": "2026-06-01",
+    "item": "Vaccine carrier, 1.7L"
+  },
+  {
+    "po_id": "PO-2026-0310",
+    "vendor": "Banjara Deskline Office Supplies",
+    "expected_price": 2450.0,
+    "expected_quantity": 10,
+    "po_date": "2026-06-02",
+    "item": "Toner cartridge 12A compatible"
+  },
+  {
+    "po_id": "PO-2026-0311",
+    "vendor": "Banjara Deskline Office Supplies",
+    "expected_price": 285.0,
+    "expected_quantity": 100,
+    "po_date": "2026-06-02",
+    "item": "A4 copier paper 75gsm, ream of 500"
+  },
+  {
+    "po_id": "PO-2026-0312",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 79.2,
+    "expected_quantity": 1000,
+    "po_date": "2026-06-02",
+    "item": "Amoxicillin 500mg capsules, strip of 10"
+  },
+  {
+    "po_id": "PO-2026-0313",
+    "vendor": "Krishnaveni Reagents",
+    "expected_price": 2150.0,
+    "expected_quantity": 20,
+    "po_date": "2026-06-03",
+    "item": "Glucose reagent kit, 500 tests"
+  },
+  {
+    "po_id": "PO-2026-0314",
+    "vendor": "Banjara Deskline Office Supplies",
+    "expected_price": 285.0,
+    "expected_quantity": 200,
+    "po_date": "2026-06-03",
+    "item": "A4 copier paper 75gsm, ream of 500"
+  },
+  {
+    "po_id": "PO-2026-0315",
+    "vendor": "Godavara Generics",
+    "expected_price": 14.0,
+    "expected_quantity": 10000,
+    "po_date": "2026-06-04",
+    "item": "Cetirizine 10mg tablets, strip of 10"
+  },
+  {
+    "po_id": "PO-2026-0316",
+    "vendor": "Musirex Chemicals",
+    "expected_price": 1150.0,
+    "expected_quantity": 120,
+    "po_date": "2026-06-04",
+    "item": "Isopropyl alcohol 70%, 5L can"
+  },
+  {
+    "po_id": "PO-2026-0317",
+    "vendor": "Coromandel Frostline Coldchain",
+    "expected_price": 1250.0,
+    "expected_quantity": 50,
+    "po_date": "2026-06-08",
+    "item": "Vaccine carrier, 1.7L"
+  },
+  {
+    "po_id": "PO-2026-0318",
+    "vendor": "Krishnaveni Reagents",
+    "expected_price": 1480.0,
+    "expected_quantity": 10,
+    "po_date": "2026-06-08",
+    "item": "Hemoglobin reagent, 1L"
+  },
+  {
+    "po_id": "PO-2026-0319",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 79.2,
+    "expected_quantity": 2000,
+    "po_date": "2026-06-08",
+    "item": "Amoxicillin 500mg capsules, strip of 10"
+  },
+  {
+    "po_id": "PO-2026-0320",
+    "vendor": "Hitecvale IT Services",
+    "expected_price": 58500.0,
+    "expected_quantity": 5,
+    "po_date": "2026-06-09",
+    "item": "Laptop, 14-inch, Core i5, 16GB RAM"
+  },
+  {
+    "po_id": "PO-2026-0321",
+    "vendor": "Charminar Cartons & Co.",
+    "expected_price": 4.2,
+    "expected_quantity": 20000,
+    "po_date": "2026-06-09",
+    "item": "Printed mono carton, 10-strip pack"
+  },
+  {
+    "po_id": "PO-2026-0322",
+    "vendor": "Krishnaveni Reagents",
+    "expected_price": 1480.0,
+    "expected_quantity": 20,
+    "po_date": "2026-06-09",
+    "item": "Hemoglobin reagent, 1L"
+  },
+  {
+    "po_id": "PO-2026-0323",
+    "vendor": "Godavara Generics",
+    "expected_price": 95.0,
+    "expected_quantity": 1000,
+    "po_date": "2026-06-09",
+    "item": "Pantoprazole 40mg tablets, strip of 15"
+  },
+  {
+    "po_id": "PO-2026-0324",
+    "vendor": "Musirex Chemicals",
+    "expected_price": 980.0,
+    "expected_quantity": 20,
+    "po_date": "2026-06-10",
+    "item": "Sodium hypochlorite 5%, 20L can"
+  },
+  {
+    "po_id": "PO-2026-0325",
+    "vendor": "Krishnaveni Reagents",
+    "expected_price": 1480.0,
+    "expected_quantity": 20,
+    "po_date": "2026-06-10",
+    "item": "Hemoglobin reagent, 1L"
+  },
+  {
+    "po_id": "PO-2026-0326",
+    "vendor": "Charminar Cartons & Co.",
+    "expected_price": 42.0,
+    "expected_quantity": 2000,
+    "po_date": "2026-06-10",
+    "item": "Corrugated shipper box, 5-ply"
+  },
+  {
+    "po_id": "PO-2026-0327",
+    "vendor": "Sahyadri Suturecare",
+    "expected_price": 560.0,
+    "expected_quantity": 100,
+    "po_date": "2026-06-10",
+    "item": "Disposable syringe 5ml, box of 100"
+  },
+  {
+    "po_id": "PO-2026-0328",
+    "vendor": "Coromandel Frostline Coldchain",
+    "expected_price": 1250.0,
+    "expected_quantity": 100,
+    "po_date": "2026-06-10",
+    "item": "Vaccine carrier, 1.7L"
+  },
+  {
+    "po_id": "PO-2026-0329",
+    "vendor": "Charminar Cartons & Co.",
+    "expected_price": 4.2,
+    "expected_quantity": 50000,
+    "po_date": "2026-06-11",
+    "item": "Printed mono carton, 10-strip pack"
+  },
+  {
+    "po_id": "PO-2026-0330",
+    "vendor": "Sahyadri Suturecare",
+    "expected_price": 1840.0,
+    "expected_quantity": 50,
+    "po_date": "2026-06-11",
+    "item": "Absorbable suture 2-0, box of 12"
+  },
+  {
+    "po_id": "PO-2026-0331",
+    "vendor": "Narmada Polyform",
+    "expected_price": 6.8,
+    "expected_quantity": 50000,
+    "po_date": "2026-06-13",
+    "item": "HDPE bottle 100ml with CRC cap"
+  },
+  {
+    "po_id": "PO-2026-0332",
+    "vendor": "Narmada Polyform",
+    "expected_price": 1.2,
+    "expected_quantity": 20000,
+    "po_date": "2026-06-13",
+    "item": "PP measuring cup 30ml"
+  },
+  {
+    "po_id": "PO-2026-0333",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 33.0,
+    "expected_quantity": 2000,
+    "po_date": "2026-06-13",
+    "item": "Paracetamol 650mg tablets, strip of 15"
+  },
+  {
+    "po_id": "PO-2026-0334",
+    "vendor": "Sahyadri Suturecare",
+    "expected_price": 340.0,
+    "expected_quantity": 100,
+    "po_date": "2026-06-14",
+    "item": "Surgical gauze 10cm x 10cm, pack of 100"
+  },
+  {
+    "po_id": "PO-2026-0335",
+    "vendor": "Krishnaveni Reagents",
+    "expected_price": 2150.0,
+    "expected_quantity": 10,
+    "po_date": "2026-06-14",
+    "item": "Glucose reagent kit, 500 tests"
+  },
+  {
+    "po_id": "PO-2026-0336",
+    "vendor": "Narmada Polyform",
+    "expected_price": 6.8,
+    "expected_quantity": 50000,
+    "po_date": "2026-06-14",
+    "item": "HDPE bottle 100ml with CRC cap"
+  },
+  {
+    "po_id": "PO-2026-0337",
+    "vendor": "Vindhyachal Freightways",
+    "expected_price": 32000.0,
+    "expected_quantity": 4,
+    "po_date": "2026-06-14",
+    "item": "Full truck load, Hyderabad to Nagpur, 20ft"
+  },
+  {
+    "po_id": "PO-2026-0338",
+    "vendor": "Krishnaveni Reagents",
+    "expected_price": 1480.0,
+    "expected_quantity": 20,
+    "po_date": "2026-06-14",
+    "item": "Hemoglobin reagent, 1L"
+  },
+  {
+    "po_id": "PO-2026-0339",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 31.35,
+    "expected_quantity": 2000,
+    "po_date": "2026-06-14",
+    "item": "Metformin 500mg tablets, strip of 20"
+  },
+  {
+    "po_id": "PO-2026-0340",
+    "vendor": "Godavara Generics",
+    "expected_price": 14.0,
+    "expected_quantity": 5000,
+    "po_date": "2026-06-15",
+    "item": "Cetirizine 10mg tablets, strip of 10"
+  },
+  {
+    "po_id": "PO-2026-0341",
+    "vendor": "Krishnaveni Reagents",
+    "expected_price": 720.0,
+    "expected_quantity": 50,
+    "po_date": "2026-06-15",
+    "item": "Urine test strips, bottle of 100"
+  },
+  {
+    "po_id": "PO-2026-0342",
+    "vendor": "Sahyadri Suturecare",
+    "expected_price": 340.0,
+    "expected_quantity": 200,
+    "po_date": "2026-06-16",
+    "item": "Surgical gauze 10cm x 10cm, pack of 100"
+  },
+  {
+    "po_id": "PO-2026-0343",
+    "vendor": "Banjara Deskline Office Supplies",
+    "expected_price": 650.0,
+    "expected_quantity": 20,
+    "po_date": "2026-06-16",
+    "item": "Box files, pack of 10"
+  },
+  {
+    "po_id": "PO-2026-0344",
+    "vendor": "Sahyadri Suturecare",
+    "expected_price": 340.0,
+    "expected_quantity": 200,
+    "po_date": "2026-06-16",
+    "item": "Surgical gauze 10cm x 10cm, pack of 100"
+  },
+  {
+    "po_id": "PO-2026-0345",
+    "vendor": "Godavara Generics",
+    "expected_price": 95.0,
+    "expected_quantity": 2000,
+    "po_date": "2026-06-17",
+    "item": "Pantoprazole 40mg tablets, strip of 15"
+  },
+  {
+    "po_id": "PO-2026-0346",
+    "vendor": "Godavara Generics",
+    "expected_price": 14.0,
+    "expected_quantity": 10000,
+    "po_date": "2026-06-17",
+    "item": "Cetirizine 10mg tablets, strip of 10"
+  },
+  {
+    "po_id": "PO-2026-0347",
+    "vendor": "Godavara Generics",
+    "expected_price": 68.0,
+    "expected_quantity": 1000,
+    "po_date": "2026-06-18",
+    "item": "Azithromycin 500mg tablets, strip of 3"
+  },
+  {
+    "po_id": "PO-2026-0348",
+    "vendor": "Coromandel Frostline Coldchain",
+    "expected_price": 3900.0,
+    "expected_quantity": 10,
+    "po_date": "2026-06-18",
+    "item": "Temperature data logger, USB"
+  },
+  {
+    "po_id": "PO-2026-0349",
+    "vendor": "Hitecvale IT Services",
+    "expected_price": 4950.0,
+    "expected_quantity": 20,
+    "po_date": "2026-06-19",
+    "item": "Barcode scanner, 2D wireless"
+  },
+  {
+    "po_id": "PO-2026-0350",
+    "vendor": "Narmada Polyform",
+    "expected_price": 6.8,
+    "expected_quantity": 50000,
+    "po_date": "2026-06-19",
+    "item": "HDPE bottle 100ml with CRC cap"
+  },
+  {
+    "po_id": "PO-2026-0351",
+    "vendor": "Krishnaveni Reagents",
+    "expected_price": 2150.0,
+    "expected_quantity": 10,
+    "po_date": "2026-06-21",
+    "item": "Glucose reagent kit, 500 tests"
+  },
+  {
+    "po_id": "PO-2026-0352",
+    "vendor": "Narmada Polyform",
+    "expected_price": 14.5,
+    "expected_quantity": 10000,
+    "po_date": "2026-06-21",
+    "item": "HDPE bottle 500ml with cap"
+  },
+  {
+    "po_id": "PO-2026-0353",
+    "vendor": "Godavara Generics",
+    "expected_price": 95.0,
+    "expected_quantity": 1000,
+    "po_date": "2026-06-21",
+    "item": "Pantoprazole 40mg tablets, strip of 15"
+  },
+  {
+    "po_id": "PO-2026-0354",
+    "vendor": "Hitecvale IT Services",
+    "expected_price": 17800.0,
+    "expected_quantity": 10,
+    "po_date": "2026-06-22",
+    "item": "Monitor, 27-inch IPS"
+  },
+  {
+    "po_id": "PO-2026-0355",
+    "vendor": "Kakatiya Labcraft",
+    "expected_price": 320.0,
+    "expected_quantity": 200,
+    "po_date": "2026-06-22",
+    "item": "Petri dishes 90mm, pack of 20"
+  },
+  {
+    "po_id": "PO-2026-0356",
+    "vendor": "Vindhyachal Freightways",
+    "expected_price": 18500.0,
+    "expected_quantity": 8,
+    "po_date": "2026-06-22",
+    "item": "Reefer truck trip, Hyderabad to Vijayawada"
+  },
+  {
+    "po_id": "PO-2026-0357",
+    "vendor": "Godavara Generics",
+    "expected_price": 14.0,
+    "expected_quantity": 5000,
+    "po_date": "2026-06-24",
+    "item": "Cetirizine 10mg tablets, strip of 10"
+  },
+  {
+    "po_id": "PO-2026-0358",
+    "vendor": "Sahyadri Suturecare",
+    "expected_price": 560.0,
+    "expected_quantity": 50,
+    "po_date": "2026-06-24",
+    "item": "Disposable syringe 5ml, box of 100"
+  },
+  {
+    "po_id": "PO-2026-0359",
+    "vendor": "Godavara Generics",
+    "expected_price": 14.0,
+    "expected_quantity": 5000,
+    "po_date": "2026-06-25",
+    "item": "Cetirizine 10mg tablets, strip of 10"
+  },
+  {
+    "po_id": "PO-2026-0360",
+    "vendor": "Sahyadri Suturecare",
+    "expected_price": 1840.0,
+    "expected_quantity": 50,
+    "po_date": "2026-06-25",
+    "item": "Absorbable suture 2-0, box of 12"
+  },
+  {
+    "po_id": "PO-2026-0361",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 33.0,
+    "expected_quantity": 10000,
+    "po_date": "2026-06-25",
+    "item": "Paracetamol 650mg tablets, strip of 15"
+  },
+  {
+    "po_id": "PO-2026-0362",
+    "vendor": "Godavara Generics",
+    "expected_price": 95.0,
+    "expected_quantity": 1000,
+    "po_date": "2026-06-27",
+    "item": "Pantoprazole 40mg tablets, strip of 15"
+  },
+  {
+    "po_id": "PO-2026-0363",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 31.35,
+    "expected_quantity": 2000,
+    "po_date": "2026-06-27",
+    "item": "Metformin 500mg tablets, strip of 20"
+  },
+  {
+    "po_id": "PO-2026-0364",
+    "vendor": "Krishnaveni Reagents",
+    "expected_price": 720.0,
+    "expected_quantity": 20,
+    "po_date": "2026-06-27",
+    "item": "Urine test strips, bottle of 100"
+  },
+  {
+    "po_id": "PO-2026-0365",
+    "vendor": "Banjara Deskline Office Supplies",
+    "expected_price": 285.0,
+    "expected_quantity": 500,
+    "po_date": "2026-06-27",
+    "item": "A4 copier paper 75gsm, ream of 500"
+  },
+  {
+    "po_id": "PO-2026-0366",
+    "vendor": "Narmada Polyform",
+    "expected_price": 6.8,
+    "expected_quantity": 50000,
+    "po_date": "2026-06-28",
+    "item": "HDPE bottle 100ml with CRC cap"
+  },
+  {
+    "po_id": "PO-2026-0367",
+    "vendor": "Godavara Generics",
+    "expected_price": 68.0,
+    "expected_quantity": 2000,
+    "po_date": "2026-06-28",
+    "item": "Azithromycin 500mg tablets, strip of 3"
+  },
+  {
+    "po_id": "PO-2026-0368",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 79.2,
+    "expected_quantity": 5000,
+    "po_date": "2026-06-28",
+    "item": "Amoxicillin 500mg capsules, strip of 10"
+  },
+  {
+    "po_id": "PO-2026-0369",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 31.35,
+    "expected_quantity": 2000,
+    "po_date": "2026-06-28",
+    "item": "Metformin 500mg tablets, strip of 20"
+  },
+  {
+    "po_id": "PO-2026-0370",
+    "vendor": "Godavara Generics",
+    "expected_price": 14.0,
+    "expected_quantity": 10000,
+    "po_date": "2026-06-29",
+    "item": "Cetirizine 10mg tablets, strip of 10"
+  },
+  {
+    "po_id": "PO-2026-0371",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 79.2,
+    "expected_quantity": 2000,
+    "po_date": "2026-06-29",
+    "item": "Amoxicillin 500mg capsules, strip of 10"
+  },
+  {
+    "po_id": "PO-2026-0372",
+    "vendor": "Coromandel Frostline Coldchain",
+    "expected_price": 3900.0,
+    "expected_quantity": 10,
+    "po_date": "2026-06-30",
+    "item": "Temperature data logger, USB"
+  },
+  {
+    "po_id": "PO-2026-0373",
+    "vendor": "Charminar Cartons & Co.",
+    "expected_price": 42.0,
+    "expected_quantity": 2000,
+    "po_date": "2026-06-30",
+    "item": "Corrugated shipper box, 5-ply"
+  },
+  {
+    "po_id": "PO-2026-0374",
+    "vendor": "Godavara Generics",
+    "expected_price": 68.0,
+    "expected_quantity": 1000,
+    "po_date": "2026-07-01",
+    "item": "Azithromycin 500mg tablets, strip of 3"
+  },
+  {
+    "po_id": "PO-2026-0375",
+    "vendor": "Charminar Cartons & Co.",
+    "expected_price": 4.2,
+    "expected_quantity": 20000,
+    "po_date": "2026-07-01",
+    "item": "Printed mono carton, 10-strip pack"
+  },
+  {
+    "po_id": "PO-2026-0376",
+    "vendor": "Godavara Generics",
+    "expected_price": 14.0,
+    "expected_quantity": 5000,
+    "po_date": "2026-07-01",
+    "item": "Cetirizine 10mg tablets, strip of 10"
+  },
+  {
+    "po_id": "PO-2026-0377",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 79.2,
+    "expected_quantity": 2000,
+    "po_date": "2026-07-01",
+    "item": "Amoxicillin 500mg capsules, strip of 10"
+  },
+  {
+    "po_id": "PO-2026-0378",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 33.0,
+    "expected_quantity": 2000,
+    "po_date": "2026-07-01",
+    "item": "Paracetamol 650mg tablets, strip of 15"
+  },
+  {
+    "po_id": "PO-2026-0379",
+    "vendor": "Narmada Polyform",
+    "expected_price": 1.27,
+    "expected_quantity": 20000,
+    "po_date": "2026-07-02",
+    "item": "PP measuring cup 30ml"
+  },
+  {
+    "po_id": "PO-2026-0380",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 79.2,
+    "expected_quantity": 5000,
+    "po_date": "2026-07-02",
+    "item": "Amoxicillin 500mg capsules, strip of 10"
+  },
+  {
+    "po_id": "PO-2026-0381",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 33.0,
+    "expected_quantity": 2000,
+    "po_date": "2026-07-02",
+    "item": "Paracetamol 650mg tablets, strip of 15"
+  },
+  {
+    "po_id": "PO-2026-0382",
+    "vendor": "Sahyadri Suturecare",
+    "expected_price": 340.0,
+    "expected_quantity": 100,
+    "po_date": "2026-07-02",
+    "item": "Surgical gauze 10cm x 10cm, pack of 100"
+  },
+  {
+    "po_id": "PO-2026-0383",
+    "vendor": "Charminar Cartons & Co.",
+    "expected_price": 4.2,
+    "expected_quantity": 50000,
+    "po_date": "2026-07-03",
+    "item": "Printed mono carton, 10-strip pack"
+  },
+  {
+    "po_id": "PO-2026-0384",
+    "vendor": "Krishnaveni Reagents",
+    "expected_price": 2150.0,
+    "expected_quantity": 20,
+    "po_date": "2026-07-03",
+    "item": "Glucose reagent kit, 500 tests"
+  },
+  {
+    "po_id": "PO-2026-0385",
+    "vendor": "Sahyadri Suturecare",
+    "expected_price": 1840.0,
+    "expected_quantity": 50,
+    "po_date": "2026-07-03",
+    "item": "Absorbable suture 2-0, box of 12"
+  },
+  {
+    "po_id": "PO-2026-0386",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 31.35,
+    "expected_quantity": 5000,
+    "po_date": "2026-07-04",
+    "item": "Metformin 500mg tablets, strip of 20"
+  },
+  {
+    "po_id": "PO-2026-0387",
+    "vendor": "Vindhyachal Freightways",
+    "expected_price": 18500.0,
+    "expected_quantity": 8,
+    "po_date": "2026-07-04",
+    "item": "Reefer truck trip, Hyderabad to Vijayawada"
+  },
+  {
+    "po_id": "PO-2026-0388",
+    "vendor": "Kakatiya Labcraft",
+    "expected_price": 450.0,
+    "expected_quantity": 100,
+    "po_date": "2026-07-04",
+    "item": "Micropipette tips 200µl, rack of 96"
+  },
+  {
+    "po_id": "PO-2026-0389",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 31.35,
+    "expected_quantity": 5000,
+    "po_date": "2026-07-05",
+    "item": "Metformin 500mg tablets, strip of 20"
+  },
+  {
+    "po_id": "PO-2026-0390",
+    "vendor": "Godavara Generics",
+    "expected_price": 14.0,
+    "expected_quantity": 5000,
+    "po_date": "2026-07-05",
+    "item": "Cetirizine 10mg tablets, strip of 10"
+  },
+  {
+    "po_id": "PO-2026-0391",
+    "vendor": "Vindhyachal Freightways",
+    "expected_price": 18500.0,
+    "expected_quantity": 4,
+    "po_date": "2026-07-05",
+    "item": "Reefer truck trip, Hyderabad to Vijayawada"
+  },
+  {
+    "po_id": "PO-2026-0392",
+    "vendor": "Kakatiya Labcraft",
+    "expected_price": 450.0,
+    "expected_quantity": 100,
+    "po_date": "2026-07-10",
+    "item": "Micropipette tips 200µl, rack of 96"
+  },
+  {
+    "po_id": "PO-2026-0393",
+    "vendor": "Charminar Cartons & Co.",
+    "expected_price": 3850.0,
+    "expected_quantity": 50,
+    "po_date": "2026-07-10",
+    "item": "Blister foil roll, 250mm x 1000m"
+  },
+  {
+    "po_id": "PO-2026-0394",
+    "vendor": "Vindhyachal Freightways",
+    "expected_price": 18500.0,
+    "expected_quantity": 8,
+    "po_date": "2026-07-10",
+    "item": "Reefer truck trip, Hyderabad to Vijayawada"
+  },
+  {
+    "po_id": "PO-2026-0395",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 33.0,
+    "expected_quantity": 10000,
+    "po_date": "2026-07-10",
+    "item": "Paracetamol 650mg tablets, strip of 15"
+  },
+  {
+    "po_id": "PO-2026-0396",
+    "vendor": "Banjara Deskline Office Supplies",
+    "expected_price": 285.0,
+    "expected_quantity": 100,
+    "po_date": "2026-07-10",
+    "item": "A4 copier paper 75gsm, ream of 500"
+  },
+  {
+    "po_id": "PO-2026-0397",
+    "vendor": "Coromandel Frostline Coldchain",
+    "expected_price": 3900.0,
+    "expected_quantity": 10,
+    "po_date": "2026-07-11",
+    "item": "Temperature data logger, USB"
+  },
+  {
+    "po_id": "PO-2026-0398",
+    "vendor": "Coromandel Frostline Coldchain",
+    "expected_price": 3900.0,
+    "expected_quantity": 25,
+    "po_date": "2026-07-11",
+    "item": "Temperature data logger, USB"
+  },
+  {
+    "po_id": "PO-2026-0399",
+    "vendor": "Godavara Generics",
+    "expected_price": 68.0,
+    "expected_quantity": 1000,
+    "po_date": "2026-07-11",
+    "item": "Azithromycin 500mg tablets, strip of 3"
+  },
+  {
+    "po_id": "PO-2026-0400",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 31.35,
+    "expected_quantity": 5000,
+    "po_date": "2026-07-12",
+    "item": "Metformin 500mg tablets, strip of 20"
+  },
+  {
+    "po_id": "PO-2026-0401",
+    "vendor": "Musirex Chemicals",
+    "expected_price": 980.0,
+    "expected_quantity": 50,
+    "po_date": "2026-07-13",
+    "item": "Sodium hypochlorite 5%, 20L can"
+  },
+  {
+    "po_id": "PO-2026-0402",
+    "vendor": "Charminar Cartons & Co.",
+    "expected_price": 42.0,
+    "expected_quantity": 2000,
+    "po_date": "2026-07-13",
+    "item": "Corrugated shipper box, 5-ply"
+  },
+  {
+    "po_id": "PO-2026-0403",
+    "vendor": "Banjara Deskline Office Supplies",
+    "expected_price": 2450.0,
+    "expected_quantity": 10,
+    "po_date": "2026-07-14",
+    "item": "Toner cartridge 12A compatible"
+  },
+  {
+    "po_id": "PO-2026-0404",
+    "vendor": "Godavara Generics",
+    "expected_price": 14.0,
+    "expected_quantity": 5000,
+    "po_date": "2026-07-15",
+    "item": "Cetirizine 10mg tablets, strip of 10"
+  },
+  {
+    "po_id": "PO-2026-0405",
+    "vendor": "Banjara Deskline Office Supplies",
+    "expected_price": 650.0,
+    "expected_quantity": 20,
+    "po_date": "2026-07-15",
+    "item": "Box files, pack of 10"
+  },
+  {
+    "po_id": "PO-2026-0406",
+    "vendor": "Vindhyachal Freightways",
+    "expected_price": 18500.0,
+    "expected_quantity": 4,
+    "po_date": "2026-07-16",
+    "item": "Reefer truck trip, Hyderabad to Vijayawada"
+  },
+  {
+    "po_id": "PO-2026-0407",
+    "vendor": "Musirex Chemicals",
+    "expected_price": 1150.0,
+    "expected_quantity": 120,
+    "po_date": "2026-07-17",
+    "item": "Isopropyl alcohol 70%, 5L can"
+  },
+  {
+    "po_id": "PO-2026-0408",
+    "vendor": "Narmada Polyform",
+    "expected_price": 1.27,
+    "expected_quantity": 20000,
+    "po_date": "2026-07-18",
+    "item": "PP measuring cup 30ml"
+  },
+  {
+    "po_id": "PO-2026-0409",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 33.0,
+    "expected_quantity": 2000,
+    "po_date": "2026-07-18",
+    "item": "Paracetamol 650mg tablets, strip of 15"
+  },
+  {
+    "po_id": "PO-2026-0410",
+    "vendor": "Sahyadri Suturecare",
+    "expected_price": 560.0,
+    "expected_quantity": 100,
+    "po_date": "2026-07-19",
+    "item": "Disposable syringe 5ml, box of 100"
+  },
+  {
+    "po_id": "PO-2026-0411",
+    "vendor": "Hitecvale IT Services",
+    "expected_price": 4752.0,
+    "expected_quantity": 10,
+    "po_date": "2026-07-19",
+    "item": "Barcode scanner, 2D wireless"
+  },
+  {
+    "po_id": "PO-2026-0412",
+    "vendor": "Godavara Generics",
+    "expected_price": 95.0,
+    "expected_quantity": 1000,
+    "po_date": "2026-07-19",
+    "item": "Pantoprazole 40mg tablets, strip of 15"
+  },
+  {
+    "po_id": "PO-2026-0413",
+    "vendor": "Kakatiya Labcraft",
+    "expected_price": 385.0,
+    "expected_quantity": 100,
+    "po_date": "2026-07-19",
+    "item": "Nitrile examination gloves, box of 100"
+  },
+  {
+    "po_id": "PO-2026-0414",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 31.35,
+    "expected_quantity": 2000,
+    "po_date": "2026-07-19",
+    "item": "Metformin 500mg tablets, strip of 20"
+  },
+  {
+    "po_id": "PO-2026-0415",
+    "vendor": "Banjara Deskline Office Supplies",
+    "expected_price": 2450.0,
+    "expected_quantity": 10,
+    "po_date": "2026-07-19",
+    "item": "Toner cartridge 12A compatible"
+  },
+  {
+    "po_id": "PO-2026-0416",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 31.35,
+    "expected_quantity": 5000,
+    "po_date": "2026-07-20",
+    "item": "Metformin 500mg tablets, strip of 20"
+  },
+  {
+    "po_id": "PO-2026-0417",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 33.0,
+    "expected_quantity": 10000,
+    "po_date": "2026-07-20",
+    "item": "Paracetamol 650mg tablets, strip of 15"
+  },
+  {
+    "po_id": "PO-2026-0418",
+    "vendor": "Charminar Cartons & Co.",
+    "expected_price": 3850.0,
+    "expected_quantity": 50,
+    "po_date": "2026-07-20",
+    "item": "Blister foil roll, 250mm x 1000m"
+  },
+  {
+    "po_id": "PO-2026-0419",
+    "vendor": "Narmada Polyform",
+    "expected_price": 7.21,
+    "expected_quantity": 50000,
+    "po_date": "2026-07-20",
+    "item": "HDPE bottle 100ml with CRC cap"
+  },
+  {
+    "po_id": "PO-2026-0420",
+    "vendor": "Banjara Deskline Office Supplies",
+    "expected_price": 650.0,
+    "expected_quantity": 20,
+    "po_date": "2026-07-20",
+    "item": "Box files, pack of 10"
+  },
+  {
+    "po_id": "PO-2026-0421",
+    "vendor": "Krishnaveni Reagents",
+    "expected_price": 1480.0,
+    "expected_quantity": 10,
+    "po_date": "2026-07-21",
+    "item": "Hemoglobin reagent, 1L"
+  },
+  {
+    "po_id": "PO-2026-0422",
+    "vendor": "Godavara Generics",
+    "expected_price": 95.0,
+    "expected_quantity": 2000,
+    "po_date": "2026-07-22",
+    "item": "Pantoprazole 40mg tablets, strip of 15"
+  },
+  {
+    "po_id": "PO-2026-0423",
+    "vendor": "Musirex Chemicals",
+    "expected_price": 980.0,
+    "expected_quantity": 20,
+    "po_date": "2026-07-23",
+    "item": "Sodium hypochlorite 5%, 20L can"
+  },
+  {
+    "po_id": "PO-2026-0424",
+    "vendor": "Coromandel Frostline Coldchain",
+    "expected_price": 3900.0,
+    "expected_quantity": 25,
+    "po_date": "2026-07-24",
+    "item": "Temperature data logger, USB"
+  },
+  {
+    "po_id": "PO-2026-0425",
+    "vendor": "Hitecvale IT Services",
+    "expected_price": 56160.0,
+    "expected_quantity": 20,
+    "po_date": "2026-07-25",
+    "item": "Laptop, 14-inch, Core i5, 16GB RAM"
+  },
+  {
+    "po_id": "PO-2026-0426",
+    "vendor": "Vindhyachal Freightways",
+    "expected_price": 32000.0,
+    "expected_quantity": 4,
+    "po_date": "2026-07-25",
+    "item": "Full truck load, Hyderabad to Nagpur, 20ft"
+  },
+  {
+    "po_id": "PO-2026-0427",
+    "vendor": "Coromandel Frostline Coldchain",
+    "expected_price": 1250.0,
+    "expected_quantity": 50,
+    "po_date": "2026-07-26",
+    "item": "Vaccine carrier, 1.7L"
+  },
+  {
+    "po_id": "PO-2026-0428",
+    "vendor": "Musirex Chemicals",
+    "expected_price": 1150.0,
+    "expected_quantity": 120,
+    "po_date": "2026-07-27",
+    "item": "Isopropyl alcohol 70%, 5L can"
+  },
+  {
+    "po_id": "PO-2026-0429",
+    "vendor": "Musirex Chemicals",
+    "expected_price": 980.0,
+    "expected_quantity": 50,
+    "po_date": "2026-07-28",
+    "item": "Sodium hypochlorite 5%, 20L can"
+  },
+  {
+    "po_id": "PO-2026-0430",
+    "vendor": "Kakatiya Labcraft",
+    "expected_price": 450.0,
+    "expected_quantity": 200,
+    "po_date": "2026-07-29",
+    "item": "Micropipette tips 200µl, rack of 96"
+  },
+  {
+    "po_id": "PO-2026-0431",
+    "vendor": "Godavara Generics",
+    "expected_price": 14.0,
+    "expected_quantity": 10000,
+    "po_date": "2026-08-01",
+    "item": "Cetirizine 10mg tablets, strip of 10"
+  },
+  {
+    "po_id": "PO-2026-0432",
+    "vendor": "Charminar Cartons & Co.",
+    "expected_price": 4.2,
+    "expected_quantity": 20000,
+    "po_date": "2026-08-01",
+    "item": "Printed mono carton, 10-strip pack"
+  },
+  {
+    "po_id": "PO-2026-0433",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 79.2,
+    "expected_quantity": 5000,
+    "po_date": "2026-08-02",
+    "item": "Amoxicillin 500mg capsules, strip of 10"
+  },
+  {
+    "po_id": "PO-2026-0434",
+    "vendor": "Charminar Cartons & Co.",
+    "expected_price": 3850.0,
+    "expected_quantity": 50,
+    "po_date": "2026-08-02",
+    "item": "Blister foil roll, 250mm x 1000m"
+  },
+  {
+    "po_id": "PO-2026-0435",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 79.2,
+    "expected_quantity": 1000,
+    "po_date": "2026-08-02",
+    "item": "Amoxicillin 500mg capsules, strip of 10"
+  },
+  {
+    "po_id": "PO-2026-0436",
+    "vendor": "Hitecvale IT Services",
+    "expected_price": 56160.0,
+    "expected_quantity": 5,
+    "po_date": "2026-08-02",
+    "item": "Laptop, 14-inch, Core i5, 16GB RAM"
+  },
+  {
+    "po_id": "PO-2026-0437",
+    "vendor": "Vindhyachal Freightways",
+    "expected_price": 32000.0,
+    "expected_quantity": 2,
+    "po_date": "2026-08-03",
+    "item": "Full truck load, Hyderabad to Nagpur, 20ft"
+  },
+  {
+    "po_id": "PO-2026-0438",
+    "vendor": "Narmada Polyform",
+    "expected_price": 15.37,
+    "expected_quantity": 10000,
+    "po_date": "2026-08-06",
+    "item": "HDPE bottle 500ml with cap"
+  },
+  {
+    "po_id": "PO-2026-0439",
+    "vendor": "Banjara Deskline Office Supplies",
+    "expected_price": 285.0,
+    "expected_quantity": 200,
+    "po_date": "2026-08-06",
+    "item": "A4 copier paper 75gsm, ream of 500"
+  },
+  {
+    "po_id": "PO-2026-0440",
+    "vendor": "Hitecvale IT Services",
+    "expected_price": 17088.0,
+    "expected_quantity": 5,
+    "po_date": "2026-08-07",
+    "item": "Monitor, 27-inch IPS"
+  },
+  {
+    "po_id": "PO-2026-0441",
+    "vendor": "Banjara Deskline Office Supplies",
+    "expected_price": 285.0,
+    "expected_quantity": 200,
+    "po_date": "2026-08-08",
+    "item": "A4 copier paper 75gsm, ream of 500"
+  },
+  {
+    "po_id": "PO-2026-0442",
+    "vendor": "Charminar Cartons & Co.",
+    "expected_price": 4.2,
+    "expected_quantity": 50000,
+    "po_date": "2026-08-08",
+    "item": "Printed mono carton, 10-strip pack"
+  },
+  {
+    "po_id": "PO-2026-0443",
+    "vendor": "Coromandel Frostline Coldchain",
+    "expected_price": 3900.0,
+    "expected_quantity": 25,
+    "po_date": "2026-08-08",
+    "item": "Temperature data logger, USB"
+  },
+  {
+    "po_id": "PO-2026-0444",
+    "vendor": "Charminar Cartons & Co.",
+    "expected_price": 4.2,
+    "expected_quantity": 20000,
+    "po_date": "2026-08-08",
+    "item": "Printed mono carton, 10-strip pack"
+  },
+  {
+    "po_id": "PO-2026-0445",
+    "vendor": "Kakatiya Labcraft",
+    "expected_price": 450.0,
+    "expected_quantity": 100,
+    "po_date": "2026-08-09",
+    "item": "Micropipette tips 200µl, rack of 96"
+  },
+  {
+    "po_id": "PO-2026-0446",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 33.0,
+    "expected_quantity": 10000,
+    "po_date": "2026-08-10",
+    "item": "Paracetamol 650mg tablets, strip of 15"
+  },
+  {
+    "po_id": "PO-2026-0447",
+    "vendor": "Coromandel Frostline Coldchain",
+    "expected_price": 1250.0,
+    "expected_quantity": 50,
+    "po_date": "2026-08-10",
+    "item": "Vaccine carrier, 1.7L"
+  },
+  {
+    "po_id": "PO-2026-0448",
+    "vendor": "Vindhyachal Freightways",
+    "expected_price": 18500.0,
+    "expected_quantity": 4,
+    "po_date": "2026-08-12",
+    "item": "Reefer truck trip, Hyderabad to Vijayawada"
+  },
+  {
+    "po_id": "PO-2026-0449",
+    "vendor": "Narmada Polyform",
+    "expected_price": 7.21,
+    "expected_quantity": 50000,
+    "po_date": "2026-08-13",
+    "item": "HDPE bottle 100ml with CRC cap"
+  },
+  {
+    "po_id": "PO-2026-0450",
+    "vendor": "Charminar Cartons & Co.",
+    "expected_price": 42.0,
+    "expected_quantity": 2000,
+    "po_date": "2026-08-14",
+    "item": "Corrugated shipper box, 5-ply"
+  },
+  {
+    "po_id": "PO-2026-0451",
+    "vendor": "Krishnaveni Reagents",
+    "expected_price": 1480.0,
+    "expected_quantity": 10,
+    "po_date": "2026-08-14",
+    "item": "Hemoglobin reagent, 1L"
+  },
+  {
+    "po_id": "PO-2026-0452",
+    "vendor": "Kakatiya Labcraft",
+    "expected_price": 450.0,
+    "expected_quantity": 100,
+    "po_date": "2026-08-16",
+    "item": "Micropipette tips 200µl, rack of 96"
+  },
+  {
+    "po_id": "PO-2026-0453",
+    "vendor": "Coromandel Frostline Coldchain",
+    "expected_price": 3900.0,
+    "expected_quantity": 10,
+    "po_date": "2026-08-16",
+    "item": "Temperature data logger, USB"
+  },
+  {
+    "po_id": "PO-2026-0454",
+    "vendor": "Banjara Deskline Office Supplies",
+    "expected_price": 650.0,
+    "expected_quantity": 50,
+    "po_date": "2026-08-16",
+    "item": "Box files, pack of 10"
+  },
+  {
+    "po_id": "PO-2026-0455",
+    "vendor": "Charminar Cartons & Co.",
+    "expected_price": 42.0,
+    "expected_quantity": 5000,
+    "po_date": "2026-08-16",
+    "item": "Corrugated shipper box, 5-ply"
+  },
+  {
+    "po_id": "PO-2026-0456",
+    "vendor": "Coromandel Frostline Coldchain",
+    "expected_price": 65.0,
+    "expected_quantity": 1000,
+    "po_date": "2026-08-17",
+    "item": "Ice pack, 0.4L"
+  },
+  {
+    "po_id": "PO-2026-0457",
+    "vendor": "Vindhyachal Freightways",
+    "expected_price": 34560.0,
+    "expected_quantity": 2,
+    "po_date": "2026-08-17",
+    "item": "Full truck load, Hyderabad to Nagpur, 20ft"
+  },
+  {
+    "po_id": "PO-2026-0458",
+    "vendor": "Krishnaveni Reagents",
+    "expected_price": 720.0,
+    "expected_quantity": 50,
+    "po_date": "2026-08-18",
+    "item": "Urine test strips, bottle of 100"
+  },
+  {
+    "po_id": "PO-2026-0459",
+    "vendor": "Godavara Generics",
+    "expected_price": 95.0,
+    "expected_quantity": 1000,
+    "po_date": "2026-08-19",
+    "item": "Pantoprazole 40mg tablets, strip of 15"
+  },
+  {
+    "po_id": "PO-2026-0460",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 79.2,
+    "expected_quantity": 5000,
+    "po_date": "2026-08-19",
+    "item": "Amoxicillin 500mg capsules, strip of 10"
+  },
+  {
+    "po_id": "PO-2026-0461",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 79.2,
+    "expected_quantity": 5000,
+    "po_date": "2026-08-20",
+    "item": "Amoxicillin 500mg capsules, strip of 10"
+  },
+  {
+    "po_id": "PO-2026-0462",
+    "vendor": "Sahyadri Suturecare",
+    "expected_price": 340.0,
+    "expected_quantity": 100,
+    "po_date": "2026-08-21",
+    "item": "Surgical gauze 10cm x 10cm, pack of 100"
+  },
+  {
+    "po_id": "PO-2026-0463",
+    "vendor": "Narmada Polyform",
+    "expected_price": 1.27,
+    "expected_quantity": 50000,
+    "po_date": "2026-08-21",
+    "item": "PP measuring cup 30ml"
+  },
+  {
+    "po_id": "PO-2026-0464",
+    "vendor": "Godavara Generics",
+    "expected_price": 95.0,
+    "expected_quantity": 1000,
+    "po_date": "2026-08-22",
+    "item": "Pantoprazole 40mg tablets, strip of 15"
+  },
+  {
+    "po_id": "PO-2026-0465",
+    "vendor": "Godavara Generics",
+    "expected_price": 68.0,
+    "expected_quantity": 1000,
+    "po_date": "2026-08-23",
+    "item": "Azithromycin 500mg tablets, strip of 3"
+  },
+  {
+    "po_id": "PO-2026-0466",
+    "vendor": "Musirex Chemicals",
+    "expected_price": 980.0,
+    "expected_quantity": 50,
+    "po_date": "2026-08-23",
+    "item": "Sodium hypochlorite 5%, 20L can"
+  },
+  {
+    "po_id": "PO-2026-0467",
+    "vendor": "Krishnaveni Reagents",
+    "expected_price": 2150.0,
+    "expected_quantity": 10,
+    "po_date": "2026-08-24",
+    "item": "Glucose reagent kit, 500 tests"
+  },
+  {
+    "po_id": "PO-2026-0468",
+    "vendor": "Sahyadri Suturecare",
+    "expected_price": 340.0,
+    "expected_quantity": 100,
+    "po_date": "2026-08-24",
+    "item": "Surgical gauze 10cm x 10cm, pack of 100"
+  },
+  {
+    "po_id": "PO-2026-0469",
+    "vendor": "Musirex Chemicals",
+    "expected_price": 980.0,
+    "expected_quantity": 20,
+    "po_date": "2026-08-26",
+    "item": "Sodium hypochlorite 5%, 20L can"
+  },
+  {
+    "po_id": "PO-2026-0470",
+    "vendor": "Deccanvale Lifesciences",
+    "expected_price": 33.0,
+    "expected_quantity": 10000,
+    "po_date": "2026-08-27",
+    "item": "Paracetamol 650mg tablets, strip of 15"
+  },
+  {
+    "po_id": "PO-2026-0471",
+    "vendor": "Sahyadri Suturecare",
+    "expected_price": 560.0,
+    "expected_quantity": 100,
+    "po_date": "2026-08-28",
+    "item": "Disposable syringe 5ml, box of 100"
+  },
+  {
+    "po_id": "PO-2026-0472",
+    "vendor": "Musirex Chemicals",
+    "expected_price": 1150.0,
+    "expected_quantity": 40,
+    "po_date": "2026-08-28",
+    "item": "Isopropyl alcohol 70%, 5L can"
+  },
+  {
+    "po_id": "PO-2026-0473",
+    "vendor": "Coromandel Frostline Coldchain",
+    "expected_price": 1250.0,
+    "expected_quantity": 50,
+    "po_date": "2026-09-03",
+    "item": "Vaccine carrier, 1.7L"
+  },
+  {
+    "po_id": "PO-2026-0474",
+    "vendor": "Narmada Polyform",
+    "expected_price": 1.27,
+    "expected_quantity": 20000,
+    "po_date": "2026-09-05",
+    "item": "PP measuring cup 30ml"
+  },
+  {
+    "po_id": "PO-2026-0475",
+    "vendor": "Musirex Chemicals",
+    "expected_price": 1150.0,
+    "expected_quantity": 40,
+    "po_date": "2026-09-07",
+    "item": "Isopropyl alcohol 70%, 5L can"
+  },
+  {
+    "po_id": "PO-2026-0476",
+    "vendor": "Banjara Deskline Office Supplies",
+    "expected_price": 285.0,
+    "expected_quantity": 500,
+    "po_date": "2026-09-07",
+    "item": "A4 copier paper 75gsm, ream of 500"
+  },
+  {
+    "po_id": "PO-2026-0477",
+    "vendor": "Charminar Cartons & Co.",
+    "expected_price": 42.0,
+    "expected_quantity": 5000,
+    "po_date": "2026-09-10",
+    "item": "Corrugated shipper box, 5-ply"
+  },
+  {
+    "po_id": "PO-2026-0478",
+    "vendor": "Charminar Cartons & Co.",
+    "expected_price": 42.0,
+    "expected_quantity": 5000,
+    "po_date": "2026-09-12",
+    "item": "Corrugated shipper box, 5-ply"
+  },
+  {
+    "po_id": "PO-2026-0479",
+    "vendor": "Krishnaveni Reagents",
+    "expected_price": 720.0,
+    "expected_quantity": 20,
+    "po_date": "2026-09-13",
+    "item": "Urine test strips, bottle of 100"
+  },
+  {
+    "po_id": "PO-2026-0480",
+    "vendor": "Kakatiya Labcraft",
+    "expected_price": 450.0,
+    "expected_quantity": 50,
+    "po_date": "2026-09-15",
+    "item": "Micropipette tips 200µl, rack of 96"
+  },
+  {
+    "po_id": "PO-2026-0481",
+    "vendor": "Krishnaveni Reagents",
+    "expected_price": 2150.0,
+    "expected_quantity": 20,
+    "po_date": "2026-09-17",
+    "item": "Glucose reagent kit, 500 tests"
+  },
+  {
+    "po_id": "PO-2026-0482",
+    "vendor": "Charminar Cartons & Co.",
+    "expected_price": 42.0,
+    "expected_quantity": 5000,
+    "po_date": "2026-09-18",
+    "item": "Corrugated shipper box, 5-ply"
+  }
+]

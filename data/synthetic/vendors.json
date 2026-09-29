@@ -1,0 +1,161 @@
+[
+  {
+    "name": "Deccanvale Lifesciences",
+    "payment_terms": "Net 45",
+    "contact": "accounts@deccanvale.example",
+    "historical_prices": [
+      28.5,
+      29.95,
+      30.0,
+      30.1,
+      31.35,
+      31.4,
+      33.0,
+      33.05,
+      33.1,
+      71.95,
+      72.0,
+      72.1,
+      79.2,
+      79.25,
+      79.3
+    ]
+  },
+  {
+    "name": "Godavara Generics",
+    "payment_terms": "Net 30",
+    "contact": "accounts@godavara.example",
+    "historical_prices": [
+      14.0,
+      68.0,
+      95.0
+    ]
+  },
+  {
+    "name": "Kakatiya Labcraft",
+    "payment_terms": "Net 30",
+    "contact": "accounts@kakatiya.example",
+    "historical_prices": [
+      320.0,
+      385.0,
+      450.0
+    ]
+  },
+  {
+    "name": "Charminar Cartons & Co.",
+    "payment_terms": "Net 60",
+    "contact": "accounts@charminar.example",
+    "historical_prices": [
+      4.15,
+      4.2,
+      4.25,
+      41.95,
+      42.0,
+      42.05,
+      42.1,
+      3845.0,
+      3850.0,
+      3855.0,
+      3860.0
+    ]
+  },
+  {
+    "name": "Musirex Chemicals",
+    "payment_terms": "Net 30",
+    "contact": "accounts@musirex.example",
+    "historical_prices": [
+      980.0,
+      1090.0,
+      1150.0,
+      1320.0,
+      1650.0,
+      1780.0
+    ]
+  },
+  {
+    "name": "Banjara Deskline Office Supplies",
+    "payment_terms": "Net 15",
+    "contact": "accounts@banjara.example",
+    "historical_prices": [
+      285.0,
+      650.0,
+      2450.0
+    ]
+  },
+  {
+    "name": "Hitecvale IT Services",
+    "payment_terms": "Net 30",
+    "contact": "accounts@hitecvale.example",
+    "historical_prices": [
+      4752.0,
+      4950.0,
+      17088.0,
+      17800.0,
+      56160.0,
+      58500.0
+    ]
+  },
+  {
+    "name": "Coromandel Frostline Coldchain",
+    "payment_terms": "Net 30",
+    "contact": "accounts@coromandel.example",
+    "historical_prices": [
+      64.95,
+      65.0,
+      65.05,
+      1245.0,
+      1250.0,
+      1255.0,
+      3900.0,
+      3905.0
+    ]
+  },
+  {
+    "name": "Sahyadri Suturecare",
+    "payment_terms": "Net 45",
+    "contact": "accounts@sahyadri.example",
+    "historical_prices": [
+      340.0,
+      380.8,
+      560.0,
+      621.6,
+      1840.0,
+      2060.8,
+      2097.6
+    ]
+  },
+  {
+    "name": "Narmada Polyform",
+    "payment_terms": "Net 60",
+    "contact": "accounts@narmada.example",
+    "historical_prices": [
+      1.2,
+      1.27,
+      6.8,
+      7.21,
+      14.5,
+      15.37
+    ]
+  },
+  {
+    "name": "Krishnaveni Reagents",
+    "payment_terms": "Net 30",
+    "contact": "accounts@krishnaveni.example",
+    "historical_prices": [
+      720.0,
+      1480.0,
+      2150.0
+    ]
+  },
+  {
+    "name": "Vindhyachal Freightways",
+    "payment_terms": "Net 15",
+    "contact": "accounts@vindhyachal.example",
+    "historical_prices": [
+      18500.0,
+      19980.0,
+      32000.0,
+      34560.0
+    ]
+  }
+]

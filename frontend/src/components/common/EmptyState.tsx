@@ -1,9 +1,13 @@
 import type { LucideIcon } from 'lucide-react';
 import type { ReactNode } from 'react';
+import Mascot from './Mascot';
 import { cx } from '../../utils/formatters';
+import { MASCOT_STATES, type MascotStateId } from '../../utils/mascot';
 
 interface EmptyStateProps {
-  icon: LucideIcon;
+  /** An icon, or the mascot in one of its states (its line becomes the description if none is given). */
+  icon?: LucideIcon;
+  mascot?: MascotStateId;
   title: string;
   description?: ReactNode;
   action?: ReactNode;
@@ -18,14 +22,23 @@ const TONES = {
   warning: 'from-amber-100 to-orange-50 text-amber-600',
 } as const;
 
-export default function EmptyState({ icon: Icon, title, description, action, tone = 'neutral', compact = false, className = '' }: EmptyStateProps) {
+export default function EmptyState({ icon: Icon, mascot, title, description, action, tone = 'neutral', compact = false, className = '' }: EmptyStateProps) {
+  const state = mascot ? MASCOT_STATES[mascot] : null;
+  const text = description ?? (state ? `“${state.line}”` : undefined);
+
   return (
     <div className={cx('flex flex-col items-center justify-center text-center', compact ? 'py-8' : 'py-16', className)}>
-      <div className={cx('flex items-center justify-center rounded-2xl bg-gradient-to-br', compact ? 'mb-3 h-12 w-12' : 'mb-4 h-16 w-16', TONES[tone])}>
-        <Icon className={compact ? 'h-6 w-6' : 'h-8 w-8'} aria-hidden="true" />
-      </div>
+      {state ? (
+        <Mascot pose={state.pose} tone={state.tone} size={compact ? 'lg' : 'xl'} className={compact ? 'mb-4' : 'mb-6'} />
+      ) : (
+        Icon && (
+          <div className={cx('flex items-center justify-center rounded-2xl bg-gradient-to-br', compact ? 'mb-3 h-12 w-12' : 'mb-4 h-16 w-16', TONES[tone])}>
+            <Icon className={compact ? 'h-6 w-6' : 'h-8 w-8'} aria-hidden="true" />
+          </div>
+        )
+      )}
       <h3 className={cx('font-semibold text-slate-900', compact ? 'text-base' : 'text-xl')}>{title}</h3>
-      {description && <div className="mt-1.5 max-w-md text-sm text-slate-500">{description}</div>}
+      {text && <div className="mt-1.5 max-w-md text-sm text-slate-500">{text}</div>}
       {action && <div className="mt-5 flex flex-wrap items-center justify-center gap-3">{action}</div>}
     </div>
   );

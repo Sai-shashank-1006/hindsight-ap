@@ -1,12 +1,12 @@
-# Hindsight AP · frontend
+# PaySage · frontend
 
 React 18 + Vite + TypeScript (strict) + Tailwind CSS 3 + Recharts + React Router 6. It is the UI for
-the FastAPI backend in the parent folder: invoices are checked against their POs, Hindsight recalls
+the FastAPI backend in [../backend](../backend): invoices are checked against their POs, Hindsight recalls
 past human decisions for the same vendor, and every recommendation waits for a human.
 
 ## Run it
 
-Needs Node 20.19+ and the backend running on port 8000 (`uvicorn api:app` in the parent folder).
+Needs Node 20.19+ and the backend running on port 8000 (`cd ../backend && uvicorn api:app`).
 
 ```bash
 npm install
@@ -38,12 +38,13 @@ The backend allows browser calls from `localhost:3000` and `localhost:5173`. For
 | Route | What it shows | API calls |
 |---|---|---|
 | `/` Dashboard | Totals, approval rate, exceptions by type, the learning-loop funnel, recent memories | `GET /api/v1/dashboard` and `/dashboard/stats` every 10 s. Served from the backend's local log: no Groq or Hindsight credits |
-| `/review` Invoice review | The queue; run the agent on an invoice; see the exceptions, the recommendation with its evidence level, the recalled memories and Hindsight's reflection; record your decision | `GET /api/v1/invoices`, `POST /api/v1/invoice/process`, `POST /api/v1/invoice/store-decision` |
+| `/review` Invoice review | The queue, 50 invoices a page (it opens on the page with the first invoice still needing a decision); run the agent on an invoice; see the exceptions, the recommendation with its evidence level, the recalled memories and Hindsight's reflection; record your decision | `GET /api/v1/queue/summary`, `GET /api/v1/invoices?limit&offset`, `POST /api/v1/invoice/process`, `POST /api/v1/invoice/store-decision` |
 | `/review?mode=manual` | Enter an invoice by hand or upload a JSON file (one invoice or a list) | `POST /api/v1/invoice/process` |
 | `/vendors`, `/vendors/:name` | What was learned per vendor: decisions, approval rate, status, price history, timeline | `GET /api/v1/vendors`, `/vendor/{name}`, `/vendor/{name}/timeline` (local log only) |
 
 The navbar status pill and the sidebar's System panel come from `GET /health`, checked once a
-minute because it pings Hindsight.
+minute because it pings Hindsight. The panel's Data row says where the invoices live: `Files · demo`,
+or `MySQL · synthetic` when the backend stores them in MySQL.
 
 What the screens are careful to say:
 

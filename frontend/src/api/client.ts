@@ -39,7 +39,7 @@ export function toApiError(error: unknown): ApiError {
   }
   if (!axiosError.response) {
     const where = API_BASE_URL || window.location.origin;
-    return { code: 'NETWORK_ERROR', message: `Can't reach the Hindsight AP API at ${where}. Is the backend running?` };
+    return { code: 'NETWORK_ERROR', message: `Can't reach the PaySage API at ${where}. Is the backend running?` };
   }
   return { status, code: `HTTP_${status}`, message: `Request failed (HTTP ${status})` };
 }

@@ -1,12 +1,50 @@
 import { ArrowRight, ChartColumn, CircleAlert, CircleCheck, FileText, Repeat, Users, Workflow } from 'lucide-react';
 import BentoCard from '../common/BentoCard';
+import GradientButton from '../common/GradientButton';
+import Mascot from '../common/Mascot';
 import ExceptionsChart from './ExceptionsChart';
 import QuickActions from './QuickActions';
 import RecentMemoriesCard from './RecentMemoriesCard';
 import StatCard from './StatCard';
-import { LEARNING_LOOP_STEPS } from '../../utils/constants';
+import { APP_TAGLINE, LEARNING_LOOP_STEPS } from '../../utils/constants';
 import { cx, formatNumber, formatPercent } from '../../utils/formatters';
+import { MASCOT_STATES } from '../../utils/mascot';
 import type { DashboardData, DashboardStats } from '../../types';
+
+/** The mascot reports what it has learned so far, from real counts. */
+function MascotHero({ stats, className }: { stats: DashboardStats; className?: string }) {
+  const learned = stats.memories_retained;
+  const state = MASCOT_STATES[learned === 0 ? 'firstDay' : 'smarter'];
+  const plural = (n: number, word: string) => `${formatNumber(n)} ${word}${n === 1 ? '' : 's'}`;
+  const detail =
+    learned === 0
+      ? 'Review an exception and give a reason: that decision becomes my first memory.'
+      : `${plural(learned, 'decision')} remembered in Hindsight · ${plural(stats.active_vendors, 'vendor')} seen`;
+
+  return (
+    <section
+      className={cx(
+        'relative overflow-hidden rounded-2xl bg-gradient-to-br from-[#0b1024] via-[#131a3f] to-[#221654] p-6 text-white shadow-lift sm:p-8',
+        className,
+      )}
+    >
+      <div className="pointer-events-none absolute -left-20 -top-20 h-64 w-64 rounded-full bg-teal-400/20 blur-3xl" aria-hidden="true" />
+      <div className="pointer-events-none absolute -bottom-24 right-8 h-72 w-72 rounded-full bg-violet-500/25 blur-3xl" aria-hidden="true" />
+      <div className="relative flex flex-col gap-6 sm:flex-row sm:items-center">
+        <Mascot pose={state.pose} tone={state.tone} size="xl" label={`PaySage mascot: ${state.title}`} />
+        <div className="min-w-0 flex-1">
+          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-teal-300">{state.title}</p>
+          <h2 className="mt-2 text-2xl font-bold tracking-tight sm:text-3xl">{APP_TAGLINE}</h2>
+          <p className="mt-3 text-base text-slate-100">“{state.line}”</p>
+          <p className="mt-1.5 text-sm text-slate-400">{detail}</p>
+        </div>
+        <GradientButton to="/review" size="lg" icon={<ArrowRight className="h-5 w-5" aria-hidden="true" />} className="self-start sm:self-center">
+          {stats.pending_decisions > 0 ? `Review ${formatNumber(stats.pending_decisions)} waiting` : 'Review invoices'}
+        </GradientButton>
+      </div>
+    </section>
+  );
+}
 
 interface DashboardGridProps {
   data: DashboardData;
@@ -78,8 +116,11 @@ function HowItLearns({ className }: { className?: string }) {
       <ol className="mt-5 grid grid-cols-2 gap-3 sm:grid-cols-4 lg:grid-cols-7">
         {LEARNING_LOOP_STEPS.map((step, index) => (
           <li key={step.title} className="relative rounded-xl bg-white/5 p-3 ring-1 ring-inset ring-white/10">
-            <span className="text-xs font-semibold text-violet-300">{String(index + 1).padStart(2, '0')}</span>
-            <p className="mt-1 text-sm font-semibold text-white">{step.title}</p>
+            <div className="flex items-center justify-between">
+              <span className="text-xs font-semibold text-violet-300">{String(index + 1).padStart(2, '0')}</span>
+              <Mascot pose={step.pose} tone="violet" size="sm" animate={false} />
+            </div>
+            <p className="mt-2 text-sm font-semibold text-white">{step.title}</p>
             <p className="mt-1 text-xs leading-relaxed text-slate-400">{step.text}</p>
             {index < LEARNING_LOOP_STEPS.length - 1 && (
               <ArrowRight className="absolute -right-2.5 top-1/2 hidden h-4 w-4 -translate-y-1/2 text-slate-500 lg:block" aria-hidden="true" />
@@ -94,6 +135,7 @@ function HowItLearns({ className }: { className?: string }) {
 export default function DashboardGrid({ data, stats }: DashboardGridProps) {
   return (
     <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      <MascotHero stats={stats} className="sm:col-span-2 lg:col-span-4" />
       <StatCard
         label="Invoices processed"
         value={formatNumber(data.total_processed)}

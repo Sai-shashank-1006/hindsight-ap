@@ -1,0 +1,12 @@
+pydantic==2.13.5
+groq==1.7.0
+hindsight-client==0.10.1
+fastapi==0.141.1
+uvicorn==0.54.0
+python-dotenv==1.2.3
+requests==2.34.2
+kagglehub==1.0.2
+# MySQL storage (optional at runtime; cryptography is PyMySQL's MySQL 8+ password auth)
+SQLAlchemy==2.1.1
+PyMySQL==1.2.3
+cryptography==50.0.1

@@ -36,4 +36,16 @@ export interface HealthStatus {
   hindsight: 'reachable' | 'unreachable' | 'missing';
   bank_id: string | null;
   groq_model: string;
+  data_source?: string; // files, or the database's kind: mysql
+  dataset?: string | null; // demo | real | synthetic | a custom name
+  database?: 'connected' | 'unreachable' | null; // null without a database
+}
+
+/** Counts for the whole invoice queue (the list endpoint returns one page of it). */
+export interface QueueSummary {
+  total: number;
+  pending: number;
+  processed: number; // run through the agent, no human decision yet
+  decided: number;
+  first_open: number | null; // position of the first invoice without a decision
 }

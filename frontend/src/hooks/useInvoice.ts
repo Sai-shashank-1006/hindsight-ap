@@ -5,6 +5,7 @@ import { QUEUE_LIMIT } from '../utils/constants';
 import type {
   Decision,
   ProcessInvoiceRequest,
+  QueueSummary,
   QueuedInvoice,
   RecommendationResult,
   StoreDecisionResponse,
@@ -18,6 +19,7 @@ export const useInvoice = () => {
   const [result, setResult] = useState<RecommendationResult | null>(null);
   const [invoice, setInvoice] = useState<ProcessInvoiceRequest | null>(null);
   const [outcome, setOutcome] = useState<StoreDecisionResponse | null>(null);
+  const [decided, setDecided] = useState<Decision | null>(null); // what the human chose, once stored
   const [processing, setProcessing] = useState(false);
   const [storing, setStoring] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -30,6 +32,7 @@ export const useInvoice = () => {
     setProcessing(true);
     setError(null);
     setOutcome(null);
+    setDecided(null);
     try {
       const data = await invoiceAPI.processInvoice(invoiceData);
       if (current !== generation.current) return null;
@@ -54,7 +57,10 @@ export const useInvoice = () => {
         human_decision: decision,
         human_reason: reason.trim(),
       });
-      if (current === generation.current) setOutcome(response);
+      if (current === generation.current) {
+        setOutcome(response);
+        setDecided(decision);
+      }
       return response;
     } catch (err) {
       if (current === generation.current) setError(errorMessage(err, 'Failed to store the decision'));
@@ -69,6 +75,7 @@ export const useInvoice = () => {
     setResult(null);
     setInvoice(null);
     setOutcome(null);
+    setDecided(null);
     setError(null);
     setProcessing(false);
     setStoring(false);
@@ -82,6 +89,7 @@ export const useInvoice = () => {
     result,
     invoice,
     outcome,
+    decided,
     processing,
     storing,
     loading: processing || storing,
@@ -94,30 +102,50 @@ export const useInvoice = () => {
   };
 };
 
-/** The invoice queue with each invoice's status: pending, processed (awaiting a decision) or decided. */
+interface QueueState {
+  invoices: QueuedInvoice[]; // one page, each with its status: pending, processed (awaiting a decision) or decided
+  summary: QueueSummary | null; // counts for the whole queue
+  offset: number; // the page's first position in the queue
+  loading: boolean;
+  error: string | null;
+}
+
+/**
+ * The invoice queue, a page at a time. It opens on the page holding the first invoice that still needs
+ * a decision, and then stays on its page when refreshed, so a just-decided invoice stays on screen.
+ */
 export const useInvoiceQueue = (limit: number = QUEUE_LIMIT) => {
-  const [state, setState] = useState<{ invoices: QueuedInvoice[]; loading: boolean; error: string | null }>({
-    invoices: [],
-    loading: true,
-    error: null,
-  });
+  const [state, setState] = useState<QueueState>({ invoices: [], summary: null, offset: 0, loading: true, error: null });
   const [version, setVersion] = useState(0);
+  const page = useRef<number | null>(null); // the page's offset; null: the first open invoice's page
 
   useEffect(() => {
     const controller = new AbortController();
-    invoiceAPI.getInvoices(limit, controller.signal).then(
-      (invoices) => setState({ invoices, loading: false, error: null }),
-      (err: unknown) => {
+    invoiceAPI
+      .getQueueSummary(controller.signal)
+      .then((summary) => {
+        const offset = page.current ?? Math.floor((summary.first_open ?? 0) / limit) * limit;
+        page.current = offset;
+        return invoiceAPI
+          .getInvoices(limit, offset, controller.signal)
+          .then((invoices) => setState({ invoices, summary, offset, loading: false, error: null }));
+      })
+      .catch((err: unknown) => {
         if (!isCancelled(err)) {
           setState((current) => ({ ...current, loading: false, error: errorMessage(err, 'Failed to load the invoice queue') }));
         }
-      },
-    );
+      });
     return () => controller.abort();
   }, [limit, version]);
 
-  /** Reloads in the background; the current list stays on screen meanwhile. */
+  /** Reloads in the background; the current page stays on screen meanwhile. */
   const refresh = useCallback(() => setVersion((current) => current + 1), []);
 
-  return { ...state, refresh };
+  /** Shows the page starting at `offset`, or with null the page holding the first open invoice. */
+  const showPage = useCallback((offset: number | null) => {
+    page.current = offset;
+    setVersion((current) => current + 1);
+  }, []);
+
+  return { ...state, limit, refresh, showPage };
 };

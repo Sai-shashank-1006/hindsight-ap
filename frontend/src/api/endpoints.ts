@@ -4,6 +4,7 @@ import type {
   DashboardStats,
   HealthStatus,
   ProcessInvoiceRequest,
+  QueueSummary,
   QueuedInvoice,
   RecommendationResult,
   StoreDecisionRequest,
@@ -27,7 +28,11 @@ export const invoiceAPI = {
   /** The next invoice in the queue that hasn't been processed. 404 (queue_empty) when done. */
   getNextInvoice: (signal?: AbortSignal) => get<QueuedInvoice>('/api/v1/invoice/next', signal),
 
-  getInvoices: (limit = 10, signal?: AbortSignal) => get<QueuedInvoice[]>(`/api/v1/invoices?limit=${limit}`, signal),
+  /** One page of the queue: `limit` invoices from position `offset`. */
+  getInvoices: (limit = 10, offset = 0, signal?: AbortSignal) =>
+    get<QueuedInvoice[]>(`/api/v1/invoices?limit=${limit}&offset=${offset}`, signal),
+
+  getQueueSummary: (signal?: AbortSignal) => get<QueueSummary>('/api/v1/queue/summary', signal),
 };
 
 export const dashboardAPI = {

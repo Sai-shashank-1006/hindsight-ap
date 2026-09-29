@@ -1,21 +1,11 @@
 import { useState, type FormEvent } from 'react';
-import {
-  ArrowRight,
-  BrainCircuit,
-  CircleCheck,
-  CircleX,
-  Eye,
-  Gavel,
-  Info,
-  RotateCcw,
-  Send,
-  TriangleAlert,
-  type LucideIcon,
-} from 'lucide-react';
+import { ArrowRight, CircleCheck, CircleX, Eye, Gavel, RotateCcw, Send, type LucideIcon } from 'lucide-react';
 import BentoCard from '../common/BentoCard';
 import GradientButton from '../common/GradientButton';
+import MascotMessage from '../common/MascotMessage';
 import { DECISION_META, DECISIONS, REASON_MAX_LENGTH } from '../../utils/constants';
 import { cx } from '../../utils/formatters';
+import { stateForOutcome } from '../../utils/mascot';
 import { validateDecision, validateReason } from '../../utils/validators';
 import type { Decision, StoreDecisionResponse } from '../../types';
 
@@ -27,6 +17,8 @@ interface DecisionFormProps {
   recommendation?: Decision;
   /** Once stored, the form shows what happened instead. */
   outcome?: StoreDecisionResponse | null;
+  /** The decision the human submitted, to tell agreement from a correction. */
+  decided?: Decision | null;
   onNext?: () => void;
   nextLabel?: string;
   onEditAgain?: () => void;
@@ -182,56 +174,57 @@ function DecisionInputs({
 function DecisionOutcome({
   outcome,
   vendor,
+  decided = null,
+  recommendation = 'NEEDS_REVIEW',
   onNext,
   nextLabel = 'Next invoice',
   onEditAgain,
   className = '',
-}: { outcome: StoreDecisionResponse } & Pick<DecisionFormProps, 'vendor' | 'onNext' | 'nextLabel' | 'onEditAgain' | 'className'>) {
+}: { outcome: StoreDecisionResponse } & Pick<
+  DecisionFormProps,
+  'vendor' | 'decided' | 'recommendation' | 'onNext' | 'nextLabel' | 'onEditAgain' | 'className'
+>) {
   const look = outcome.retained
-    ? { from: 'from-emerald-50', to: 'to-teal-50', Icon: BrainCircuit, icon: 'text-emerald-600', title: 'Remembered in Hindsight' }
+    ? { from: 'from-violet-50', to: 'to-teal-50', heading: 'Remembered in Hindsight' }
     : outcome.success
-      ? { from: 'from-blue-50', to: 'to-violet-50', Icon: Info, icon: 'text-blue-600', title: 'Decision recorded' }
-      : { from: 'from-amber-50', to: 'to-orange-50', Icon: TriangleAlert, icon: 'text-amber-600', title: 'Recorded, but not remembered' };
+      ? { from: 'from-emerald-50', to: 'to-teal-50', heading: 'Decision recorded' }
+      : { from: 'from-amber-50', to: 'to-orange-50', heading: 'Recorded, but not remembered' };
 
   return (
     <BentoCard gradient gradientFrom={look.from} gradientTo={look.to} hoverable={false} className={cx('animate-slide-up', className)}>
-      <div role="status" aria-live="polite">
-        <div className="flex items-start gap-3">
-          <look.Icon className={cx('mt-0.5 h-6 w-6 shrink-0', look.icon)} aria-hidden="true" />
-          <div className="min-w-0">
-            <h2 className="text-lg font-semibold text-slate-900">{look.title}</h2>
-            <p className="mt-1 text-sm text-slate-700">{outcome.message}</p>
+      <h2 className="mb-4 text-lg font-semibold text-slate-900">{look.heading}</h2>
+      <MascotMessage
+        live
+        state={stateForOutcome(outcome, decided, recommendation)}
+        detail={
+          <>
+            {outcome.message}
             {outcome.retained && (
-              <p className="mt-2 text-sm text-slate-600">
-                The next {vendor} invoice with this exception will recall it
-                {outcome.memory_id && (
+              <>
+                {' '}The next {vendor} invoice with this exception will recall it
+                {outcome.memory_id && !outcome.message.includes(outcome.memory_id) && (
                   <>
-                    {' '}
-                    (<span className="font-mono text-xs">{outcome.memory_id}</span>)
+                    {' '}(<span className="font-mono">{outcome.memory_id}</span>)
                   </>
                 )}
                 .
-              </p>
+              </>
             )}
-            {!outcome.success && (
-              <p className="mt-2 text-sm text-slate-600">
-                Fix the problem shown in the System panel, then submit again. A resubmission replaces the decision; it never duplicates it.
-              </p>
-            )}
-          </div>
-        </div>
-        <div className="mt-5 flex flex-col gap-3 sm:flex-row">
-          {onNext && (
-            <GradientButton onClick={onNext} icon={<ArrowRight className="h-4 w-4" aria-hidden="true" />} fullWidth>
-              {nextLabel}
-            </GradientButton>
-          )}
-          {!outcome.success && onEditAgain && (
-            <GradientButton variant="secondary" onClick={onEditAgain} icon={<RotateCcw className="h-4 w-4" aria-hidden="true" />}>
-              Submit again
-            </GradientButton>
-          )}
-        </div>
+            {!outcome.success && ' Fix the problem shown in the System panel, then submit again: a resubmission replaces the decision, it never duplicates it.'}
+          </>
+        }
+      />
+      <div className="mt-5 flex flex-col gap-3 sm:flex-row">
+        {onNext && (
+          <GradientButton onClick={onNext} icon={<ArrowRight className="h-4 w-4" aria-hidden="true" />} fullWidth>
+            {nextLabel}
+          </GradientButton>
+        )}
+        {!outcome.success && onEditAgain && (
+          <GradientButton variant="secondary" onClick={onEditAgain} icon={<RotateCcw className="h-4 w-4" aria-hidden="true" />}>
+            Submit again
+          </GradientButton>
+        )}
       </div>
     </BentoCard>
   );
